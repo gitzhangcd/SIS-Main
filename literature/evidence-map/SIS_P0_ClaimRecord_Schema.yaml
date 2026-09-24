@@ -1,0 +1,84 @@
+# SIS Literature Evidence Map P0 — ClaimRecord v0.1
+# Registry/audit schema; not an addition to SIS v0.3.1 Core.
+
+ClaimRecord:
+  identity:
+    claim_id: null
+    sis_lit_id: null
+    study_version_ref: null
+  source_anchor:
+    section: null
+    page_or_lines: null
+    table_or_figure: null
+    exact_author_claim: null
+    audit_paraphrase: null
+  scientific_question:
+    question: null
+    claim_type: null
+  program_routing:
+    routing_status: PENDING
+    primary_program: null
+    secondary_programs: []
+    cross_cutting_axes: []
+    primary_estimand_family: null
+    routing_basis: null
+  context:
+    task: null
+    environment: null
+    domain: null
+    model_regime: null
+    time_horizon: null
+    risk_regime: null
+  causal_structure:
+    treatment_or_mechanism: null
+    control: null
+    mediators: []
+    outcomes: []
+    moderators: []
+    confounders: []
+  identification_audit:
+    causal_contrast: PENDING
+    manipulation_check: PENDING
+    temporal_ordering: PENDING
+    confounder_governance: PENDING
+    resource_governance: PENDING
+    information_governance: PENDING
+    randomization_or_assignment: PENDING
+    replay_or_counterfactual_support: PENDING
+  measurement_audit:
+    outcome_validity: PENDING
+    evaluator_independence: PENDING
+    measurement_reliability: PENDING
+    missingness_or_observability: PENDING
+  mechanism_audit:
+    mediator_measured: PENDING
+    mediator_manipulated: PENDING
+    pathway_tested: PENDING
+    competing_mechanisms_addressed: PENDING
+  boundary_audit:
+    declared_boundaries: []
+    tested_boundaries: []
+    replication_contexts: []
+  transport_audit:
+    source_context: null
+    target_context: null
+    performance_transfer: PENDING
+    causal_transport_test: PENDING
+    mechanism_invariance_test: PENDING
+  evidence_role: null
+  maturity:
+    author_claim_scope: null
+    provisional_claim_level: null
+    claim_ceiling: null
+    final_claim_level: null
+    audit_decision: PENDING
+  limitations:
+    internal_validity: []
+    external_validity: []
+    construct_validity: []
+    statistical_or_compute_confounds: []
+  lineage:
+    coder: null
+    second_coder: null
+    adjudication_status: PENDING
+    audit_version: SIS-LEM-P0-v0.1
