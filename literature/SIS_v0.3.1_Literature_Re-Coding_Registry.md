@@ -2,7 +2,7 @@
 
 ## System Intelligence Science Evidence Map｜ARSO Research Stream Re-Coding
 
-**Registry version:** `v1.0`  
+**Registry version:** `v1.1`  
 **SIS authority:** `System Intelligence Science v0.3.1`  
 **Date:** `2026-09-24`  
 **Corpus:** papers and analyses previously surfaced in the ARSO research briefs, plus explicitly referenced delayed-indexing items re-verified during registry construction  
@@ -72,10 +72,10 @@ These `I*` and `T*` tiers are maintenance aids for this registry; they are **not
 
 ## 2. Corpus-level snapshot
 
-- **Total coded items:** `113`
-- **Primary Program:** SCF `43` · SDR `25` · ASR `45`
-- **Framework capability occurrences:** DR `60` · MI `48` · ID `29` · TD `27` · MEAS `25` · EG `24` · IA `20` · BT `18`
-- **Transport coding:** T0 `47` · T1 `53` · T2 `13` · **T3 `0` · T4 `0`**
+- **Total coded items:** `121`
+- **Primary Program:** SCF `47` · SDR `25` · ASR `48` · Routing Abstain `1`
+- **Framework capability occurrences:** DR `64` · MI `54` · ID `31` · TD `27` · MEAS `31` · EG `26` · IA `21` · BT `22`
+- **Transport coding:** T0 `48` · T1 `58` · T2 `15` · **T3 `0` · T4 `0`**
 
 ### Immediate interpretation
 
@@ -205,6 +205,14 @@ These `I*` and `T*` tiers are maintenance aids for this registry; they are **not
 | SIS-LIT-112 | Agentic TCAD Calibration Workflow for Oxide Semiconductor Transistors | arXiv:2609.12184 (preprint) | `SCF` | `ASR; BGT` | `MI; ID; BT` | `CAUSAL_MECHANISM_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T2` | Scientific-domain mechanism — Residuals+sensitivity tests guide bounded parameter/model changes under simulator authority; domain-specific transfer across bias/geometry. |
 | SIS-LIT-113 | HIPO: A Hierarchical Prompt Optimization Framework with Task Awareness and Fine-Grained Debugging | Findings ACL 2026 (2026.findings-acl.996) | `ASR` | `CSCI` | `DR; MEAS` | `ACTION_SELECTION_EFFECT` | `CL1` | `I1` / `T1` | Sample-conditioned regulation — Router selects prompt-complexity tier by sample difficulty; supports endogenous granularity/complexity regulation. |
 
+| SIS-LIT-114 | STEVE: Stabilizing Textual Gradient-Based Prompt Optimization via Error-Driven Refinement and Regularized Verification | arXiv:2609.23716 (preprint) | `ASR` | `SCF` | `DR; EG; MI` | `SELECTIVE_ACTION_UTILITY` | `CL1→CL2 candidate` | `I1/I2` / `T1` | Regulation + preservation evidence — Error-only gradients plus regression-gated verification; supports selective update and non-regression rather than unrestricted textual-gradient descent. |
+| SIS-LIT-115 | RRSI: Regularized Recursive Self-Improvement of Agent Harnesses | arXiv:2609.24972 (preprint) | `ASR` | `SCF; BGT` | `DR; BT; EG; MI` | `REGULATION_NET_VALUE` | `CL1→CL2 candidate` | `I1/I2` / `T2` | Boundary/negative evidence — Unregularized recursive harness evolution can overfit evolve tasks; regularized proposal/selection improves OOD retention and efficiency. |
+| SIS-LIT-116 | Agensh: Scaling Organizational Intelligence to 1,024 Agents | arXiv:2609.26781 (preprint) | `SCF` | `CSCI` | `IA; MI; MEAS` | `ORGANIZATION_EFFECT` | `CL1` | `I1` / `T1` | Organization/scaling evidence — Decentralized self-organization scales to large worker counts, but agent-count intervention is entangled with compute and task-parallelism; not evidence of a universal agent-count law. |
+| SIS-LIT-117 | When Does Execution Provenance Help Agent Memory Retrieval? | arXiv:2609.25913 (preprint) | `SCF` | `—` | `MI; MEAS; ID` | `CAUSAL_MECHANISM_EFFECT` | `CL2 candidate` | `I2` / `T0` | Representation/identification evidence — Source-aligned provenance units and held-candidate graph propagation improve budgeted evidence completion, with controls isolating topology/relation contributions. |
+| SIS-LIT-118 | CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents | arXiv:2609.26779 (preprint) | `SCF` | `CSCI; BGT` | `MI; DR; MEAS; BT` | `CAPABILITY_FRONTIER_SHIFT` | `CL1→CL2 candidate` | `I1/I2` / `T2` | Efficiency/boundary evidence — Faithful non-rewriting compaction shifts performance–cost frontier across coding agents; supports information-state management as a system mechanism. |
+| SIS-LIT-119 | Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents | arXiv:2609.23986 (preprint) | `ASR` | `SCF` | `DR; MI; MEAS` | `POLICY_VALUE` | `CL1` | `I1` / `T1` | Regulation mechanism — Lightweight controller selects routing, retrieval budget, traversal and stopping while reserving generative reasoning for harder cases; useful control-plane fixture. |
+| SIS-LIT-120 | Testing-Driven Reliability Audit of Trajectory-Based Early Outcome Prediction for LLM Agents | arXiv:2609.25647 (preprint) | `ROUTING_ABSTAIN` | `BGT` | `MEAS; BT; ID` | `—` | `CL1` | `I1` / `T1` | Measurement-transport boundary evidence — Target-specific calibration transfer failures persist within one benchmark but do not replicate cross-benchmark; best treated as cross-cutting measurement/BGT evidence rather than forced SCF/SDR/ASR routing. |
+| SIS-LIT-121 | DolphinBench: Mapping the Pareto Frontier of Agent Memory | arXiv:2609.24971 (preprint) | `SCF` | `BGT` | `MEAS; BT` | `CAPABILITY_FRONTIER_SHIFT` | `CL0→CL1` | `I0/I1` / `T1` | Benchmark instrument — Verifies task dependence on history and requires accuracy–cost–latency reporting; strong Tier-2 memory fixture, not mechanism validation by itself. |
 ---
 
 ## 4. High-pressure evidence set for SIS theory
@@ -305,6 +313,12 @@ This v1.0 registry re-codes the corpus already reviewed in the ARSO research-bri
 The `Claim`, `I*`, `T*`, `Evidence role`, and `SIS interpretation` fields are **SIS v0.3.1 re-codings**, not claims made by the paper authors.
 
 ---
+
+### 8.1 Daily increment — 2026-09-24
+
+Registry v1.1 adds SIS-LIT-114–121 from the 2026-09-24 daily intelligence run. One item (SIS-LIT-120) is deliberately coded as `ROUTING_ABSTAIN`: its primary scientific contribution is calibration-transfer auditing of a measurement instrument, not a direct SCF/SDR/ASR estimand. This is an application of SIS routing-abstention semantics, not a new Primary Program.
+
+The daily increment does **not** change SIS v0.3.1 Core. It strengthens three evidence gaps: recursive-improvement generalization, measurement-transfer calibration, and performance–cost frontier measurement.
 
 ## 9. Version decision
 
