@@ -2,9 +2,9 @@
 
 ## System Intelligence Science Evidence Map｜ARSO Research Stream Re-Coding
 
-**Registry version:** `v1.1`  
+**Registry version:** `v1.2`  
 **SIS authority:** `System Intelligence Science v0.3.1`  
-**Date:** `2026-09-24`  
+**Date:** `2026-09-26`  
 **Corpus:** papers and analyses previously surfaced in the ARSO research briefs, plus explicitly referenced delayed-indexing items re-verified during registry construction  
 **Status:** `ACTIVE / GROWING REGISTRY`  
 
@@ -213,6 +213,16 @@ These `I*` and `T*` tiers are maintenance aids for this registry; they are **not
 | SIS-LIT-119 | Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents | arXiv:2609.23986 (preprint) | `ASR` | `SCF` | `DR; MI; MEAS` | `POLICY_VALUE` | `CL1` | `I1` / `T1` | Regulation mechanism — Lightweight controller selects routing, retrieval budget, traversal and stopping while reserving generative reasoning for harder cases; useful control-plane fixture. |
 | SIS-LIT-120 | Testing-Driven Reliability Audit of Trajectory-Based Early Outcome Prediction for LLM Agents | arXiv:2609.25647 (preprint) | `ROUTING_ABSTAIN` | `BGT` | `MEAS; BT; ID` | `—` | `CL1` | `I1` / `T1` | Measurement-transport boundary evidence — Target-specific calibration transfer failures persist within one benchmark but do not replicate cross-benchmark; best treated as cross-cutting measurement/BGT evidence rather than forced SCF/SDR/ASR routing. |
 | SIS-LIT-121 | DolphinBench: Mapping the Pareto Frontier of Agent Memory | arXiv:2609.24971 (preprint) | `SCF` | `BGT` | `MEAS; BT` | `CAPABILITY_FRONTIER_SHIFT` | `CL0→CL1` | `I0/I1` / `T1` | Benchmark instrument — Verifies task dependence on history and requires accuracy–cost–latency reporting; strong Tier-2 memory fixture, not mechanism validation by itself. |
+| SIS-LIT-122 | Where Does Exactly-Once Live? Model, Harness, and Tool-Contract Effects on Duplicate Side Effects in LLM Agents | arXiv:2609.29095 (preprint) | `P2/SDR` | `CSCI; BGT` | `TD; ID; MEAS; BT` | `RECOVERY_EFFECT` | `CL2 candidate` | `I2` / `T1` | Fault-regime evidence — 25,930 controlled episodes separate model, harness, contract and recovery-condition effects; exactly-once behavior shifts from model-dominated to contract-dominated across fault regimes. |
+| SIS-LIT-123 | LLM Agents Can Easily Tamper With Their Own Traces | arXiv:2609.30266 (preprint) | `ROUTING_ABSTAIN` | `—` | `MEAS; ID; EG` | `—` | `CL1` | `I1` / `T1` | Measurement-integrity warning — most tested local-agent harnesses permit trace deletion; execution traces are not automatically trustworthy observations when the acting system controls the logging surface. |
+| SIS-LIT-124 | Who Holds the Pen? Let Specifications, Not Agents, Sign Off | arXiv:2609.29921 (preprint) | `SCF` | `ASR` | `MI; MEAS; EG; DR` | `CAUSAL_MECHANISM_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T1` | Authority-boundary evidence — independent specification-governed state separates agent proposals/completion claims from admissible evidence and authoritative commitment. |
+| SIS-LIT-125 | Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement | arXiv:2609.29773 (preprint) | `SCF` | `ASR; BGT` | `MI; DR; EG; BT` | `CAUSAL_MECHANISM_EFFECT` | `CL1` | `I1` / `T2` | Environment-representation package evidence — collection maps, event logs, noise detection and environment evolution improve downstream performance across nine models, but bundled mechanisms prevent clean attribution. |
+| SIS-LIT-126 | Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact | arXiv:2609.29454 (preprint) | `SCF` | `CSCI; BGT` | `MI; TD; MEAS; BT` | `MECHANISM_INTERACTION_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T1` | Component–system interaction evidence — 83 skills across seven agent-model configurations show skill benefit is strongly model-dependent and skill triggering is a bottleneck. |
+| SIS-LIT-127 | A Wrong Turn Does Not Ruin the Journey: Deviation-Guided Skill Self-Evolution for LLM Agents | arXiv:2609.29154 (preprint) | `ASR` | `SCF; BGT` | `DR; TD; MI; BT` | `INTERVENTION_LOCUS_SELECTION_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T2` | Localized-repair evidence — deviation-point detection identifies where a useful prefix becomes an erroneous suffix and constrains skill updates to that locus. |
+| SIS-LIT-128 | Canopy: Exploiting Piecewise Smooth Tree Priors for Multi-Fidelity Bandits | arXiv:2609.30017 (preprint) | `ASR` | `SCF; BGT` | `DR; MEAS; BT` | `VALUE_OF_INFORMATION` | `CL2 candidate` | `I2` / `T2` | Budgeted-regulation evidence — online bias certificates determine where expensive evaluations are worth spending under matched budgets, with theory and cross-application tests. |
+| SIS-LIT-129 | RegenHarness: A Robot Agent Harness with Evidence-Gated Recursive Self-Improvement | arXiv:2609.27612 (preprint; indexed after prior run) | `P2/SDR` | `ASR; BGT` | `TD; DR; MI; EG; BT` | `RECOVERY_EFFECT` | `CL1` | `I1` / `T1` | Embodied history/authority evidence — verified completion, versioned state, bounded recovery and rollback are integrated in a real quadruped deployment; mechanism effects are not isolated. |
+| SIS-LIT-130 | Reflection in the Dark: Exposing and Escaping the Black Box in Reflective Prompt Optimization | ACL 2026 SRW; arXiv:2603.18388 (delayed-indexing discovery) | `ASR` | `SCF; BGT` | `DR; MI; ID; BT` | `POLICY_VALUE` | `CL2 candidate` | `I2` / `T1` | Negative/repair evidence — GEPA can degrade under defective seeds while explicit hypothesis search, verification and exploration recover performance under matched budget. |
+| SIS-LIT-131 | Gradient-Guided Multi-Judge Prompt Optimization | ACL 2026 Long | `ASR` | `SCF; BGT` | `DR; ID; MEAS; BT` | `ACTION_SELECTION_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T2` | Attribution/evaluator-governance evidence — first-order segment scoring lowers attribution cost and multi-judge selection reduces single-evaluator dependence across domains/models. |
 ---
 
 ## 4. High-pressure evidence set for SIS theory
@@ -319,6 +329,14 @@ The `Claim`, `I*`, `T*`, `Evidence role`, and `SIS interpretation` fields are **
 Registry v1.1 adds SIS-LIT-114–121 from the 2026-09-24 daily intelligence run. One item (SIS-LIT-120) is deliberately coded as `ROUTING_ABSTAIN`: its primary scientific contribution is calibration-transfer auditing of a measurement instrument, not a direct SCF/SDR/ASR estimand. This is an application of SIS routing-abstention semantics, not a new Primary Program.
 
 The daily increment does **not** change SIS v0.3.1 Core. It strengthens three evidence gaps: recursive-improvement generalization, measurement-transfer calibration, and performance–cost frontier measurement.
+
+### 8.2 Daily increment — 2026-09-26
+
+Registry v1.2 adds SIS-LIT-122–131. Eight records are new/recent primary-source items from the post-2026-09-24 window or indexing delay; two ACL 2026 papers (VISTA and GMPO) are delayed-indexing discoveries added because they materially strengthen SIS evidence around optimizer failure, diagnostic search, evaluator independence and budgeted optimization.
+
+This increment also sharpens a measurement-governance distinction: execution traces and completion claims are not automatically authoritative observations. Trace integrity and authority boundaries must be independently governed when the acting system can alter its own evidence surface.
+
+No record in this increment establishes T3 causal transportability or T4 mechanism invariance.
 
 ## 9. Version decision
 
