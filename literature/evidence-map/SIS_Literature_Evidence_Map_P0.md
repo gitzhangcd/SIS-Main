@@ -829,3 +829,71 @@ and\ which\ survive\ boundary\ and\ transport\ tests?
 
 **P0 status:** `FREEZE PASS`  
 **Next executable stage:** `P0.1｜Corpus Identity, Version & Source Qualification`.
+
+---
+
+## 17｜Daily Maintenance Ledger — 2026-09-26
+
+This section records post-freeze maintenance and does not rewrite the historical P0 frozen baseline.
+
+### 17.1 Corpus delta
+
+- Registry: `v1.1 (121 records) → v1.2 (131 records)`
+- New / delayed-index primary-source records: `SIS-LIT-122–131`
+- No duplicate preprint/conference lineage was counted as an independent study in this increment.
+- No new `T3` causal-transportability or `T4` mechanism-invariance evidence was identified.
+
+### 17.2 Claim-level re-audit delta
+
+`SIS-LIT-117` was split into two claim records:
+
+- `SIS-LIT-117-C1`: provenance-unit candidate-view package effect → `SCF / CL1 / T0`.
+- `SIS-LIT-117-C2`: typed provenance-graph residual over fixed candidates/scores → `SCF / CL2 / T0`.
+
+This split demonstrates the P0 rule that a paper-level causal candidate cannot be inherited by all subclaims.
+
+### 17.3 Measurement / identification pressure
+
+Two new records sharpen an existing SIS requirement rather than create a new primitive:
+
+1. `SIS-LIT-123` shows that an acting agent may be able to alter/delete the trace surface later used for diagnosis.
+2. `SIS-LIT-124` separates agent proposals/completion claims from specification-governed authoritative state.
+
+The resulting interpretation is:
+
+```text
+Observation existence
+≠
+Observation integrity
+≠
+Decision authority
+```
+
+This is treated as a **measurement/evidence-independence requirement**, already compatible with SIS v0.3.1 `State ≠ Observation` and Evidence Independence semantics. It does not justify a new ontology primitive or Primary Program.
+
+### 17.4 New repeated scientific signals
+
+- **Fault-regime-dependent causal locus:** `SIS-LIT-122` indicates that the dominant determinant of duplicate side effects can shift from model behavior to tool contract depending on observability/fault conditions.
+- **Component–system interaction:** `SIS-LIT-126` reports model-dependent returns to agent skills, reinforcing CSCI as an effect-modification question.
+- **Selective regulation under budget:** `SIS-LIT-127`, `SIS-LIT-128`, and `SIS-LIT-130` strengthen the case for intervention-locus, value-of-information, and optimizer-selection fixtures.
+- **Package-vs-mechanism gap:** `SIS-LIT-125` and `SIS-LIT-129` are useful system integrations but do not isolate their bundled mechanisms sufficiently for CL2+ promotion.
+
+### 17.5 Coverage-gap movement
+
+- `GAP-01 Causal Transportability`: **unchanged / critical**.
+- `GAP-02 Mechanistic Mediation`: **unchanged / critical**.
+- `GAP-03 CSCI Identification`: **strengthened evidence need**.
+- `GAP-04 ASR Selective Action`: **strengthened benchmark basis**.
+- `GAP-05 SDR Ground-Truth Dynamics`: **strengthened by fault-regime sandbox evidence**.
+- `GAP-06 Evidence Independence / Self-Confirmation`: **materially sharpened by trace-integrity and authority-boundary evidence**.
+- `GAP-07 Selection Reliability`: **strengthened by reflective-optimizer failure and recovery evidence**.
+
+### 17.6 Impact decision
+
+```text
+CORE_DELTA_NONE
+BENCHMARK_DELTA
+MEASUREMENT_IDENTIFICATION_DELTA
+```
+
+No `SPEC_REVISION_CANDIDATE` is warranted in this run.
