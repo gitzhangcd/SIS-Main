@@ -2,9 +2,9 @@
 
 ## System Intelligence Science Evidence Map｜ARSO Research Stream Re-Coding
 
-**Registry version:** `v1.2`  
+**Registry version:** `v1.3`  
 **SIS authority:** `System Intelligence Science v0.3.1`  
-**Date:** `2026-09-26`  
+**Date:** `2026-10-08`  
 **Corpus:** papers and analyses previously surfaced in the ARSO research briefs, plus explicitly referenced delayed-indexing items re-verified during registry construction  
 **Status:** `ACTIVE / GROWING REGISTRY`  
 
@@ -72,10 +72,10 @@ These `I*` and `T*` tiers are maintenance aids for this registry; they are **not
 
 ## 2. Corpus-level snapshot
 
-- **Total coded items:** `121`
-- **Primary Program:** SCF `47` · SDR `25` · ASR `48` · Routing Abstain `1`
-- **Framework capability occurrences:** DR `64` · MI `54` · ID `31` · TD `27` · MEAS `31` · EG `26` · IA `21` · BT `22`
-- **Transport coding:** T0 `48` · T1 `58` · T2 `15` · **T3 `0` · T4 `0`**
+- **Total coded items:** `145`
+- **Primary Program:** SCF `53` · SDR `32` · ASR `56` · ROUTING_ABSTAIN `4`
+- **Framework capability occurrences:** MI `65` · TD `37` · DR `76` · IA `23` · BT `43` · MEAS `47` · ID `40` · EG `38`
+- **Transport coding:** T0 `49` · T1 `71` · T2 `25` · T3 `0` · T4 `0`
 
 ### Immediate interpretation
 
@@ -223,6 +223,20 @@ These `I*` and `T*` tiers are maintenance aids for this registry; they are **not
 | SIS-LIT-129 | RegenHarness: A Robot Agent Harness with Evidence-Gated Recursive Self-Improvement | arXiv:2609.27612 (preprint; indexed after prior run) | `P2/SDR` | `ASR; BGT` | `TD; DR; MI; EG; BT` | `RECOVERY_EFFECT` | `CL1` | `I1` / `T1` | Embodied history/authority evidence — verified completion, versioned state, bounded recovery and rollback are integrated in a real quadruped deployment; mechanism effects are not isolated. |
 | SIS-LIT-130 | Reflection in the Dark: Exposing and Escaping the Black Box in Reflective Prompt Optimization | ACL 2026 SRW; arXiv:2603.18388 (delayed-indexing discovery) | `ASR` | `SCF; BGT` | `DR; MI; ID; BT` | `POLICY_VALUE` | `CL2 candidate` | `I2` / `T1` | Negative/repair evidence — GEPA can degrade under defective seeds while explicit hypothesis search, verification and exploration recover performance under matched budget. |
 | SIS-LIT-131 | Gradient-Guided Multi-Judge Prompt Optimization | ACL 2026 Long | `ASR` | `SCF; BGT` | `DR; ID; MEAS; BT` | `ACTION_SELECTION_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T2` | Attribution/evaluator-governance evidence — first-order segment scoring lowers attribution cost and multi-judge selection reduces single-evaluator dependence across domains/models. |
+| SIS-LIT-132 | Serving a Revisable World: Versioned Execution for Interruptible Agents | arXiv:2610.01160 | `SDR` | `ASR; BGT` | `TD; EG; MI; MEAS; BT` | `RECONFIGURATION_TRAJECTORY_EFFECT` | `CL2 candidate` | `I2` / `T1` | Version revocation and certified state inheritance; controlled systems evidence. |
+| SIS-LIT-133 | Threat-Preserving Representation Sensitivity in Agent-Security Benchmarks | arXiv:2610.03585 | `ROUTING_ABSTAIN` | `BGT` | `MEAS; ID; BT` | `MEASUREMENT_REPRESENTATION_SENSITIVITY` | `CL2 candidate` | `I2` / `T1` | Measurement representation changes security outcomes without changing underlying threat. |
+| SIS-LIT-134 | Sentry: Learning to Recover from LLM Agent Failures at Test Time | arXiv:2610.02994 | `SDR` | `ASR; BGT` | `TD; DR; EG; MEAS; BT` | `RECOVERY_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T2` | Conditional failure knowledge exposure and recovery; bundled policy. |
+| SIS-LIT-135 | Mistake Notebook Learning: Batch-Clustered Failures for Training-Free Agent Adaptation | Findings ACL 2026; 2026.findings-acl.719 | `ASR` | `SDR; BGT` | `DR; EG; TD; BT` | `POLICY_VALUE` | `CL1` | `I1` / `T2` | Failure-pattern abstraction and validation-gated memory promotion. |
+| SIS-LIT-136 | Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution | Findings ACL 2026; 2026.findings-acl.829 | `ASR` | `SCF; BGT` | `DR; MI; EG; BT` | `POLICY_VALUE` | `CL1` | `I1` / `T2` | Distill-reuse-refine package; no standalone memory primitive. |
+| SIS-LIT-137 | Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems | ACL 2026 Long; 2026.acl-long.912 | `SDR` | `BGT` | `TD; MEAS; ID; BT` | `DIAGNOSTIC_OBSERVABILITY_EFFECT` | `CL1` | `I1` / `T1` | Full-trace attribution measurement; observability not causal propagation. |
+| SIS-LIT-138 | SILO-BENCH: A Scalable Environment for Evaluating Distributed Coordination in Multi-Agent LLM Systems | ACL 2026 Long; 2026.acl-long.1354 | `SCF` | `CSCI; BGT` | `IA; MEAS; BT` | `ORGANIZATION_EFFECT` | `CL1` | `I1` / `T1` | Negative/boundary communication-reasoning gap across information silos. |
+| SIS-LIT-139 | Identifying Collective Intelligence Factor in LLM Agent Groups for Generalizable Multi-Agent System Design | Findings ACL 2026; 2026.findings-acl.624 | `SCF` | `CSCI; BGT` | `MEAS; IA; BT` | `CAPABILITY_FRONTIER_SHIFT` | `CL1` | `I1` / `T2` | Predictive latent group factor; not identified causal mechanism. |
+| SIS-LIT-140 | Towards Self-Improving Error Diagnosis in Multi-Agent Systems | Findings ACL 2026; 2026.findings-acl.98 | `SDR` | `ASR; BGT` | `TD; ID; EG; MEAS; BT` | `PROPAGATION_EFFECT` | `CL1` | `I1` / `T2` | Tool-grounded ErrorProbe diagnostic evidence; no isolated causal intervention. |
+| SIS-LIT-141 | Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems | arXiv:2610.08101 | `SDR` | `ASR; BGT` | `TD; EG; MEAS; ID; BT` | `EXECUTION_CONSISTENCY_IDENTIFIABILITY` | `CL1→CL2 candidate` | `I2` / `T1` | Evidence-removal/restoration contrasts show correct records can hide duty violations. |
+| SIS-LIT-142 | CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers? | arXiv:2610.07557 | `SCF` | `CSCI; BGT` | `MEAS; MI; BT` | `CAPABILITY_FRONTIER_SHIFT` | `CL1` | `I1` / `T1` | Independent executable verifier benchmark, 300 tasks and repeated model-harness trials. |
+| SIS-LIT-143 | DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks | arXiv:2610.08048 | `ASR` | `SCF; BGT` | `DR; EG; MI; BT` | `POLICY_VALUE` | `CL1→CL2 candidate` | `I1/I2` / `T2` | Self-generated practice and heuristic qualification; package effect. |
+| SIS-LIT-144 | EIO-Agents: The Missing Semantic Layer for AI Agent Evaluation | arXiv:2610.07675 | `ROUTING_ABSTAIN` | `BGT` | `EG; MEAS; ID` | `EVALUATION_SEMANTIC_CONTRACT` | `CL0` | `I0` / `T0` | Semantic evaluation specification; implementation-only until independently tested. |
+| SIS-LIT-145 | OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation | arXiv:2610.07787 | `ASR` | `SCF; BGT` | `DR; MI; BT` | `POLICY_VALUE` | `CL1` | `I1` / `T1` | Query-level workflow package; granularity mechanism not isolated. |
 ---
 
 ## 4. High-pressure evidence set for SIS theory
@@ -337,6 +351,10 @@ Registry v1.2 adds SIS-LIT-122–131. Eight records are new/recent primary-sourc
 This increment also sharpens a measurement-governance distinction: execution traces and completion claims are not automatically authoritative observations. Trace integrity and authority boundaries must be independently governed when the acting system can alter its own evidence surface.
 
 No record in this increment establishes T3 causal transportability or T4 mechanism invariance.
+
+### 8.3 Daily reconciliation — 2026-10-08
+
+Registry v1.3 reconciles SIS-LIT-132–137 from the 2026-10-06 daily update and qualifies SIS-LIT-138–145 from 2026-10-08. Paper-level CL labels remain provisional until P0 claim-level audit; no T3/T4. See the 2026-10-08 daily update for primary source links and boundaries.
 
 ## 9. Version decision
 
