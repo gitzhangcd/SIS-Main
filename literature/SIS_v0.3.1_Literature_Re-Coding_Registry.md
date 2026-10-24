@@ -367,3 +367,22 @@ SIS\ v0.3.1\ Core\Delta = 0
 ```math
 Benchmark\ /\ Experiment\ Portfolio\Delta > 0
 ```
+
+## 10｜2026-10-24 source-verified provisional candidates (NOT permanent SIS-LIT IDs)
+
+**Scope:** 10 preprints newly discovered from the 2026-10-23 arXiv listing (originally submitted 2026-10-21/22 UTC); these are version/lineage candidates awaiting reconciliation with the unmerged 2026-10-09–23 daily batches. **Canonical count stays 145** pending permanent-ID adjudication. Paper-level columns are discovery metadata; any claim-level labels are provisional and **not** final Gold. Detailed evidence and limits: [daily update](updates/2026-10-24_SIS_Daily_Literature_Update.md).
+
+| Temp ID | Study / primary source | Primary | Cross-cutting | Capability Profile | Primary estimand | Claim-level ceiling / I/T | Evidence role |
+|---|---|---|---|---|---|---|---|
+| SIS-CAND-20261024-01 | [ARATest](https://arxiv.org/abs/2610.30495) | ROUTING_ABSTAIN | BGT | MEAS/EG/ID/BT | CLAIM_PROPERTY_EXECUTION_VALIDITY | CL1; I1/T0 | measurement |
+| SIS-CAND-20261024-02 | [ARC-AGI-3 controlled harness self-improvement](https://arxiv.org/abs/2610.30499) | SCF | CSCI/BGT | MI/TD/ID/MEAS/BT | HELDOUT_HARNESS_REVISION_VALUE | CL1; I1/T1 | negative/boundary |
+| SIS-CAND-20261024-03 | [RoleFlow (SECPO)](https://arxiv.org/abs/2610.30429) | ASR | CSCI/BGT | DR/IA/ID/MI/MEAS/BT | SINGLE_EDIT_STRUCTURAL_REGULATION_VALUE | CL1; local CL2 candidate; I2/T2-performance | local intervention |
+| SIS-CAND-20261024-04 | [BELT](https://arxiv.org/abs/2610.30450) | ASR | BGT | DR/ID/MEAS/BT | PRICE_CONDITIONAL_TERMINATION_POLICY_VALUE | CL1; I1/T2-performance | regulation/boundary |
+| SIS-CAND-20261024-05 | [MemPABench](https://arxiv.org/abs/2610.30485) | ROUTING_ABSTAIN | BGT | EG/DR/MEAS/BT | PREFERENCE_CONDITIONAL_ACTION_VALIDITY | CL1; I1/T0 | negative/measurement |
+| SIS-CAND-20261024-06 | [Multi-Actor Event Worlds](https://arxiv.org/abs/2610.30488) | SDR | CSCI/BGT | TD/ID/MEAS/BT | OTHER_ACTOR_UNOBSERVABILITY_EFFECT | CL1; I1/T1 | negative/boundary |
+| SIS-CAND-20261024-07 | [What the Trace Shows and What the Label Says](https://arxiv.org/abs/2610.30491) | ROUTING_ABSTAIN | BGT | TD/ID/MEAS/EG/BT | TRACE_LABEL_CONSTRUCT_VALIDITY | CL1; I1/T0 | measurement/null |
+| SIS-CAND-20261024-08 | [AgentTriage](https://arxiv.org/abs/2610.30738) | ROUTING_ABSTAIN | BGT | TD/ID/EG/MEAS/BT | REPLAYABLE_GROUNDED_DIAGNOSIS_VALIDITY | CL1; I1/T1 | measurement/instrument |
+| SIS-CAND-20261024-09 | [Externalise the Memory](https://arxiv.org/abs/2610.30478) | SCF | CSCI/BGT | MI/EG/MEAS/BT | EXTERNAL_RETRIEVAL_VS_WEIGHT_DISTILLATION_EFFECT | CL1; local CL2 candidate; I2/T0 | negative/boundary |
+| SIS-CAND-20261024-10 | [Feedback That Backfires in Games](https://arxiv.org/abs/2610.30205) | SDR | CSCI/BGT | TD/ID/EG/MEAS/BT | FAILED_ACTION_REEXPOSURE_EFFECT | CL1; local CL2 candidate; I2/T1 | negative/boundary |
+
+**Non-inflation:** no CL3 or T3/T4; not an SIS v0.3.1 core revision. Existing permanent IDs and prior final audit outcomes remain unchanged. First-coder P0 re-audit is in [2026-10-24 audit](evidence-map/audits/SIS_P0_Reaudit_2026-10-24.md).
