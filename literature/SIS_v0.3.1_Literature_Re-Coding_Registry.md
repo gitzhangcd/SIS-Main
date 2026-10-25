@@ -386,3 +386,24 @@ Benchmark\ /\ Experiment\ Portfolio\Delta > 0
 | SIS-CAND-20261024-10 | [Feedback That Backfires in Games](https://arxiv.org/abs/2610.30205) | SDR | CSCI/BGT | TD/ID/EG/MEAS/BT | FAILED_ACTION_REEXPOSURE_EFFECT | CL1; local CL2 candidate; I2/T1 | negative/boundary |
 
 **Non-inflation:** no CL3 or T3/T4; not an SIS v0.3.1 core revision. Existing permanent IDs and prior final audit outcomes remain unchanged. First-coder P0 re-audit is in [2026-10-24 audit](evidence-map/audits/SIS_P0_Reaudit_2026-10-24.md).
+
+## 11｜2026-10-25 source-verified provisional candidates (NOT permanent SIS-LIT IDs)
+
+**Scope:** 10 arXiv studies screened against 145 permanent records and the 2026-10-24 provisional section. Friday 2026-10-23 source listing; **2026-10-25 is audit date, not a publication date**. Previous 2026-10-09–23 staged files still await batch lineage reconciliation; do not increment canonical count 145 or reuse their potential permanent IDs. Primary-source abstracts support first-pass screen; **CL2 candidate ≠ final CL2**, no automatic CL3/T3/T4.
+
+Detailed [daily evidence note](updates/2026-10-25_SIS_Daily_Literature_Update.md) and [three-study re-audit](evidence-map/audits/SIS_P0_Reaudit_2026-10-25.md).
+
+| Temp ID | Primary source | Program | Cross-cutting | Capability | Primary estimand | Claim ceiling / I/T | Evidence role |
+|---|---|---|---|---|---|---|---|
+| SIS-CAND-20261025-01 | [EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence](https://arxiv.org/abs/2610.31650) | SDR | BGT | TD/ID/MEAS/EG/BT | `CRITICAL_EVIDENCE_OMISSION_FAILURE_EFFECT` | CL1; local CL2 candidate; I2(local)/T1 | MEASUREMENT_NEGATIVE |
+| SIS-CAND-20261025-02 | [Post-Audit Mirage: Identifiability Limits of Offline Agent Verification](https://arxiv.org/abs/2610.31130) | ROUTING_ABSTAIN | BGT | ID/MEAS/EG/BT | `OFFLINE_VERIFIER_IDENTIFIABILITY_BOUND` | CL0 theoretical; CL1 empirical; I0/I1/T0 | IDENTIFICATION_LIMIT |
+| SIS-CAND-20261025-03 | [Simulated Control Evals](https://arxiv.org/abs/2610.31593) | ROUTING_ABSTAIN | BGT | MEAS/ID/BT/EG | `SIMULATED_CONTROL_EVAL_PREDICTIVE_VALIDITY` | CL1; I1/T2 performance only | MEASUREMENT_INSTRUMENT |
+| SIS-CAND-20261025-04 | [RIDAR: Safeguarding Research Integrity in Autonomous Research Agents](https://arxiv.org/abs/2610.31372) | ASR | BGT | DR/TD/EG/ID/MEAS/BT | `RUNTIME_RESEARCH_INTEGRITY_REGULATION_EFFECT` | CL1; local intervention candidate pending full audit; I1/I2(local)/T0 | INTEGRITY_MEASUREMENT_INTERVENTION |
+| SIS-CAND-20261025-05 | [Conservative Meta-Agent Search: Architecture Adaptation under Non-Stationarity](https://arxiv.org/abs/2610.31436) | ASR | CSCI/BGT | DR/IA/ID/MEAS/BT | `SHADOW_REPLAY_ARCHITECTURE_PROMOTION_NET_VALUE` | CL1; local CL2 candidate; I2(local)/T0 | REGULATION_BOUNDARY |
+| SIS-CAND-20261025-06 | [Certified Execution Harness for Agentic AI](https://arxiv.org/abs/2610.31376) | ASR | BGT | DR/MI/EG/ID/MEAS/BT | `SAFE_SUPERVISOR_LEAST_INTRUSIVE_POLICY_VALUE` | CL0 formal; CL1 example; I0/I1/T0 | FORMAL_BOUNDARY |
+| SIS-CAND-20261025-07 | [ADAPT for Science: A Multi-Agent System for Self-Evolving Scientific Optimization](https://arxiv.org/abs/2610.30851) | ASR | CSCI/BGT | DR/MI/MEAS/BT | `CONSTRAINED_SCIENTIFIC_SEARCH_POLICY_VALUE` | CL1; I1/T2 performance only | IMPLEMENTATION_BOUNDARY |
+| SIS-CAND-20261025-08 | [LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades](https://arxiv.org/abs/2610.30769) | SDR | CSCI/BGT | TD/IA/ID/MEAS/BT | `CUMULATIVE_SOCIAL_SIGNAL_CASCADE_EFFECT` | CL1; local CL2 candidate; I2(local)/T1 | NEGATIVE_BOUNDARY |
+| SIS-CAND-20261025-09 | [SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs](https://arxiv.org/abs/2610.31062) | SCF | BGT | MI/EG/ID/MEAS/BT | `NEUROSYMBOLIC_POLICY_COMPILATION_EFFECT` | CL1; I1/T2 performance only | FRAMEWORK_IMPLEMENTATION |
+| SIS-CAND-20261025-10 | [Adaptive Skill Granularity for Coding Agents](https://arxiv.org/abs/2610.31461) | ASR | BGT | DR/TD/MI/ID/MEAS/BT | `ACTION_GRANULARITY_ROUTING_RECOVERY_VALUE` | CL1; controlled recovery candidate pending full audit; I1/I2(local)/T0 | RECOVERY_BOUNDARY |
+
+**Non-inflation:** Scientific Core remains frozen; per-paper screening cannot settle causal or mechanistic claim level. Older pending batches unchanged.
