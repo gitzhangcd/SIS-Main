@@ -2,7 +2,9 @@
 
 ## Integrated Scientific & Engineering Foundation Master Specification
 
-### 复合智能系统能力形成、动态演化、失效恢复、自适应调节、因果机制、可替换科学框架与系统规律的第一性科学规范
+### R5 Regenerated Edition
+
+### 复合智能系统能力形成、动态演化、失效恢复、自适应调节、因果机制、可替换科学框架、专家参考构造与系统规律的第一性科学规范
 
 ---
 
@@ -20,6 +22,7 @@ Scientific Mother Specification
 + Framework Governance Contracts
 + Engineering Semantic Foundation
 + Benchmark & Conformance Foundation
++ Reference & Evaluation Governance
 ```
 
 **直接继承：**
@@ -30,6 +33,7 @@ Scientific Mother Specification
 * `SIS v0.3.1 R2｜Exact Contract Impact, Minimal Schema Delta & Back-Propagation Freeze`
 * `SIS v0.3.1 R3｜Framework Conformance Fixtures, Adversarial Replacement Tests & Cross-Layer Non-Regression Benchmark Freeze`
 * `SIS v0.3.1 R4｜Scientific + Engineering Synthesis, Framework Layer Integration & Master Regeneration Freeze`
+* `SIS v0.3.1 R5｜Human Reference Construction, Set-Valued Decision Evaluation, Expert Adjudication & Tier-3 Non-Regression Freeze`
 
 **版本定位：**
 
@@ -44,6 +48,12 @@ ThinFrameworkSemantics
 FrameworkGovernanceContracts
 +
 FrameworkConformanceBenchmark
++
+HumanReferenceSemantics
++
+ReferenceEvaluationGovernance
++
+Tier3ExpertReferenceConformance
 }
 $$
 
@@ -103,11 +113,22 @@ Logical Framework Governance Contracts      FROZEN
 Framework Conformance Fixture Semantics     FROZEN
 Cross-Layer Non-Regression Semantics        FROZEN
 
+Human Reference Semantics                   FROZEN
+Reference Construction Governance           FROZEN
+Reference Adjudication Semantics            FROZEN
+Set-Valued Decision Reference Semantics     FROZEN
+Hindsight Leakage Semantics                 FROZEN
+Human–Ontology Separation Semantics         FROZEN
+Domain Elicitation Governance               FROZEN
+
 Benchmark Tier Architecture                 FROZEN
 Program-Balanced Benchmark Coverage         FROZEN
 Negative Routing Fixture Requirement        FROZEN
+Reference Construction Fixture Semantics     FROZEN
+Tier-3 Expert Reference Complexity Profile   FROZEN
 
 Exact Engineering Schemas                   FREEZE CANDIDATE
+Exact Reference Governance Schemas           FREEZE CANDIDATE
 Exact Framework Pydantic Models             FREEZE CANDIDATE
 Exact JSON Schema                           FREEZE CANDIDATE
 DB / API / Runtime Serialization            FREEZE CANDIDATE
@@ -396,6 +417,107 @@ $$
 BiologicalAnalogy
 \neq
 ScientificEvidence
+}
+$$
+
+---
+
+
+# 4A｜R5 Reference & Human-Elicitation Invariants
+
+SIS v0.3.1 R5 在不改变 First-Principles Ontology 的前提下，进一步冻结 reference / evaluation 层的不变量。
+
+$$
+\boxed{
+ExpertJudgment
+\neq
+LatentTruth
+}
+$$
+
+$$
+\boxed{
+EvaluatorReference
+\neq
+LatentTruth
+}
+$$
+
+$$
+\boxed{
+ExpertAgreement
+\neq
+ReferenceValidity
+}
+$$
+
+$$
+\boxed{
+ReferenceAnswer
+\neq
+ReferenceSemantics
+}
+$$
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+$$
+\boxed{
+ExPostOutcome
+\not\Rightarrow
+ExAnteDecisionCorrectness
+}
+$$
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+$$
+\boxed{
+HumanIdentity
+\neq
+HumanRole
+}
+$$
+
+这些区分的目的不是贬低 expert judgment。
+
+而是保持：
+
+$$
+\boxed{
+Construct
+\neq
+Measurement
+\neq
+Reference
+\neq
+LatentTruth
+}
+$$
+
+不同层级的 epistemic identity。
+
+Reference 可以是高质量、可审计、可用于评测的 scientific artifact。
+
+但：
+
+$$
+\boxed{
+ReferenceQuality
+\not\Rightarrow
+OntologicalIdentity
 }
 $$
 
@@ -3257,6 +3379,300 @@ $$
 
 ---
 
+
+# Part XVII-A｜Human Reference & Evaluation Semantics
+
+# 68A｜Reference 是评价对象，不是 latent truth 的同义词
+
+定义 evaluator reference：
+
+$$
+\boxed{
+R^{ref}_{q,c,v}
+}
+$$
+
+其中：
+
+```text
+q  target evaluation question / scientific function
+c  reference-construction conditions
+v  reference version
+```
+
+Reference 的科学用途是：
+
+```text
+evaluation
+calibration
+benchmarking
+adjudication support
+decision-quality assessment
+```
+
+而不是宣称：
+
+$$
+Reference=WorldTruth
+$$
+
+因此冻结：
+
+$$
+\boxed{
+EvaluatorReference
+\neq
+LatentTruth
+}
+$$
+
+---
+
+# 68B｜Expert Judgment 的 epistemic status
+
+领域专家可以提供：
+
+```text
+observation interpretation
+professional judgment
+acceptable action boundaries
+risk assessment
+uncertainty characterization
+adjudication
+```
+
+但：
+
+$$
+\boxed{
+ExpertJudgment
+\neq
+LatentTruth
+}
+$$
+
+Expert judgment 可作为：
+
+```text
+measurement evidence
+reference-construction evidence
+evaluation evidence input
+```
+
+其 scientific value 取决于：
+
+```text
+information available
+expertise relevance
+independence
+evidence anchoring
+uncertainty
+adjudication
+versioning
+```
+
+而不是仅由：
+
+```text
+expert title
+institution
+seniority
+```
+
+决定。
+
+---
+
+# 68C｜Expert Agreement ≠ Reference Validity
+
+多个专家一致：
+
+$$
+Agreement\uparrow
+$$
+
+可以提高某些 reliability construct。
+
+但不能直接推出：
+
+$$
+Validity=1
+$$
+
+因此：
+
+$$
+\boxed{
+ExpertAgreement
+\neq
+ReferenceValidity
+}
+$$
+
+Reference validity 仍需结合：
+
+```text
+construct definition
+information boundary
+evidence quality
+measurement validity
+temporal integrity
+external validation where available
+```
+
+判断。
+
+---
+
+# 68D｜Reference Uncertainty
+
+正式冻结：
+
+$$
+\boxed{
+Reference
+\not\Rightarrow
+ZeroUncertainty
+}
+$$
+
+Reference 可以显式携带：
+
+```text
+measurement uncertainty
+expert disagreement
+evidence gap
+conditionality
+acceptable variation
+unresolved branch
+mapping ambiguity
+```
+
+因此 benchmark 不得默认：
+
+$$
+ReferenceUncertainty=0
+$$
+
+---
+
+# 68E｜Ex-Ante 与 Ex-Post Evidence Separation
+
+当 reference 用于评价决策：
+
+$$
+\boxed{
+ExAnteDecisionEvaluation
+\neq
+ExPostOutcomeValidation
+}
+$$
+
+Ex-ante evaluator 应根据：
+
+```text
+decision-time information
+admissible action set
+risk / constraint state
+available evidence
+```
+
+评价。
+
+Ex-post evidence 可用于：
+
+```text
+outcome validation
+retrospective mechanism analysis
+calibration
+longitudinal validation
+```
+
+但不得自动重写 prior decision correctness。
+
+---
+
+# 68F｜Hindsight Leakage
+
+现有 Decision-Time Evidence Integrity 继续冻结：
+
+$$
+EvidenceTime
+\leq
+DecisionPoint
+$$
+
+R5 进一步定义 evaluator-side：
+
+$$
+\boxed{
+HindsightLeakage
+}
+$$
+
+若：
+
+```text
+future outcome / future evidence
+```
+
+虽未直接进入 system input，
+
+但通过 evaluator / annotator 的已知结局：
+
+```text
+retroactively changes ex-ante reference
+without legitimate ex-ante evidence path
+```
+
+则视为 hindsight contamination risk。
+
+必须记录：
+
+```text
+future_information_known
+blinding_status
+hindsight_risk
+mitigation
+```
+
+---
+
+# 68G｜Reference Evidence Role Non-Inflation
+
+R5 不新增第四类 Core evidence role。
+
+仍保持：
+
+$$
+E
+=
+(
+E^{opt},
+E^{meas},
+E^{val}
+)
+$$
+
+Expert annotation 可作为：
+
+$$
+E^{meas}
+$$
+
+或 reference-construction input。
+
+Adjudicated reference：
+
+$$
+\not\Rightarrow
+E^{val}
+$$
+
+除非其确实满足目标 validation claim 的 evidence contract。
+
+---
+
 # Part XVIII｜Opportunity, Actionability and Regulation
 
 # 69｜Diagnosis 不等于 Optimization Opportunity
@@ -3422,6 +3838,221 @@ AdaptiveRegulation
 \neq
 ContinuousOptimization
 }
+$$
+
+---
+
+
+# Part XIX-A｜Decision Reference Semantics
+
+# 73A｜Decision Quality ≠ Realized Outcome
+
+正式冻结：
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+一个 decision 的 ex-ante quality 取决于：
+
+```text
+information available at decision time
+admissible actions
+risk
+constraints
+policy
+decision evidence
+expected utility / viability
+```
+
+而不是单独取决于：
+
+```text
+later realized outcome
+```
+
+因此：
+
+$$
+\boxed{
+ExPostOutcome
+\not\Rightarrow
+ExAnteDecisionCorrectness
+}
+$$
+
+---
+
+# 73B｜Set-Valued Decision Correctness
+
+真实世界 decision reference 允许：
+
+$$
+\boxed{
+\mathcal A_{acceptable}(H_t,c)
+}
+$$
+
+即：
+
+> 在给定 information history 与 reference conditions 下，可以存在多个可接受行动。
+
+正确性不必退化为：
+
+$$
+A_{model}=A_{single\ gold}
+$$
+
+更一般地：
+
+$$
+\boxed{
+A_{model}
+\in
+\mathcal A_{acceptable}(H_t,c)
+}
+$$
+
+---
+
+# 73C｜Conditional Admissibility
+
+一个 action 可以：
+
+```text
+PREFERRED
+ACCEPTABLE
+CONDITIONAL
+NOT_CURRENTLY_INDICATED
+PROHIBITED
+```
+
+其中 `CONDITIONAL` 必须显式声明：
+
+$$
+Condition
+\rightarrow
+ActionStatus
+$$
+
+这允许：
+
+```text
+same state family
+different boundary values
+different acceptable action set
+```
+
+---
+
+# 73D｜DecisionReferenceEnvelope
+
+执行侧 Canonical Decision Contract 不变。
+
+评价侧允许外部 governance artifact：
+
+```yaml
+DecisionReferenceEnvelope:
+
+  reference_id:
+  decision_point_ref:
+
+  information_boundary_ref:
+
+  admissible_actions: []
+  preferred_actions: []
+
+  conditionally_admissible:
+    - action:
+      condition:
+      rationale:
+      evidence_refs: []
+
+  prohibited_actions:
+    - action:
+      reason:
+      severity:
+      evidence_refs: []
+
+  no_change_status:
+  abstention_status:
+
+  uncertainty:
+  expert_disagreement:
+
+  evidence_refs: []
+  adjudication_ref:
+  evaluator_refs: []
+
+  version:
+```
+
+该对象属于：
+
+$$
+\boxed{
+BenchmarkGovernanceArtifact
+}
+$$
+
+不是：
+
+```text
+SIS Core Object
+ASR Program Object
+Policy Primitive
+```
+
+---
+
+# 73E｜Reference Answer ≠ Decision Reference
+
+自然语言：
+
+```text
+reference answer
+expert report
+model answer
+```
+
+可以作为：
+
+$$
+CandidateReferenceEvidence
+$$
+
+但：
+
+$$
+\boxed{
+ReferenceAnswer
+\neq
+ReferenceSemantics
+}
+$$
+
+正确流程：
+
+$$
+ReferenceMaterial
+\rightarrow
+ReferenceConstruction
+\rightarrow
+DecisionReferenceEnvelope
+\rightarrow
+EvaluatorCriteria
+$$
+
+而不是：
+
+$$
+ReferenceAnswer
+\rightarrow
+ExactMatchGold
 $$
 
 ---
@@ -5804,6 +6435,403 @@ $$
 
 ---
 
+
+# Part XXXI-B｜Reference & Evaluation Governance Foundation
+
+# RG1｜设计原则
+
+R5 对 reference / evaluation layer 采用：
+
+$$
+\boxed{
+OrthogonalGovernancePattern
+}
+$$
+
+而不是：
+
+$$
+CoreSchemaExpansion
+$$
+
+因此：
+
+$$
+\boxed{
+CoreExperimentSchemaDelta=0
+}
+$$
+
+---
+
+# RG2｜Canonical Reference Governance Graph
+
+$$
+\boxed{
+DomainEvidence
+}
+$$
+
+↓
+
+$$
+\boxed{
+ExpertJudgments
+}
+$$
+
+↓
+
+$$
+\boxed{
+ReferenceConstructionRecord
+}
+$$
+
+↓
+
+必要时：
+
+$$
+\boxed{
+ReferenceAdjudicationRecord
+}
+$$
+
+↓
+
+$$
+\boxed{
+DecisionReferenceEnvelope
+/
+OtherReferenceArtifact
+}
+$$
+
+↓
+
+$$
+\boxed{
+Evaluator
+}
+$$
+
+这些对象：
+
+$$
+\boxed{
+Connected
+\ but\
+NonOwning
+}
+$$
+
+不得拥有：
+
+```text
+Program Routing
+Scientific Claim Identity
+Core Ontology
+Framework Program Membership
+Claim Maturity
+```
+
+---
+
+# RG3｜ReferenceConstructionRecord
+
+```yaml
+ReferenceConstructionRecord:
+
+  reference_id:
+  reference_version:
+
+  target_record_ref:
+  target_evaluation_function:
+
+  reference_type:
+
+  information_boundary:
+    decision_point_ref: optional
+    allowed_information_refs: []
+    future_information_refs: []
+    cutoff_time: optional
+
+  source_judgments:
+    - judgment_ref:
+      human_ref:
+      human_role:
+      expertise_profile:
+      independent_annotation:
+      information_available_refs: []
+
+  source_evidence_refs: []
+
+  reference_semantics:
+    direct_facts: []
+    accepted_interpretations: []
+    uncertainty_regions: []
+    acceptable_variations: []
+
+  adjudication_ref: optional
+
+  temporal_integrity:
+    future_information_excluded:
+    hindsight_contamination_status:
+
+  evaluator_refs: []
+  provenance_refs: []
+
+  status:
+```
+
+推荐 `reference_type`：
+
+```text
+SPEC_DERIVED
+EMPIRICAL_MEASUREMENT
+EXPERT_CONSTRUCTED
+ADJUDICATED_EXPERT
+HYBRID
+OUTCOME_ANCHORED
+```
+
+这些属于 governance metadata。
+
+不是新的 evidence role。
+
+---
+
+# RG4｜ReferenceAdjudicationRecord
+
+```yaml
+ReferenceAdjudicationRecord:
+
+  adjudication_id:
+  reference_ref:
+
+  input_judgment_refs: []
+  adjudicator_refs: []
+
+  disagreement_items: []
+  acceptable_variations: []
+  unresolved_items: []
+
+  adjudication_method:
+
+  decision:
+
+  evidence_refs: []
+
+  version:
+```
+
+Canonical decision：
+
+```text
+AGREED
+ACCEPTABLE_VARIATION
+ADJUDICATED
+UNRESOLVED
+INSUFFICIENT_EVIDENCE
+REQUIRES_ADDITIONAL_REVIEW
+```
+
+---
+
+# RG5｜DomainElicitationProtocol
+
+`DomainAdapterDefinition` 继续拥有 domain-to-SIS semantic translation。
+
+R5 新增 companion governance artifact：
+
+```yaml
+DomainElicitationProtocol:
+
+  protocol_id:
+  protocol_version:
+
+  domain_id:
+  domain_adapter_ref:
+
+  target_reference_function:
+
+  expert_roles: []
+
+  native_questions: []
+
+  input_visibility:
+    allowed_input_types: []
+    hidden_input_types: []
+
+  uncertainty_expression:
+  disagreement_policy:
+
+  machine_preannotation:
+    allowed:
+    permitted_functions: []
+    prohibited_functions: []
+
+  final_reference_authority:
+
+  mapping_targets: []
+
+  validation_refs: []
+  provenance_refs: []
+```
+
+其用途是：
+
+$$
+\boxed{
+NativeExpertJudgment
+\rightarrow
+DomainSemantics
+}
+$$
+
+而 Domain Adapter 执行：
+
+$$
+\boxed{
+DomainSemantics
+\rightarrow
+SISSemantics
+}
+$$
+
+二者不能合并。
+
+---
+
+# RG6｜Human Role Semantics
+
+同一 human identity 可拥有不同 role：
+
+```text
+HUMAN_SYSTEM_COMPONENT
+HUMAN_ANNOTATOR
+HUMAN_EVALUATOR
+HUMAN_ADJUDICATOR
+HUMAN_OPERATOR
+HUMAN_VALIDATION_SOURCE
+```
+
+冻结：
+
+$$
+\boxed{
+HumanIdentity
+\neq
+HumanRole
+}
+$$
+
+这些 governance roles 不改变 SIS primitive taxonomy。
+
+---
+
+# RG7｜Exact Ownership
+
+| Object | Owner |
+|---|---|
+| ReferenceConstructionRecord | Benchmark / Evaluation Governance |
+| ReferenceAdjudicationRecord | Benchmark / Evaluation Governance |
+| DecisionReferenceEnvelope | Benchmark / Evaluation Governance |
+| DomainElicitationProtocol | Domain Elicitation Governance |
+| DomainAdapterDefinition | Domain Semantic Mapping |
+| Evaluator lineage | Evaluation Governance |
+| ScientificExperimentContract | SIS Core |
+| ProgramClassification | Domain Classification Layer |
+
+---
+
+# RG8｜Forbidden Ownership Inversion
+
+正式禁止：
+
+$$
+ReferenceConstruction
+\rightarrow
+ProgramRoutingOwnership
+$$
+
+$$
+DecisionReferenceEnvelope
+\rightarrow
+ASRProgramOwnership
+$$
+
+$$
+DomainElicitationProtocol
+\rightarrow
+CoreOntologyOwnership
+$$
+
+$$
+ExpertAgreement
+\rightarrow
+ScientificTruthOwnership
+$$
+
+---
+
+# RG9｜Reference Versioning
+
+以下变化必须产生 new reference revision：
+
+```text
+information boundary
+source expert set
+reference semantics
+acceptable action set
+prohibited action set
+adjudication result
+uncertainty interpretation
+hindsight contamination status
+```
+
+不得覆盖历史。
+
+---
+
+# RG10｜Logical vs Physical Contract
+
+R5 冻结：
+
+```text
+logical reference semantics
+ownership
+required lineage
+role separation
+temporal integrity
+set-valued decision semantics
+versioning
+```
+
+而：
+
+```text
+Pydantic
+JSON Schema
+DB table
+API DTO
+annotation UI
+runtime evaluator implementation
+```
+
+保持：
+
+$$
+\boxed{
+FREEZE\ CANDIDATE
+}
+$$
+
+直到 automated conformance execution 通过。
+
+---
+
 # Part XXXII｜Program Conformance Suite
 
 # 141｜PC-SCF
@@ -6069,6 +7097,166 @@ v0.2 已将 real-world vertical systems 放在这一层。
 
 ---
 
+
+# 150A｜Reference Construction Governance
+
+任何依赖人工、规范、历史结果或复合证据构造 reference 的 benchmark，都应至少恢复：
+
+```text
+target evaluation function
+information boundary
+source evidence
+source judgments
+expert / evaluator roles
+independence
+adjudication
+uncertainty
+temporal integrity
+version
+```
+
+正式冻结：
+
+$$
+\boxed{
+ReferenceConstruction
+\neq
+ReferenceLabeling
+}
+$$
+
+复杂领域中的 reference construction 是：
+
+$$
+Evidence
++
+Measurement
++
+Judgment
++
+Adjudication
++
+Boundary
++
+Versioning
+$$
+
+的治理过程。
+
+---
+
+# 150B｜Tier-3 Expert Reference Complexity Profile
+
+Tier-3 real-world benchmark 可声明：
+
+```yaml
+tier3_complexity_profile:
+
+  partial_observability:
+  temporal_dependency:
+  multimodality:
+  evidence_conflict:
+  information_acquisition:
+  expert_disagreement:
+  action_multiplicity:
+  safety_criticality:
+  human_in_the_loop:
+  resource_cost:
+```
+
+该 profile 用于：
+
+```text
+benchmark stratification
+coverage analysis
+boundary analysis
+transportability analysis
+deployment interpretation
+```
+
+不得用于：
+
+```text
+automatic program routing
+claim maturity inflation
+scientific value ranking
+```
+
+---
+
+# 150C｜Reference Quality under Resource Constraints
+
+真实 reference construction 消耗：
+
+```text
+expert time
+annotation time
+adjudication time
+tooling cost
+review cost
+```
+
+因此可研究：
+
+$$
+\boxed{
+ReferenceQuality
+\mid
+ExpertTimeBudget
+}
+$$
+
+例如：
+
+$$
+AgentPreannotation
+\rightarrow
+ExpertTime\downarrow
+$$
+
+是否在：
+
+$$
+ReferenceReliability
+$$
+
+保持条件下成立。
+
+该问题可以形成 SCF / CSCI / ASR claim。
+
+但 benchmark production 本身不自动产生这些 scientific claims。
+
+---
+
+# 150D｜Decision Reference Requirements
+
+若 benchmark 评价 information-conditioned decision：
+
+至少应明确：
+
+```text
+decision point
+information boundary
+admissible actions
+NO_CHANGE status
+ABSTAIN status
+conditionally acceptable actions
+prohibited / unsafe actions where relevant
+reference uncertainty
+```
+
+因此：
+
+$$
+\boxed{
+DecisionEvaluation
+>
+SingleAnswerMatch
+}
+$$
+
+---
+
 # Part XXXIV｜Benchmark Conformance Fixtures
 
 # 151｜Fixture Families
@@ -6112,6 +7300,329 @@ $$
 
 ---
 
+
+
+# Part XXXIV-R｜Reference Construction & Expert Evaluation Fixtures
+
+# RCF1｜Reference Benchmark Position
+
+Reference Construction Benchmark 不建立新的 Benchmark Tier。
+
+继续跨越：
+
+```text
+Tier 1
+Tier 2
+Tier 3
+```
+
+其目标是检验：
+
+> Reference 是否在不混淆 latent truth、expert judgment、future outcome 与 evaluator semantics 的条件下被构造。
+
+---
+
+# RCF2｜Single Expert Authority Trap
+
+若：
+
+```text
+one expert judgment
+```
+
+被直接宣称：
+
+```text
+latent truth
+```
+
+则：
+
+```text
+FAIL
+```
+
+除非 target construct 本身就是：
+
+> that expert's judgment.
+
+---
+
+# RCF3｜Reference Answer Trap
+
+若一篇自然语言 reference answer 被自动解释为：
+
+```text
+complete state truth
+complete action truth
+complete uncertainty truth
+complete safety truth
+```
+
+则：
+
+```text
+FAIL
+```
+
+正确流程：
+
+$$
+ReferenceMaterial
+\rightarrow
+ReferenceConstruction
+\rightarrow
+ReferenceSemantics
+$$
+
+---
+
+# RCF4｜Hindsight Outcome Trap
+
+若：
+
+```text
+future outcome
+```
+
+被无条件用于倒推：
+
+```text
+prior decision correctness
+```
+
+则：
+
+```text
+FAIL
+```
+
+---
+
+# RCF5｜Consensus Inflation Trap
+
+若：
+
+```text
+expert agreement
+```
+
+自动升级为：
+
+```text
+objective truth
+```
+
+或：
+
+```text
+validation evidence
+```
+
+则：
+
+```text
+FAIL
+```
+
+---
+
+# RCF6｜Single-Action Collapse
+
+若已知多个行动在不同条件下均可接受，
+
+benchmark 却强制：
+
+```text
+one exact action only
+```
+
+且无法表达 conditional admissibility：
+
+```text
+FAIL
+```
+
+---
+
+# RCF7｜Rubric-First Inversion
+
+禁止：
+
+$$
+Rubric
+\rightarrow
+ReferenceMeaning
+$$
+
+要求：
+
+$$
+\boxed{
+ReferenceSemantics
+\rightarrow
+EvaluatorCriteria
+}
+$$
+
+否则：
+
+```text
+FAIL
+```
+
+---
+
+# RCF8｜Ontology Burden Leakage
+
+若 Domain Elicitation 强迫领域专家直接填写 SIS ontology，
+
+并导致：
+
+```text
+native judgment distortion
+template-completion artifact
+material burden increase without scientific utility
+```
+
+则记录：
+
+```text
+DOMAIN_ELICITATION_NONCONFORMANT
+```
+
+---
+
+# RCF9｜Evaluator Self-Gold
+
+被测 runtime 不得在无独立 governance 的情况下同时成为：
+
+```text
+candidate generator
+sole reference generator
+sole final evaluator
+```
+
+否则：
+
+```text
+FAIL
+```
+
+---
+
+# RCF10｜Reference Information Boundary
+
+如果 reference constructor / evaluator 使用：
+
+```text
+information not legitimately available
+at the target evaluation point
+```
+
+且该信息改变 evaluator reference，
+
+则：
+
+```text
+FAIL
+```
+
+或：
+
+```text
+REFERENCE_TEMPORAL_NONCONFORMANT
+```
+
+---
+
+# RCF11｜Expert Disagreement Preservation
+
+若两个独立合格 expert judgment 不同，
+
+benchmark 必须允许：
+
+```text
+ACCEPTABLE_VARIATION
+ADJUDICATED
+UNRESOLVED
+INSUFFICIENT_EVIDENCE
+```
+
+而不是强制：
+
+```text
+one expert must be wrong
+```
+
+---
+
+# RCF12｜Medical Tier-3 Stress Fixture
+
+Medical Expert CoworkRL 的 high-difficulty Clinical Decision Trajectory 可作为：
+
+$$
+\boxed{
+Tier3ReferenceStressFixture
+}
+$$
+
+重点测试：
+
+```text
+partial observability
+decision-time information boundary
+information acquisition
+expert disagreement
+set-valued action reference
+safety constraints
+monitoring / re-decision
+reference uncertainty
+```
+
+其目的不是将医疗 ontology 写入 SIS Core。
+
+而是验证：
+
+$$
+\boxed{
+SISCore
++
+DomainAdapter
++
+ReferenceGovernance
+}
+$$
+
+能否无损表达真实专家决策环境。
+
+---
+
+# RCF13｜Reference Non-Regression
+
+Reference fixture 通过条件包括：
+
+```text
+original SIS Program Conformance PASS
+Framework Conformance no regression
+Domain mapping no forced fit
+reference lineage complete
+temporal integrity preserved
+expert disagreement preserved
+set-valued decision semantics preserved where needed
+```
+
+正式冻结：
+
+$$
+\boxed{
+ReferenceFixturesPASS
+\land
+OriginalSISConformancePASS
+}
+$$
+
+---
 
 # Part XXXIV-A｜Framework Conformance & Replacement Benchmark
 
@@ -7388,6 +8899,13 @@ BenchmarkCoverageManifest:
 
   fixture_refs: []
 
+  reference_governance:
+    reference_fixture_refs: []
+    expert_adjudication_fixture_refs: []
+    decision_reference_fixture_refs: []
+
+  tier3_complexity_profiles: []
+
   negative_control_refs: []
   unresolved_fixture_refs: []
   nonconformance_fixture_refs: []
@@ -7668,6 +9186,119 @@ Core Ontology
 
 ---
 
+
+# DA4｜Domain Elicitation ≠ Domain Semantic Mapping
+
+正式冻结：
+
+$$
+\boxed{
+DomainElicitation
+\neq
+DomainAdapter
+}
+$$
+
+Domain Elicitation 解决：
+
+> 如何以领域专家自然工作语言获取 judgment？
+
+Domain Adapter 解决：
+
+> 如何将已经形成的 domain semantics 映射到 SIS semantics？
+
+正确链：
+
+$$
+NativeExpertJudgment
+\rightarrow
+DomainSemantics
+\rightarrow
+DomainAdapter
+\rightarrow
+SISSemantics
+$$
+
+---
+
+# DA5｜Human–Ontology Separation
+
+正式冻结：
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+领域专家不应被强迫直接填写：
+
+```text
+SIS primitive
+program routing
+primary estimand
+scientific claim maturity
+framework metadata
+```
+
+除非该专家同时承担相应 scientific-coding role。
+
+Domain expert 的首要职责是提供：
+
+```text
+domain-native judgment
+decision boundary
+risk boundary
+uncertainty
+evidence interpretation
+```
+
+科学结构化由：
+
+```text
+research layer
+domain adapter
+reference governance
+```
+
+承担。
+
+---
+
+# DA6｜Machine Pre-Annotation Boundary
+
+Agent / machine 可以执行：
+
+```text
+candidate extraction
+timeline candidate
+evidence-span candidate
+schema prefill
+consistency check
+```
+
+但：
+
+$$
+\boxed{
+MachinePreannotation
+\neq
+FinalExpertReference
+}
+$$
+
+是否允许 machine pre-annotation、允许哪些功能以及最终 authority，必须由：
+
+```text
+DomainElicitationProtocol
+```
+
+显式声明。
+
+---
+
 # Part XXXVII｜Normative Non-Equivalences
 
 正式冻结：
@@ -7840,6 +9471,93 @@ ScientificClaimIdentity
 $$
 
 ---
+
+# 156B｜R5 Reference & Evaluation Non-Equivalences
+
+正式冻结：
+
+$$
+\boxed{
+ExpertJudgment
+\neq
+LatentTruth
+}
+$$
+
+$$
+\boxed{
+EvaluatorReference
+\neq
+LatentTruth
+}
+$$
+
+$$
+\boxed{
+ExpertAgreement
+\neq
+ReferenceValidity
+}
+$$
+
+$$
+\boxed{
+ReferenceAnswer
+\neq
+ReferenceSemantics
+}
+$$
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+$$
+\boxed{
+ExPostOutcome
+\not\Rightarrow
+ExAnteDecisionCorrectness
+}
+$$
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+$$
+\boxed{
+HumanIdentity
+\neq
+HumanRole
+}
+$$
+
+$$
+\boxed{
+ReferenceConstruction
+\neq
+ProgramRouting
+}
+$$
+
+$$
+\boxed{
+ReferenceUncertainty
+\neq
+ModelUncertainty
+}
+$$
+
+---
+
 # Part XXXVIII｜Ownership Rules
 
 # 157｜SIS Core Owns
@@ -8037,6 +9755,97 @@ ScientificPrimitiveOwnership
 $$
 
 ---
+
+# 161E｜Reference & Evaluation Governance Owns
+
+Reference / Evaluation Governance 拥有：
+
+```text
+reference construction lineage
+expert-judgment provenance
+adjudication records
+reference uncertainty
+acceptable variation
+set-valued decision reference
+hindsight contamination status
+reference versioning
+```
+
+但不拥有：
+
+```text
+Latent Truth
+Core Ontology
+Program Routing
+Scientific Claim Identity
+Claim Maturity
+Framework Program Membership
+```
+
+---
+
+# 161F｜Domain Elicitation Governance Owns
+
+Domain Elicitation Governance 拥有：
+
+```text
+expert-facing native question design
+input visibility
+uncertainty-expression interface
+machine pre-annotation boundary
+expert role declaration
+final reference authority process
+```
+
+但不拥有：
+
+```text
+SIS primitive definitions
+Program Routing
+Scientific Claim Strength
+Domain-to-SIS mapping semantics
+```
+
+最后一项仍由：
+
+```text
+DomainAdapterDefinition
+```
+
+拥有。
+
+---
+
+# 161G｜Reference Ownership Non-Inversion
+
+正式禁止：
+
+$$
+ExpertJudgment
+\rightarrow
+LatentTruthOwnership
+$$
+
+$$
+ReferenceConstruction
+\rightarrow
+ScientificClaimOwnership
+$$
+
+$$
+DecisionReferenceEnvelope
+\rightarrow
+ASRProgramOwnership
+$$
+
+$$
+DomainElicitationProtocol
+\rightarrow
+CoreOntologyOwnership
+$$
+
+---
+
 # Part XXXIX｜Schema Governance
 
 # 162｜Layer S1 — Core Scientific Semantics
@@ -8098,6 +9907,54 @@ framework non-destructive migration rules
 $$
 \boxed{
 FROZEN
+}
+$$
+
+---
+
+
+# 163A｜Layer S2-R — Logical Reference & Evaluation Governance Contracts
+
+R5 新增并冻结：
+
+```text
+ReferenceConstructionRecord
+ReferenceAdjudicationRecord
+DecisionReferenceEnvelope
+DomainElicitationProtocol
+Tier3ComplexityProfile semantics
+Reference Construction Fixture semantics
+```
+
+这些属于：
+
+$$
+\boxed{
+OrthogonalGovernanceContracts
+}
+$$
+
+不是：
+
+```text
+SIS Core Objects
+Program Objects
+Evidence Role Objects
+```
+
+逻辑 semantics：
+
+$$
+\boxed{
+FROZEN
+}
+$$
+
+Physical implementation：
+
+$$
+\boxed{
+FREEZE\ CANDIDATE
 }
 $$
 
@@ -8187,6 +10044,12 @@ ASSERT historical evidence objects are immutable
 ASSERT framework version is explicit
 ASSERT unsupported claim classes are permitted
 ASSERT UNMAPPABLE domain mapping is permitted
+ASSERT ReferenceConstructionRecord.primary_program DOES NOT EXIST
+ASSERT DecisionReferenceEnvelope.primary_program DOES NOT EXIST
+ASSERT DomainElicitationProtocol.core_ontology_override DOES NOT EXIST
+ASSERT expert agreement DOES NOT imply latent truth
+ASSERT reference answer DOES NOT define reference semantics by itself
+ASSERT future outcome DOES NOT automatically redefine ex-ante decision correctness
 ```
 
 ---
@@ -8404,6 +10267,128 @@ REOPEN
 $$
 
 ---
+
+# Part XL-B｜Reference & Evaluation Layer Reopen Conditions
+
+Reference & Evaluation Layer 不自动触发 Scientific Core reopen。
+
+以下条件首先触发：
+
+$$
+ReferenceGovernance
+\rightarrow
+REVIEW
+$$
+
+---
+
+# RR1｜Reference Expressivity Failure
+
+若重要 real-world reference 无法表达：
+
+```text
+uncertainty
+acceptable variation
+expert disagreement
+conditional action
+information boundary
+```
+
+则：
+
+$$
+\boxed{
+ReferenceContractLayer
+\rightarrow
+REOPEN
+}
+$$
+
+---
+
+# RR2｜Systematic Hindsight Contamination
+
+若 benchmark 长期无法区分：
+
+```text
+ex-ante decision evidence
+ex-post outcome evidence
+```
+
+则：
+
+$$
+\boxed{
+ReferenceTemporalGovernance
+\rightarrow
+REOPEN
+}
+$$
+
+---
+
+# RR3｜Domain Elicitation Distortion
+
+若多个 domain 持续出现：
+
+```text
+expert-native judgment
+```
+
+在映射前已经被 ontology-facing form 系统性扭曲，
+
+则：
+
+$$
+\boxed{
+DomainElicitationGovernance
+\rightarrow
+REOPEN
+}
+$$
+
+---
+
+# RR4｜Evaluator Lineage Insufficiency
+
+若现有 evaluator lineage 无法恢复：
+
+```text
+reference source
+expert roles
+adjudication
+information boundary
+reference version
+```
+
+则：
+
+$$
+\boxed{
+EvaluationGovernance
+\rightarrow
+REOPEN
+}
+$$
+
+---
+
+# RR5｜Core Reopen Escalation Rule
+
+只有当 reference-governance review 进一步证明：
+
+> 某重要 scientific question 无法由 existing SIS Core + external governance 无损表达，
+
+才升级至：
+
+```text
+RA1 / RA6
+```
+
+并重新考虑 Scientific Core。
+
+---
+
 # Part XLI｜Current Scientific Architecture
 
 System Intelligence Science v0.3.1 最终架构：
@@ -8527,6 +10512,83 @@ Framework 是 scientific operationalization instrument。
 三者不能互相替代。
 
 ---
+
+## R5 Reference & Evaluation Architecture
+
+SIS v0.3.1 R5 增加第三条 orthogonal governance axis：
+
+### Scientific Classification Axis
+
+$$
+ScientificQuestion
+\rightarrow
+PrimaryEstimand
+\rightarrow
+ProgramRouting
+\rightarrow
+ScientificClaim
+$$
+
+### Scientific Operationalization Axis
+
+$$
+FrameworkDefinition
+\rightarrow
+FrameworkUseRecord
+\rightarrow
+ScientificRecord
+$$
+
+### Reference & Evaluation Axis
+
+$$
+DomainEvidence
+\rightarrow
+ExpertJudgments
+\rightarrow
+ReferenceConstruction
+\rightarrow
+Adjudication
+\rightarrow
+Evaluator
+$$
+
+Domain translation 继续：
+
+$$
+DomainSemantics
+\rightarrow
+DomainAdapterDefinition
+\rightarrow
+SISSemantics
+$$
+
+Domain elicitation：
+
+$$
+DomainExpertInterface
+\rightarrow
+DomainSemantics
+$$
+
+这些轴：
+
+$$
+\boxed{
+Connected
+\ but\
+NonOwning
+}
+$$
+
+Reference layer 不拥有 Scientific Classification。
+
+Framework layer 不拥有 Reference truth。
+
+Domain expert interface 不拥有 Core Ontology。
+
+---
+
 # Part XLII｜Canonical System-Level Causal Skeleton
 
 定义：
@@ -8833,6 +10895,109 @@ $$
 Framework 不插入这一分类链。
 
 ---
+
+# Part XLIII-B｜Reference & Evaluation Workflow
+
+Reference workflow 与 canonical scientific workflow、Framework workflow 平行存在。
+
+它不是 Program routing 的前置条件。
+
+Canonical reference workflow：
+
+$$
+\boxed{
+ReferenceNeed
+}
+$$
+
+↓
+
+$$
+\boxed{
+InformationBoundary
+}
+$$
+
+↓
+
+$$
+\boxed{
+EvidenceCollection
+}
+$$
+
+↓
+
+$$
+\boxed{
+IndependentJudgments
+}
+$$
+
+↓
+
+必要时：
+
+$$
+\boxed{
+Adjudication
+}
+$$
+
+↓
+
+$$
+\boxed{
+ReferenceSemantics
+}
+$$
+
+↓
+
+$$
+\boxed{
+EvaluatorCriteria
+}
+$$
+
+↓
+
+$$
+\boxed{
+VersionedEvaluation
+}
+$$
+
+重要的是：
+
+$$
+\boxed{
+ReferenceWorkflow
+\not\rightarrow
+ProgramOwnership
+}
+$$
+
+同时：
+
+$$
+\boxed{
+ReferenceSemantics
+\rightarrow
+EvaluatorCriteria
+}
+$$
+
+而不是：
+
+$$
+EvaluatorCriteria
+\rightarrow
+ReferenceSemantics
+$$
+
+---
+
 # Part XLIV｜The Eight v0.3.1 Principles
 
 # 171｜Estimand-First Program Principle
@@ -9021,6 +11186,109 @@ $$
 > **一个 Framework 被接纳或通过 conformance，只证明它是一个合法的科学操作工具，不证明其中的机制有效，也不提高具体 scientific claim 的证据级别。**
 
 ---
+
+# Part XLIV-A｜R5 Reference & Evaluation Principles
+
+# 179｜Reference Non-Identity Principle
+
+$$
+\boxed{
+EvaluatorReference
+\neq
+LatentTruth
+}
+$$
+
+中文：
+
+> **用于评价系统的 reference 是版本化 scientific / governance artifact，不应被当作潜在真实状态本身。**
+
+---
+
+# 180｜Ex-Ante Decision Integrity Principle
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+以及：
+
+$$
+\boxed{
+ExPostOutcome
+\not\Rightarrow
+ExAnteDecisionCorrectness
+}
+$$
+
+中文：
+
+> **评价一个决策，应尊重该决策当时合法可获得的信息边界，而不能用后来结局机械倒推当时决策的正确性。**
+
+---
+
+# 181｜Human–Ontology Separation Principle
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+中文：
+
+> **领域专家应以领域自然语言提供专业判断；SIS 语义映射、estimand、program routing 与 ontology coding 应由相应科学治理层承担。**
+
+---
+
+# 182｜Set-Valued Evaluation Principle
+
+$$
+\boxed{
+DecisionCorrectness
+\not\Rightarrow
+SingleExactAction
+}
+$$
+
+中文：
+
+> **在真实世界决策中，可以存在条件化的多个可接受行动；benchmark 应能表达 acceptable action set、conditional action 与 prohibited action。**
+
+---
+
+# 183｜Reference Lineage Principle
+
+$$
+\boxed{
+ReferenceQuality
+\Rightarrow
+InformationBoundary
++
+Evidence
++
+Roles
++
+Adjudication
++
+Uncertainty
++
+Versioning
+}
+$$
+
+中文：
+
+> **高质量 reference 必须可恢复其信息边界、证据来源、角色分离、仲裁、不确定性与版本 lineage。**
+
+---
+
 # Part XLV｜What SIS v0.3.1 Does Not Claim
 
 SIS v0.3.1 不声称：
@@ -9158,6 +11426,85 @@ $$
 作为正确 scientific outcomes。
 
 ---
+
+SIS v0.3.1 R5 不声称：
+
+> 专家意见天然等于 ground truth。
+
+冻结：
+
+$$
+\boxed{
+ExpertJudgment
+\neq
+LatentTruth
+}
+$$
+
+---
+
+SIS v0.3.1 R5 不声称：
+
+> 多专家一致就证明 reference 绝对有效。
+
+冻结：
+
+$$
+\boxed{
+ExpertAgreement
+\neq
+ReferenceValidity
+}
+$$
+
+---
+
+SIS v0.3.1 R5 不声称：
+
+> 一个高质量 decision benchmark 必须只有一个正确 action。
+
+允许：
+
+$$
+\boxed{
+\mathcal A_{acceptable}(H_t,c)
+}
+$$
+
+---
+
+SIS v0.3.1 R5 不声称：
+
+> 后来得到好结局即可证明先前决策正确，或坏结局即可证明先前决策错误。
+
+冻结：
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+---
+
+SIS v0.3.1 R5 不声称：
+
+> 领域专家必须直接使用 SIS ontology 才能产生合格 annotation。
+
+冻结：
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+---
+
 # Part XLVI｜Exact Open Questions
 
 以下 scientific questions 继续保持 OPEN：
@@ -9205,6 +11552,33 @@ $$
 不得由 Mother Specification 预先给出经验答案。
 
 ---
+
+R5 新增 Reference / Evaluation open questions：
+
+```text
+How should reference uncertainty be quantified across domains?
+When is one expert sufficient for a target evaluation function?
+When does independent expert redundancy materially improve reference validity?
+How should acceptable action sets be calibrated?
+When should expert disagreement remain unresolved rather than adjudicated away?
+How much machine pre-annotation preserves expert-native judgment?
+What domain elicitation interfaces minimize expert burden without semantic loss?
+How should hindsight contamination be measured?
+When does ex-post outcome evidence legitimately update an ex-ante reference?
+How should reference construction cost enter benchmark design?
+Which reference-construction mechanisms are transportable across domains?
+```
+
+这些保持：
+
+$$
+\boxed{
+OPEN
+}
+$$
+
+---
+
 # Part XLVII｜Exact Implementation Questions
 
 以下不由 SIS v0.3.1 Mother Specification 冻结：
@@ -9226,6 +11600,12 @@ exact sample sizes
 exact utility functions
 exact benchmark instances
 exact fixture serialization
+exact reference-construction UI
+exact expert-adjudication workflow
+exact number of experts
+exact reference-uncertainty estimator
+exact acceptable-action-set calibration
+exact machine pre-annotation policy
 exact CI platform
 exact test framework
 exact API framework
@@ -9247,6 +11627,10 @@ FrameworkUseRecord Pydantic model
 FrameworkConformanceRecord Pydantic model
 FrameworkReplacementAssessment Pydantic model
 DomainAdapterDefinition Pydantic model
+ReferenceConstructionRecord Pydantic model
+ReferenceAdjudicationRecord Pydantic model
+DecisionReferenceEnvelope Pydantic model
+DomainElicitationProtocol Pydantic model
 JSON Schema
 DB Schema
 API DTOs
@@ -9558,6 +11942,8 @@ SIS\ v0.3.1
 & +\ CrossCuttingScientificPrograms\\
 & +\ ThinReplaceableFrameworks\\
 & +\ OrthogonalGovernanceContracts\\
+& +\ HumanReferenceGovernance\\
+& +\ SetValuedDecisionEvaluation\\
 & +\ AdversarialConformance\\
 & +\ NonDestructiveVersioning
 \end{aligned}
@@ -9646,6 +12032,43 @@ FrameworkReplacement
 $$
 
 ---
+
+SIS v0.3.1 R5 进一步规定：
+
+> **真实世界 benchmark 所使用的 reference 必须被视为版本化、可审计、可携带不确定性的评价构造，而不是 latent truth 的默认同义词。**
+
+因此：
+
+$$
+\boxed{
+ReferenceMeaning
+belongs\ to
+Evidence+InformationBoundary+Judgments+Adjudication+Versioning
+}
+$$
+
+而：
+
+$$
+\boxed{
+EvaluatorCriteria
+must\ be\ derived\ from
+ReferenceSemantics
+}
+$$
+
+成熟 SIS 的评测科学应满足：
+
+$$
+\boxed{
+StrongEvaluation
+survives
+ReasonableReferenceVariation
+}
+$$
+
+---
+
 # Part LI｜Final Freeze Statement
 
 最终冻结：
@@ -9662,7 +12085,7 @@ $$
 
 必须同时成立。
 
-v0.3.1 的层级不应理解为简单树，而应理解为两个正交轴。
+v0.3.1 的层级不应理解为简单树，而应理解为三个相互连接但不互相拥有的正交轴。
 
 ## Scientific Classification Axis
 
@@ -9722,6 +12145,32 @@ DomainAdapterDefinition
 SISSemantics
 $$
 
+## Reference & Evaluation Axis
+
+$$
+\boxed{
+DomainEvidence
+\rightarrow
+ExpertJudgments
+\rightarrow
+ReferenceConstruction
+\rightarrow
+Adjudication
+\rightarrow
+Evaluator
+}
+$$
+
+Domain elicitation：
+
+$$
+\boxed{
+DomainExpertInterface
+\rightarrow
+DomainSemantics
+}
+$$
+
 这几条轴：
 
 $$
@@ -9745,6 +12194,22 @@ $$
 $$
 \boxed{
 FrameworkLeaderboard
+}
+$$
+
+Reference / Evaluation Axis 也不得演化为：
+
+$$
+\boxed{
+ExpertAuthorityLeaderboard
+}
+$$
+
+或：
+
+$$
+\boxed{
+SingleGoldAnswerDogma
 }
 $$
 
@@ -9788,8 +12253,16 @@ Logical Framework Governance Contracts       FROZEN
 Framework Conformance Specification          FROZEN
 Benchmark Architecture                       FROZEN
 Engineering Semantic Foundation              FROZEN
+Human Reference Semantics                      FROZEN
+Reference Construction Governance              FROZEN
+Reference Adjudication Semantics               FROZEN
+Set-Valued Decision Reference Semantics        FROZEN
+Human–Ontology Separation Semantics            FROZEN
+Tier-3 Expert Reference Complexity Profile     FROZEN
+Reference Construction Fixture Semantics       FROZEN
 
 Exact Engineering Schemas                    FREEZE CANDIDATE
+Exact Reference Governance Schemas            FREEZE CANDIDATE
 Exact Framework Physical Schemas             FREEZE CANDIDATE
 Automated Conformance Execution              OPEN
 Runtime Implementation                       OPEN
@@ -9853,17 +12326,48 @@ SIS v0.3.1 R1
 SIS v0.3.1 R2
 SIS v0.3.1 R3
 SIS v0.3.1 R4
+SIS v0.3.1 R5
 ```
 
-后序 revision decision 对 Framework Layer 的解释优先级：
+后序 revision decision 对 Framework / Reference Governance Layer 的解释优先级：
 
 $$
-R4>R3>R2>R1>R0
+R5>R4>R3>R2>R1>R0
 $$
 
 但该优先级不覆盖 v0.3 已冻结且在 v0.3.1 中明确 KEEP FROZEN 的 Scientific Core。
 
-被 R1–R4 否决的 R0 candidate design 不进入本 Master，包括：
+R5 Non-Regression 判定：
+
+$$
+\boxed{
+ScientificCoreDelta=0
+}
+$$
+
+$$
+\boxed{
+ProgramArchitectureDelta=0
+}
+$$
+
+$$
+\boxed{
+CoreExperimentSchemaDelta=0
+}
+$$
+
+R5 新增内容均通过：
+
+$$
+\boxed{
+OrthogonalReferenceAndBenchmarkGovernance
+}
+$$
+
+接入 Master。
+
+被 R1–R5 继续否决或未重新打开的 R0 candidate design 不进入本 Master，包括：
 
 ```text
 Flat Scientific Kernel tuple
@@ -9892,4 +12396,20 @@ $$
 
 > **真正稳定的科学体系，应当允许用于操作化科学问题的 Framework 被替换，而不需要重写科学问题本身、目标 estimand、历史 evidence 与 scientific claim 的含义。**
 
-这构成 **System Intelligence Science v0.3.1** 后续科学研究、Framework 设计、Domain validation、benchmark 建设、工程实现、自动 conformance 与经验系统规律累积的统一 Mother Specification。
+R5 同时冻结：
+
+$$
+\boxed{
+\textbf{
+A stable evaluation science must not confuse
+the reference used to evaluate a system
+with the latent reality the reference attempts to represent.
+}
+}
+$$
+
+中文：
+
+> **成熟的评价科学，不应把用于评价系统的 reference 与该 reference 试图表征的潜在真实状态混为一谈；reference 必须具有显式的信息边界、证据来源、角色分离、不确定性、仲裁与版本 lineage。**
+
+这构成 **System Intelligence Science v0.3.1 R5 Regenerated Edition** 后续科学研究、Framework 设计、Domain validation、reference construction、benchmark 建设、工程实现、自动 conformance 与经验系统规律累积的统一 Mother Specification。
