@@ -407,3 +407,23 @@ Detailed [daily evidence note](updates/2026-10-25_SIS_Daily_Literature_Update.md
 | SIS-CAND-20261025-10 | [Adaptive Skill Granularity for Coding Agents](https://arxiv.org/abs/2610.31461) | ASR | BGT | DR/TD/MI/ID/MEAS/BT | `ACTION_GRANULARITY_ROUTING_RECOVERY_VALUE` | CL1; controlled recovery candidate pending full audit; I1/I2(local)/T0 | RECOVERY_BOUNDARY |
 
 **Non-inflation:** Scientific Core remains frozen; per-paper screening cannot settle causal or mechanistic claim level. Older pending batches unchanged.
+
+
+---
+
+## 2026-10-26 daily provisional candidates (not part of 145 permanent-ID corpus)
+
+Source window: latest Friday arXiv list (2026-10-23; first submissions Oct 19–21) plus October 2026 archival EMNLP Findings delayed discoveries. The nine items below remain **provisional**, pending retrospective 2026-10-09–23 candidate de-duplication and preprint→proceedings lineage audit. Claim levels are first-pass *claim-specific ceilings*, not whole-paper final levels.
+
+| SIS-CAND-20261026-01 | [TRACE: A Traceable Agentic Co-Optimizer for Experimental Optimization](https://aclanthology.org/2026.findings-emnlp.295/) | Findings EMNLP 2026, Oct (archival; delayed discovery) | ASR | BGT | DR/EG/MEAS/ID/BT | `BO_CONSTRAINED_INTERVENTION_POLICY_VALUE` | CL1 | I1/T0 | REGULATION_IMPLEMENTATION |
+| SIS-CAND-20261026-02 | [BID-SPO: Rethinking Multi-Agent Prompt Optimization as Information Contracting via Bidding-based Shapley Values](https://aclanthology.org/2026.findings-emnlp.239/) | Findings EMNLP 2026, Oct (archival; delayed discovery) | SCF | CSCI/BGT | MI/IA/ID/MEAS/BT | `INTER_AGENT_INTERFACE_CONTRACT_ALIGNMENT_EFFECT` | CL1 | I1/T1 | INTERACTION_BOUNDARY |
+| SIS-CAND-20261026-03 | [PaperScout: An Autonomous Agent for Academic Paper Search with Process-Aware Sequence-Level Policy Optimization](https://aclanthology.org/2026.findings-emnlp.1743/) | Findings EMNLP 2026, Oct (archival; delayed discovery) | ASR | BGT | DR/TD/MEAS/ID/BT | `SEQUENCE_LEVEL_SEARCH_POLICY_VALUE` | CL1 | I1/T1 | REGULATION_IMPLEMENTATION |
+| SIS-CAND-20261026-04 | [How Much Does the Harness Matter, and for Whom? A Multi-Model Study of Context in LLM-Driven Vulnerability Discovery](https://arxiv.org/abs/2610.28802) | arXiv v1 2026-10-20; delayed discovery | SCF | CSCI/BGT | MI/IA/ID/MEAS/BT | `MODEL_BY_PROMPT_CONTEXT_INTERACTION_EFFECT` | CL1; local CL2 candidate | I2-local/T1 | CSCI_BOUNDARY |
+| SIS-CAND-20261026-05 | [SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2610.30443) | arXiv v1 2026-10-21; delayed discovery | SCF | BGT | MI/IA/EG/MEAS/BT | `TEMPORAL_SPEC_COMPOSITION_ZERO_SHOT_VALUE` | CL0 formal; CL1 empirical | I0/I1/T1 | FORMAL_BOUNDARY_FRAMEWORK |
+| SIS-CAND-20261026-06 | [Soft Ontology Priors over Latent Concept Posteriors for Weakly Supervised Neuro-Symbolic Learning](https://arxiv.org/abs/2610.30391) | arXiv v1 2026-10-21; author marks NeSy 2026 oral, archival verification pending | SCF | BGT | MI/EG/ID/MEAS/BT | `ONTOLOGY_PRIOR_LATENT_CONCEPT_RECOVERY_EFFECT` | CL0 theoretical; CL1 empirical; local CL2 candidate | I1/I2-local/T0 | IDENTIFICATION_BOUNDARY |
+| SIS-CAND-20261026-07 | [Route-and-Generate: KL-Regularized Router Improvement for Reasoning Routing in LLMs](https://arxiv.org/abs/2610.30351) | arXiv v1 2026-10-21; delayed discovery | ASR | BGT | DR/MEAS/MI/BT | `REASONING_FORMAT_ROUTING_COST_ADJUSTED_VALUE` | CL1 | I1/T1 | REGULATION_IMPLEMENTATION |
+| SIS-CAND-20261026-08 | [Learning Who Talks to Whom: Role-Aware Communication Topology Scheduling for Efficient LLM Multi-Agent Collaboration](https://arxiv.org/abs/2610.25851) | arXiv v1 2026-10-19; delayed discovery | ASR | CSCI/BGT | DR/IA/ID/MEAS/BT | `ROLE_TOPOLOGY_CONDITIONAL_COMMUNICATION_VALUE` | CL1; local CL2 candidate | I1/I2-local/T1 | INTERACTION_BOUNDARY |
+| SIS-CAND-20261026-09 | [Policy Search in Code Space for Multi-Agent Pathfinding](https://arxiv.org/abs/2610.25946) | arXiv v1 2026-10-19; delayed discovery | ASR | BGT | DR/MI/EG/MEAS/BT | `VERIFIED_CODE_POLICY_SEARCH_VALUE` | CL0 formal; CL1 empirical | I1/T2 performance only | REGULATION_IMPLEMENTATION |
+
+- [Daily evidence notes](updates/2026-10-26_SIS_Daily_Literature_Update.md) contain full provenance, boundary and classification detail.
+- [P0 audit](evidence-map/audits/SIS_P0_Reaudit_2026-10-26.md) contains 9 distinct claim decisions for SIS-LIT-033/034/038. Permanent corpus totals and pre-existing final labels **unchanged**; second coder pending.
