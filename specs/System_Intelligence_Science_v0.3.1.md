@@ -2,7 +2,9 @@
 
 ## Integrated Scientific & Engineering Foundation Master Specification
 
-### 复合智能系统能力形成、动态演化、失效恢复、自适应调节、因果机制、可替换科学框架与系统规律的第一性科学规范
+### R5 Regenerated Edition
+
+### 复合智能系统能力形成、动态演化、失效恢复、自适应调节、因果机制、可替换科学框架、专家参考构造与系统规律的第一性科学规范
 
 ---
 
@@ -20,6 +22,7 @@ Scientific Mother Specification
 + Framework Governance Contracts
 + Engineering Semantic Foundation
 + Benchmark & Conformance Foundation
++ Reference & Evaluation Governance
 ```
 
 **直接继承：**
@@ -30,6 +33,7 @@ Scientific Mother Specification
 * `SIS v0.3.1 R2｜Exact Contract Impact, Minimal Schema Delta & Back-Propagation Freeze`
 * `SIS v0.3.1 R3｜Framework Conformance Fixtures, Adversarial Replacement Tests & Cross-Layer Non-Regression Benchmark Freeze`
 * `SIS v0.3.1 R4｜Scientific + Engineering Synthesis, Framework Layer Integration & Master Regeneration Freeze`
+* `SIS v0.3.1 R5｜Human Reference Construction, Set-Valued Decision Evaluation, Expert Adjudication & Tier-3 Non-Regression Freeze`
 
 **版本定位：**
 
@@ -44,6 +48,12 @@ ThinFrameworkSemantics
 FrameworkGovernanceContracts
 +
 FrameworkConformanceBenchmark
++
+HumanReferenceSemantics
++
+ReferenceEvaluationGovernance
++
+Tier3ExpertReferenceConformance
 }
 $$
 
@@ -103,11 +113,22 @@ Logical Framework Governance Contracts      FROZEN
 Framework Conformance Fixture Semantics     FROZEN
 Cross-Layer Non-Regression Semantics        FROZEN
 
+Human Reference Semantics                   FROZEN
+Reference Construction Governance           FROZEN
+Reference Adjudication Semantics            FROZEN
+Set-Valued Decision Reference Semantics     FROZEN
+Hindsight Leakage Semantics                 FROZEN
+Human–Ontology Separation Semantics         FROZEN
+Domain Elicitation Governance               FROZEN
+
 Benchmark Tier Architecture                 FROZEN
 Program-Balanced Benchmark Coverage         FROZEN
 Negative Routing Fixture Requirement        FROZEN
+Reference Construction Fixture Semantics     FROZEN
+Tier-3 Expert Reference Complexity Profile   FROZEN
 
 Exact Engineering Schemas                   FREEZE CANDIDATE
+Exact Reference Governance Schemas           FREEZE CANDIDATE
 Exact Framework Pydantic Models             FREEZE CANDIDATE
 Exact JSON Schema                           FREEZE CANDIDATE
 DB / API / Runtime Serialization            FREEZE CANDIDATE
@@ -396,6 +417,107 @@ $$
 BiologicalAnalogy
 \neq
 ScientificEvidence
+}
+$$
+
+---
+
+
+# 4A｜R5 Reference & Human-Elicitation Invariants
+
+SIS v0.3.1 R5 在不改变 First-Principles Ontology 的前提下，进一步冻结 reference / evaluation 层的不变量。
+
+$$
+\boxed{
+ExpertJudgment
+\neq
+LatentTruth
+}
+$$
+
+$$
+\boxed{
+EvaluatorReference
+\neq
+LatentTruth
+}
+$$
+
+$$
+\boxed{
+ExpertAgreement
+\neq
+ReferenceValidity
+}
+$$
+
+$$
+\boxed{
+ReferenceAnswer
+\neq
+ReferenceSemantics
+}
+$$
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+$$
+\boxed{
+ExPostOutcome
+\not\Rightarrow
+ExAnteDecisionCorrectness
+}
+$$
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+$$
+\boxed{
+HumanIdentity
+\neq
+HumanRole
+}
+$$
+
+这些区分的目的不是贬低 expert judgment。
+
+而是保持：
+
+$$
+\boxed{
+Construct
+\neq
+Measurement
+\neq
+Reference
+\neq
+LatentTruth
+}
+$$
+
+不同层级的 epistemic identity。
+
+Reference 可以是高质量、可审计、可用于评测的 scientific artifact。
+
+但：
+
+$$
+\boxed{
+ReferenceQuality
+\not\Rightarrow
+OntologicalIdentity
 }
 $$
 
@@ -1547,6 +1669,2408 @@ SystemLaw
 BoundaryConditions
 }
 $$
+
+---
+
+
+# Part VII-A | System Intelligence Science v0.3.1 R5 Patch
+## Capability Localization, Internalized Capability & Externalized Intelligence Semantics
+### 能力实现位置、内部化能力与外部化智能语义补丁
+
+**Patch class:** Cross-Cutting Scientific Semantic Clarification  
+**Target:** `System Intelligence Science v0.3.1 R5`  
+**Recommended insertion:** `Part VII-A`, after Component–System Capability Interaction / Boundary / Candidate System Law  
+**Scientific status:** `PROPOSED NORMATIVE PATCH`  
+**Core ontology delta:** `0`  
+**Program architecture delta:** `0`  
+**Core experiment schema delta:** `0`
+
+---
+
+# 39A｜Patch Purpose
+
+System Intelligence Science 已明确区分：
+
+\[
+SystemCapability
+\neq
+ModelCapability
+\]
+
+并将系统表示为：
+
+\[
+\mathcal S_t
+=
+(
+\mathcal C,
+\mathcal R_t,
+X_t,
+O_t,
+\pi_t
+)
+\]
+
+同时将 Architecture 定义为：
+
+\[
+\mathcal A_t
+=
+\Gamma(
+\mathcal C,
+\mathcal R_t
+)
+\]
+
+因此，当研究者讨论：
+
+```text
+model intelligence
+parameter intelligence
+system intelligence
+external intelligence
+tool-augmented intelligence
+retrieval-augmented intelligence
+human-augmented intelligence
+```
+
+时，不应把这些自然语言标签直接升级为新的 SIS scientific primitives。
+
+本补丁增加一个正交解释轴：
+
+\[
+\boxed{
+CapabilityLocalization
+}
+\]
+
+用于回答：
+
+> **某一可观察的系统能力贡献，在给定 system boundary 与 focal component boundary 下，主要由哪里承载、在何时可用、通过什么 mechanism 进入系统能力形成过程？**
+
+正式冻结：
+
+\[
+\boxed{
+CapabilityLocalization
+\neq
+CapabilityMagnitude
+}
+\]
+
+以及：
+
+\[
+\boxed{
+CapabilityLocalization
+\neq
+CausalAttribution
+}
+\]
+
+即：
+
+> 一个能力“位于哪里”，不等于它“贡献了多少”，也不等于已经证明它“造成了性能提升”。
+
+---
+
+# 39B｜Why Localization Must Be Boundary-Relative
+
+`internalized` 与 `externalized` 不是对象的绝对属性。
+
+必须先声明：
+
+\[
+\boxed{
+F
+=
+FocalComponent
+}
+\]
+
+以及：
+
+\[
+\boxed{
+\mathcal S
+=
+SystemBoundary
+}
+\]
+
+同一个资源可能：
+
+- 相对于语言模型 \(F\) 是 external；
+- 相对于整个 composite system \(\mathcal S\) 是 internal-to-system；
+- 相对于更大的 deployment environment 又可能是 external service。
+
+因此：
+
+\[
+\boxed{
+Internalized/Externalized
+=
+RelativeTo(F,\mathcal S,t)
+}
+\]
+
+没有显式 boundary 的：
+
+```text
+internal intelligence
+external intelligence
+```
+
+属于：
+
+```text
+LOCALIZATION_UNDERSPECIFIED
+```
+
+不得用于强 scientific claim。
+
+---
+
+# 39C｜Three Localization Zones
+
+在给定 focal component \(F\) 与 system boundary \(\mathcal S\) 下，能力资源至少区分三个位置。
+
+## Zone I｜Intra-Component
+
+资源属于 focal component 本身。
+
+例如对于一个固定 LLM：
+
+```text
+learned parameters
+embedded representations
+learned reasoning priors
+learned tool-use priors
+learned domain representations
+fixed component-internal computational structure
+```
+
+记为：
+
+\[
+\boxed{
+L(r)=INTRA\_COMPONENT
+}
+\]
+
+---
+
+## Zone II｜Extra-Component / Intra-System
+
+资源不属于 focal model，但属于 composite intelligent system。
+
+例如：
+
+```text
+retriever
+database
+knowledge base
+memory subsystem
+verifier
+planner
+rule engine
+calculator
+specialized model
+other agent
+human system component
+workflow state store
+externalized scientific evidence store
+```
+
+记为：
+
+\[
+\boxed{
+L(r)=EXTRA\_COMPONENT\_INTRA\_SYSTEM
+}
+\]
+
+---
+
+## Zone III｜Extra-System Context
+
+资源在当前 system boundary 外部，但可能通过合法 interface 被系统获取。
+
+例如：
+
+```text
+external web
+external guideline service
+hospital information service
+external human consultation
+external scientific database
+environmental observation source
+```
+
+记为：
+
+\[
+\boxed{
+L(r)=EXTRA\_SYSTEM
+}
+\]
+
+当 Zone III 信息经合法 acquisition mechanism 进入系统后，其后续 causal role 必须依据：
+
+```text
+Context
+Information
+Observation
+Probe Information
+Component
+Mechanism
+```
+
+重新确定。
+
+---
+
+# 39D｜Normative Term 1：Internalized Capability
+
+正式建议使用：
+
+\[
+\boxed{
+InternalizedCapability
+}
+\]
+
+而不是把：
+
+```text
+Internalized Intelligence
+```
+
+直接建立为 SIS primitive。
+
+## 定义
+
+> **Internalized Capability 是在明确 focal component boundary 后，在目标 evaluation / decision episode 开始之前，已经稳定编码或实现于 focal capability-bearing component 内部，并能够在不引入目标任务特异性外部知识资产或新增系统支架的条件下被调用的能力。**
+
+形式上：
+
+\[
+\boxed{
+C^{int}_{F}
+=
+CapabilityContribution
+\left(
+F_{\theta,\phi}
+\mid
+B_0,\Omega
+\right)
+}
+\]
+
+其中：
+
+- \(F\)：focal component；
+- \(\theta\)：learned parameters；
+- \(\phi\)：该 component 的固定内部实现属性；
+- \(B_0\)：预先声明的 minimal / baseline system support；
+- \(\Omega\)：Context。
+
+这里：
+
+\[
+C^{int}_{F}
+\]
+
+是 scientific construct，
+
+不是：
+
+\[
+ModelID
+\]
+
+也不是：
+
+\[
+BenchmarkScore
+\]
+
+因此继续满足：
+
+\[
+\boxed{
+ModelID
+\neq
+ComponentCapabilityConstruct
+}
+\]
+
+以及：
+
+\[
+\boxed{
+ScientificConstruct
+\neq
+MeasuredProxy
+}
+\]
+
+---
+
+# 39E｜What Counts as Internalized for a Model
+
+对于语言模型，典型 internalized capability 可以由以下过程形成：
+
+\[
+Pretraining
+\rightarrow
+ParameterUpdate
+\]
+
+\[
+ContinuedPretraining
+\rightarrow
+ParameterUpdate
+\]
+
+\[
+SFT
+\rightarrow
+ParameterUpdate
+\]
+
+\[
+PreferenceOptimization
+\rightarrow
+ParameterUpdate
+\]
+
+以及其他在正式 evaluation 之前已经固定进入 focal component identity 的学习过程。
+
+因此：
+
+\[
+\boxed{
+TrainingAsset
+\rightarrow
+Learning
+\rightarrow
+PersistentComponentChange
+\rightarrow
+InternalizedCapability
+}
+\]
+
+但：
+
+\[
+\boxed{
+TrainingDataOrigin
+\neq
+CapabilityLocalization
+}
+\]
+
+一份最初来自外部的数据，在完成模型训练后，其训练效应可以表现为 internalized capability。
+
+例如：
+
+```text
+Scientific Corpus
+→ SFT
+→ updated model parameters
+→ no runtime corpus access
+```
+
+此时科学语义上研究的是：
+
+\[
+ComponentCapabilityChange
+\]
+
+而不是 runtime external knowledge effect。
+
+---
+
+# 39F｜Internalized Capability Does Not Include Runtime Information
+
+以下内容不得仅因为“进入了模型上下文窗口”就被称为 internalized intelligence：
+
+```text
+system prompt
+retrieved passage
+tool result
+current conversation
+runtime guideline
+patient record
+current sensor observation
+temporary scratchpad
+external memory retrieval
+human message
+runtime database response
+```
+
+这些内容应依据 SIS Information / Observation / State semantics 分类。
+
+因此冻结：
+
+\[
+\boxed{
+InformationInContextWindow
+\neq
+InternalizedKnowledge
+}
+\]
+
+以及：
+
+\[
+\boxed{
+RuntimeObservation
+\neq
+InternalizedCapability
+}
+\]
+
+模型能够**利用**这些信息的能力可以是 internalized capability；
+
+这些信息本身不是。
+
+---
+
+# 39G｜Normative Term 2：Externalized Capability Contribution
+
+正式建议使用：
+
+\[
+\boxed{
+ExternalizedCapabilityContribution
+}
+\]
+
+作为科学术语。
+
+`Externalized Intelligence` 可以作为其 communication alias。
+
+## 定义
+
+> **Externalized Capability Contribution 是在 focal component 之外，通过可访问的信息、其他能力组件、组件关系、系统机制、显式状态表示、控制策略或合法人类参与，在运行时对 composite system capability 产生的增量或调节性贡献。**
+
+它不是新的 SIS object。
+
+它必须能够还原为现有 SIS semantics：
+
+\[
+\boxed{
+ExternalizedCapabilityContribution
+\rightsquigarrow
+Information
++
+Components
++
+Relations
++
+Mechanisms
++
+State/Observation
++
+Control
+}
+\]
+
+必要时进一步包括：
+
+\[
+Dynamics
++
+HumanRole
++
+ResourceUse
+\]
+
+因此：
+
+\[
+\boxed{
+ExternalizedIntelligence
+\neq
+ExternalKnowledgeBase
+}
+\]
+
+也：
+
+\[
+\boxed{
+ExternalizedIntelligence
+\neq
+RAG
+}
+\]
+
+还：
+
+\[
+\boxed{
+ExternalizedIntelligence
+\neq
+Architecture
+}
+\]
+
+RAG、knowledge base、multi-agent、human escalation 等只是具体 implementation / mechanism realizations。
+
+---
+
+# 39H｜Externalized Information Is Only One Subtype
+
+外部化能力贡献至少可通过以下渠道产生：
+
+### Information Externalization
+
+例如：
+
+```text
+scientific evidence
+guidelines
+retrieved documents
+structured knowledge
+task-specific records
+external observations
+```
+
+### Computational Externalization
+
+例如：
+
+```text
+calculator
+code executor
+solver
+specialized model
+simulation engine
+```
+
+### Memory / State Externalization
+
+例如：
+
+```text
+persistent memory
+shared state
+external scratchpad
+structured trajectory store
+patient longitudinal state
+```
+
+### Verification Externalization
+
+例如：
+
+```text
+verifier
+critic
+independent checker
+consensus mechanism
+rule engine
+```
+
+### Organizational Externalization
+
+例如：
+
+```text
+routing
+delegation
+specialization
+fallback
+authority structure
+```
+
+### Human Externalization
+
+例如：
+
+```text
+expert consultation
+human escalation
+operator intervention
+human takeover
+```
+
+### Regulatory Externalization
+
+例如：
+
+```text
+uncertainty-triggered verification
+abstention policy
+escalation policy
+resource reallocation
+reconfiguration
+```
+
+这些不是新的 primitives。
+
+它们必须映射回已有 SIS object、mechanism、process、policy 与 information semantics。
+
+---
+
+# 39I｜Architecture Is an Organizer, Not an Intelligence Substance
+
+SIS 已定义：
+
+\[
+Architecture
+=
+DerivedStructure(
+Components,
+Relations
+)
+\]
+
+因此不建议写：
+
+\[
+Architecture
+=
+ExternalizedIntelligence
+\]
+
+更准确的是：
+
+\[
+\boxed{
+Architecture
+\ organizes
+externalized\ capability\ resources
+}
+\]
+
+系统架构可能改变：
+
+```text
+who sees what
+who verifies whom
+where state is stored
+where control authority resides
+when retrieval is triggered
+how failures propagate
+how resources are allocated
+```
+
+但架构本身的存在：
+
+\[
+\not\Rightarrow
+CapabilityGain
+\]
+
+必须研究具体：
+
+\[
+do(M)
+\rightarrow
+Y
+\]
+
+或：
+
+\[
+do(Organization)
+\rightarrow
+Y
+\]
+
+而不能把 architecture label 当成 causal explanation。
+
+---
+
+# 39J｜System Capability Formation with Capability Localization
+
+为了表达 internalized 与 externalized contributions，可以使用如下解释式：
+
+\[
+\boxed{
+Y
+=
+f(
+C^{int},
+I^{ext},
+C^{ext},
+\mathcal R,
+M,
+X,
+O,
+\pi,
+D
+\mid
+\Omega
+)
+}
+\]
+
+其中：
+
+- \(C^{int}\)：focal component internalized capability；
+- \(I^{ext}\)：externalized accessible information；
+- \(C^{ext}\)：其他 system components 的 capability；
+- \(\mathcal R\)：relations / organization；
+- \(M\)：mechanisms；
+- \(X\)：system state；
+- \(O\)：observations；
+- \(\pi\)：control / policy；
+- \(D\)：dynamics / adaptation；
+- \(\Omega\)：context。
+
+该式仅表示：
+
+\[
+FunctionalDependence
+\]
+
+不预设：
+
+\[
+Additivity
+\]
+
+因此：
+
+\[
+\boxed{
+SystemCapability
+\neq
+InternalizedCapability
++
+ExternalizedCapability
+}
+\]
+
+作为一般加法恒等式。
+
+交互、冗余、干扰、阈值和饱和均可能存在。
+
+---
+
+# 39K｜Internalization and Externalization Are Transformable
+
+同一个 scientific asset 可以通过不同路径进入系统。
+
+## Path A｜Internalization
+
+\[
+ExternalAsset
+\rightarrow
+Training
+\rightarrow
+ParameterUpdate
+\rightarrow
+InternalizedCapability
+\]
+
+## Path B｜Runtime Externalization
+
+\[
+ExternalAsset
+\rightarrow
+RuntimeAccess
+\rightarrow
+Retrieval/Verification/Reasoning
+\rightarrow
+ExternalizedCapabilityContribution
+\]
+
+因此：
+
+\[
+\boxed{
+AssetIdentity
+\neq
+CapabilityLocalization
+}
+\]
+
+例如同一个 scientific corpus：
+
+```text
+used for model training
+```
+
+和：
+
+```text
+used as runtime evidence store
+```
+
+具有完全不同的 experimental semantics。
+
+---
+
+# 39L｜Internalization × Externalization Interaction
+
+这是本补丁与 CSCI 的主要连接点。
+
+核心问题可以表示为：
+
+\[
+\boxed{
+Effect(
+ExternalizedSystemMechanism
+)
+=
+f(
+InternalizedComponentCapability
+)
+}
+\]
+
+或：
+
+\[
+\boxed{
+Interaction(
+C^{int},
+M^{ext}
+)
+}
+\]
+
+合法 empirical outcomes 继续沿用 CSCI：
+
+```text
+SUBSTITUTION
+COMPLEMENTARITY
+SATURATION
+THRESHOLD
+NULL_INTERACTION
+```
+
+---
+
+## Substitution
+
+若较弱 component 从 externalized system support 中获得更大增益：
+
+\[
+\Delta Y_{weak}
+>
+\Delta Y_{strong}
+\]
+
+可能支持：
+
+\[
+\boxed{
+SubstitutionEffect
+}
+\]
+
+但不得直接写成：
+
+> system replaces model intelligence
+
+除非相应 estimand、boundary 和 resource/information controls 均成立。
+
+---
+
+## Complementarity
+
+若：
+
+\[
+\Delta Y_{strong}
+>
+\Delta Y_{weak}
+\]
+
+则可能说明：
+
+\[
+\boxed{
+ComplementarityEffect
+}
+\]
+
+即较强 internalized capability 更能利用 externalized structure。
+
+---
+
+## Saturation
+
+若加入 externalized system support 后：
+
+\[
+Y_{weak}
+\approx
+Y_{medium}
+\approx
+Y_{strong}
+\]
+
+可以研究：
+
+\[
+\boxed{
+CapabilityRegimeSaturation
+}
+\]
+
+但必须排除 ceiling effect、metric insensitivity 与 benchmark insufficiency。
+
+---
+
+## Threshold
+
+若只有：
+
+\[
+C^{int}>c^*
+\]
+
+后 externalized system mechanism 才产生明显正效应，则：
+
+\[
+\boxed{
+ThresholdEffect
+}
+\]
+
+说明 externalized structure 本身仍依赖最低 component capability。
+
+---
+
+# 39M｜Externalized Intelligence Is Not Necessarily Beneficial
+
+冻结：
+
+\[
+\boxed{
+Externalization
+\not\Rightarrow
+CapabilityGain
+}
+\]
+
+外部化系统可能引入：
+
+```text
+retrieval noise
+coordination overhead
+latency
+additional cost
+error propagation
+false verification
+memory contamination
+authority ambiguity
+information overload
+human inconsistency
+```
+
+因此 externalization 的 net value 必须考虑：
+
+\[
+\boxed{
+V_{ext}
+=
+Benefit
+-
+Cost
+-
+Risk
+-
+Overhead
+}
+\]
+
+具体 utility function 保持 OPEN。
+
+---
+
+# 39N｜Information Causality Alignment
+
+Externalized information 必须继续遵循 SIS Information Typing：
+
+\[
+I
+=
+(
+I^{task},
+O_t,
+I^{probe}_t,
+I^{derived}_t
+)
+\]
+
+因此 NutriFoundation、guideline corpus、scientific database 等资源不能仅标注：
+
+```text
+external knowledge
+```
+
+必须根据实验实际角色区分：
+
+### Baseline Available Evidence
+
+若在 treatment 前所有 arm 均可访问：
+
+\[
+I^{task}
+\]
+
+### Runtime Retrieved Evidence
+
+若由 retrieval / probing action 获得：
+
+\[
+I^{probe}_t
+\]
+
+### Structured Scientific Interpretation
+
+若系统在 runtime 基于 evidence 形成：
+
+\[
+I^{derived}_t
+\]
+
+例如：
+
+```text
+ScientificClaim
+ApplicabilityAssessment
+ConflictAssessment
+RiskSynthesis
+```
+
+必须根据其实际生成过程确定 causal role。
+
+---
+
+# 39O｜Training Effect ≠ Runtime Knowledge Effect
+
+为了避免训练语料和系统资源混淆，正式冻结：
+
+\[
+\boxed{
+TrainingDataEffect
+\neq
+RuntimeKnowledgeSystemEffect
+}
+\]
+
+建议最小 factorial decomposition：
+
+\[
+\boxed{
+ModelTraining
+\times
+RuntimeExternalization
+}
+\]
+
+形成：
+
+| | Runtime Externalization OFF | Runtime Externalization ON |
+|---|---:|---:|
+| Base component | A | B |
+| Internally adapted component | C | D |
+
+其中：
+
+\[
+A\rightarrow C
+\]
+
+主要用于估计：
+
+\[
+InternalizationEffect
+\]
+
+而：
+
+\[
+A\rightarrow B
+\]
+
+主要用于估计：
+
+\[
+ExternalizationEffect
+\]
+
+以及：
+
+\[
+(C-D)-(A-B)
+\]
+
+或对应预注册 interaction estimand，用于研究：
+
+\[
+Internalization
+\times
+Externalization
+\]
+
+的 substitution、complementarity、saturation 或 threshold。
+
+具体 estimator 保持 OPEN。
+
+---
+
+# 39P｜Resource and Information Governance
+
+任何 externalization effect 的 causal claim 必须同时治理：
+
+```text
+model identity / component capability
+input information
+tokens
+model calls
+compute
+latency
+tool access
+human assistance
+retry count
+retrieval budget
+memory capacity
+evaluator
+```
+
+否则：
+
+\[
+Y_{ext}>Y_{base}
+\]
+
+最多支持：
+
+```text
+performance difference
+```
+
+不能自动支持：
+
+```text
+externalization caused the improvement
+```
+
+因此：
+
+\[
+\boxed{
+ExternalizationClaim
+\Rightarrow
+ResourceGovernance
++
+InformationGovernance
+}
+\]
+
+---
+
+# 39Q｜Human Intelligence Localization
+
+Human participant 的语义必须由：
+
+\[
+HumanRole
+\]
+
+而不是：
+
+\[
+HumanIdentity
+\]
+
+决定。
+
+若 human expert 在 runtime 内参与：
+
+```text
+consultation
+verification
+escalation
+takeover
+decision support
+```
+
+且位于 system boundary 内，则相对于 focal model：
+
+\[
+\boxed{
+HumanContribution
+\subset
+ExternalizedCapabilityContribution
+}
+\]
+
+可以成立。
+
+但若 human 仅作为：
+
+```text
+annotator
+reference constructor
+evaluator
+adjudicator
+validation source
+```
+
+则该 human 不应被计算为被测 system runtime intelligence 的组成部分。
+
+因此冻结：
+
+\[
+\boxed{
+HumanEvaluator
+\neq
+ExternalizedSystemCapability
+}
+\]
+
+以及：
+
+\[
+\boxed{
+HumanReferenceConstruction
+\neq
+RuntimeHumanAugmentation
+}
+\]
+
+---
+
+# 39R｜State Externalization ≠ Knowledge Internalization
+
+SIS 已存在：
+
+```text
+memory externalization
+state externalization
+```
+
+作为 mechanism。
+
+必须区分：
+
+\[
+\boxed{
+PersistentModelLearning
+\neq
+RuntimeStatePersistence
+}
+\]
+
+例如：
+
+```text
+longitudinal patient state store
+conversation memory
+trajectory store
+external scratchpad
+case history database
+```
+
+即使能够跨时间保留信息，也不因此变成 model-internalized intelligence。
+
+它们属于：
+
+\[
+State/Observation/Information/MemoryMechanism
+\]
+
+相关 system semantics。
+
+---
+
+# 39S｜Model Architecture vs System Architecture
+
+为避免 terminology collision，正式建议区分：
+
+### Component-Internal Architecture
+
+例如：
+
+```text
+Transformer
+MoE
+CNN
+state-space model
+```
+
+属于 focal component design。
+
+### SIS System Architecture
+
+\[
+\mathcal A_t
+=
+\Gamma(
+\mathcal C,
+\mathcal R_t
+)
+\]
+
+描述 composite system 的 Components 与 Relations。
+
+因此：
+
+\[
+\boxed{
+ModelArchitecture
+\neq
+SystemArchitecture
+}
+\]
+
+模型内部 architecture 带来的能力主要进入：
+
+\[
+ComponentCapability
+\]
+
+而 composite-system architecture 的科学效应进入：
+
+\[
+OrganizationEffect
+\]
+
+或相关 mechanism / interaction estimand。
+
+---
+
+# 39T｜SIS-MED Domain Stress-Test Mapping
+
+SIS-MED 作为 Tier-3 medical validation program，应能够无损表达本补丁。
+
+在医疗系统中：
+
+## Internalized Capability
+
+可以包括：
+
+```text
+base model medical knowledge
+learned clinical reasoning priors
+learned uncertainty behavior
+learned tool-use competence
+learned communication competence
+```
+
+前提是这些能力在 evaluation 开始前已经存在于 focal component。
+
+---
+
+## Externalized Information
+
+可以包括：
+
+```text
+guidelines
+patient records
+clinical evidence
+drug database
+scientific literature
+laboratory data
+external specialist knowledge
+```
+
+---
+
+## Externalized Components / Mechanisms
+
+可以包括：
+
+```text
+guideline retrieval
+independent verifier
+clinical calculator
+structured evidence system
+monitoring module
+decision-support scaffold
+human consultation
+human escalation
+safety rule engine
+longitudinal state store
+```
+
+---
+
+## Externalized Regulation
+
+可以包括：
+
+```text
+ASK
+TEST
+REVIEW
+RETRIEVE
+CONSULT
+OBSERVE
+WAIT
+ABSTAIN
+ESCALATE
+NO_CHANGE
+REDECIDE
+```
+
+当 scientific question 是：
+
+\[
+Information_t
+\rightarrow
+ActionSelection_t
+\]
+
+仍路由至：
+
+\[
+ASR
+\]
+
+而不是因为使用了 externalized intelligence 就建立新的 Program。
+
+---
+
+# 39U｜SIS-MED CSCI Alignment
+
+SIS-MED 已允许研究：
+
+\[
+Effect(
+ClinicalScaffold
+)
+=
+f(
+BaseModelCapability
+)
+\]
+
+并进一步提出：
+
+\[
+3\ ComponentCapability
+\times
+2\ SystemScaffold
+\times
+2\ ExternalEvidence
+\]
+
+本补丁将其解释为：
+
+\[
+\boxed{
+InternalizedCapability
+\times
+ExternalizedSystemScaffold
+\times
+ExternalizedInformation
+}
+\]
+
+但三者仍必须分别操纵。
+
+特别冻结：
+
+\[
+\boxed{
+SystemScaffold
+\neq
+ExternalEvidence
+}
+\]
+
+因为：
+
+- Scaffold 是 organization / mechanism / component structure；
+- ExternalEvidence 是 information；
+- BaseModelCapability 是 component capability。
+
+三者科学身份不得合并。
+
+---
+
+# 39V｜Scientific Evidence / Reference Boundary
+
+Externalized scientific evidence 与 evaluator reference 必须分开。
+
+系统在 decision time 实际可访问的 evidence：
+
+\[
+E_{system,t}
+\]
+
+可以构成 externalized information。
+
+而 benchmark evaluator 使用的：
+
+\[
+R^{ref}
+\]
+
+属于：
+
+\[
+Reference/EvaluationGovernance
+\]
+
+除非该 reference 同时合法提供给被测系统，否则：
+
+\[
+\boxed{
+EvaluatorReference
+\notin
+SystemInformation
+}
+\]
+
+这在 SIS-MED 中尤其重要。
+
+否则可能发生：
+
+```text
+reference leakage
+hindsight leakage
+future information contamination
+```
+
+---
+
+# 39W｜Capability Localization Annotation
+
+本补丁不改变 `ScientificExperimentContract` Core schema。
+
+可选增加一个非拥有式 annotation artifact：
+
+```yaml
+CapabilityLocalizationAnnotation:
+
+  annotation_id:
+  version:
+
+  focal_component_ref:
+  system_boundary_ref:
+  evaluation_time:
+
+  internalized:
+    component_capability_constructs: []
+    persistent_component_assets: []
+    training_history_refs: []
+
+  externalized:
+    information_assets: []
+    component_refs: []
+    relation_refs: []
+    mechanism_refs: []
+    state_or_memory_refs: []
+    control_or_policy_refs: []
+    human_component_refs: []
+
+  runtime_information:
+    task_information_refs: []
+    observation_refs: []
+    probe_information_refs: []
+    derived_information_refs: []
+
+  localization_ambiguity:
+    status:
+    unresolved_items: []
+
+  experimental_roles:
+    treatments: []
+    moderators: []
+    mediators: []
+    outcomes: []
+    confounders: []
+
+  provenance_refs: []
+```
+
+该对象属于：
+
+\[
+\boxed{
+ScientificAnnotationArtifact
+}
+\]
+
+不是：
+
+```text
+SIS Core primitive
+Scientific Program
+Framework
+Scientific Claim
+```
+
+---
+
+# 39X｜Canonical Non-Equivalences
+
+正式建议增加：
+
+\[
+\boxed{
+InternalizedCapability
+\neq
+ModelID
+}
+\]
+
+\[
+\boxed{
+InternalizedCapability
+\neq
+ModelPerformance
+}
+\]
+
+\[
+\boxed{
+ExternalizedCapabilityContribution
+\neq
+ExternalKnowledge
+}
+\]
+
+\[
+\boxed{
+ExternalizedCapabilityContribution
+\neq
+RAG
+}
+\]
+
+\[
+\boxed{
+ExternalizedCapabilityContribution
+\neq
+Architecture
+}
+\]
+
+\[
+\boxed{
+RuntimeContext
+\neq
+InternalizedKnowledge
+}
+\]
+
+\[
+\boxed{
+TrainingDataOrigin
+\neq
+CapabilityLocalization
+}
+\]
+
+\[
+\boxed{
+TrainingDataEffect
+\neq
+RuntimeKnowledgeEffect
+}
+\]
+
+\[
+\boxed{
+HumanEvaluator
+\neq
+HumanSystemComponent
+}
+\]
+
+\[
+\boxed{
+SystemScaffold
+\neq
+ExternalEvidence
+}
+\]
+
+\[
+\boxed{
+CapabilityLocalization
+\neq
+CausalContribution
+}
+\]
+
+以及继续保持：
+
+\[
+\boxed{
+SystemCapability
+\neq
+ModelCapability
+}
+\]
+
+---
+
+# 39Y｜Kill Tests
+
+## CL-KT1｜Boundary Ambiguity
+
+若未定义：
+
+```text
+focal component
+system boundary
+evaluation time
+```
+
+却声称：
+
+```text
+internalized intelligence
+externalized intelligence
+```
+
+则：
+
+```text
+LOCALIZATION_UNDERSPECIFIED
+```
+
+---
+
+## CL-KT2｜Context-as-Internalization Trap
+
+若 retrieved evidence、prompt、patient record 或 tool result 因进入 context window 被标记为 internalized knowledge：
+
+```text
+FAIL
+```
+
+---
+
+## CL-KT3｜Training/Runtime Collapse
+
+若：
+
+```text
+trained-on-corpus
+```
+
+与：
+
+```text
+runtime-access-to-corpus
+```
+
+被视为同一 treatment：
+
+```text
+FAIL
+```
+
+---
+
+## CL-KT4｜Externalization Label Trap
+
+若只因为系统包含：
+
+```text
+RAG
+tool
+memory
+multi-agent
+human
+```
+
+就声称存在 externalized capability gain：
+
+```text
+FAIL
+```
+
+必须存在可测的 effect。
+
+---
+
+## CL-KT5｜Architecture–Mechanism Collapse
+
+若：
+
+```text
+Architecture A > Architecture B
+```
+
+直接被解释成：
+
+```text
+Externalized intelligence caused improvement
+```
+
+而无 target mechanism 与 manipulation check：
+
+```text
+FAIL
+```
+
+---
+
+## CL-KT6｜Resource Confounding
+
+若 externalized system 使用更多：
+
+```text
+tokens
+calls
+compute
+time
+human effort
+tools
+```
+
+但未治理 resource difference，则强 causal claim：
+
+```text
+NONCONFORMANT
+```
+
+---
+
+## CL-KT7｜Information Confounding
+
+若 externalization treatment arm 获得了额外 task information，而研究声称提升来自 organization / verification mechanism：
+
+```text
+NONCONFORMANT
+```
+
+除非 information difference 本身就是 treatment。
+
+---
+
+## CL-KT8｜Human Role Leakage
+
+若 expert evaluator 被计入 runtime system capability：
+
+```text
+FAIL
+```
+
+除非其在被测 system boundary 内真实参与 decision process。
+
+---
+
+## CL-KT9｜Component Identity Drift
+
+若所谓：
+
+```text
+same model
+```
+
+实际上存在：
+
+```text
+different weights
+different adapters
+different fine-tuning
+different hidden system configuration
+```
+
+则必须重新判断 focal component identity。
+
+---
+
+## CL-KT10｜Strong Component Collapse
+
+继续继承 SIS：
+
+若：
+
+\[
+ComponentCapability\uparrow
+\]
+
+导致：
+
+\[
+ExternalizedMechanismEffect
+\rightarrow0
+\]
+
+则必须缩小 externalization claim。
+
+这可以是：
+
+\[
+Saturation
+\]
+
+或：
+
+\[
+Redundancy
+\]
+
+的 empirical evidence，而不是实验失败。
+
+---
+
+# 39Z｜Claim Language
+
+在只有 performance comparison 时，可以写：
+
+> Under the tested conditions, the system with externalized support achieved higher measured performance than the baseline system.
+
+不得写：
+
+> Externalized intelligence caused the improvement.
+
+若完成 controlled identification，可写：
+
+> Under context \(C\), introducing mechanism \(M\) while governing component capability, information and resource capacity caused a measurable change in system property \(Y\).
+
+若进一步证明 interaction：
+
+> The effect of the externalized system mechanism was moderated by component capability.
+
+即：
+
+\[
+\boxed{
+Effect(M^{ext})
+=
+f(
+C^{int}
+)
+}
+\]
+
+若发现 substitution：
+
+> Externalized system support partially compensated for lower component capability within the tested boundary.
+
+不得扩张为：
+
+> Systems can replace model intelligence universally.
+
+---
+
+# 39AA｜Relationship to SIS Scientific Programs
+
+Capability Localization 不建立新的 Primary Program。
+
+正式冻结：
+
+\[
+\boxed{
+CapabilityLocalization
+\neq
+ScientificProgram
+}
+\]
+
+其 scientific question 仍按 primary estimand 路由。
+
+### SCF
+
+若问：
+
+> externalized retrieval / verification / scaffold 是否提高 system capability？
+
+路由：
+
+\[
+SCF
+\]
+
+### SDR
+
+若问：
+
+> externalized memory / state / recovery mechanisms 如何影响 failure propagation 与 recovery trajectory？
+
+路由：
+
+\[
+SDR
+\]
+
+### ASR
+
+若问：
+
+> 系统何时应该 retrieve、verify、probe、ask、escalate 或 abstain？
+
+路由：
+
+\[
+ASR
+\]
+
+### CSCI
+
+若问：
+
+> externalized system mechanism 的效应是否随 internalized component capability 改变？
+
+横向标记：
+
+\[
+CSCI
+\]
+
+### Boundary / Transportability
+
+若问：
+
+> substitution / complementarity 是否跨 model regime、domain、risk、budget 或 information regime 保持？
+
+横向进入：
+
+\[
+BOUNDARY\_GENERALIZATION\_TRANSPORTABILITY
+\]
+
+---
+
+# 39AB｜Relationship to EI-SMCT
+
+历史 EI-SMCT 命题：
+
+\[
+M_{weak}
++
+S_{strong}
+\approx
+M_{strong}
++
+S_{simple}
+\]
+
+不得被本补丁重新冻结为前提。
+
+更中性的 SIS 表达仍为：
+
+\[
+\boxed{
+Effect(
+ExternalizedSystemMechanism
+)
+=
+f(
+InternalizedComponentCapability
+)
+}
+\]
+
+可能结果：
+
+```text
+substitution
+complementarity
+saturation
+threshold
+null interaction
+```
+
+因此：
+
+\[
+\boxed{
+ExternalizedIntelligence
+\not\Rightarrow
+Substitution
+}
+\]
+
+---
+
+# 39AC｜Relationship to NutriFoundation-Like Scientific Infrastructure
+
+一个 structured scientific knowledge infrastructure 可根据使用方式承担不同 scientific role。
+
+### Runtime Mode
+
+若：
+
+```text
+model parameters fixed
++
+scientific knowledge available at runtime
+```
+
+则主要属于：
+
+\[
+ExternalizedInformation
++
+ExternalizedSystemMechanism
+\]
+
+可能涉及：
+
+```text
+retrieval
+verification
+evidence synthesis
+applicability reasoning
+state representation
+decision support
+```
+
+---
+
+### Training Mode
+
+若：
+
+```text
+scientific corpus
+→ training
+→ parameter update
+```
+
+则其最终影响主要通过：
+
+\[
+ComponentCapability
+\]
+
+体现。
+
+---
+
+### Hybrid Mode
+
+若：
+
+```text
+trained model
++
+runtime scientific infrastructure
+```
+
+则核心科学问题是：
+
+\[
+\boxed{
+InternalizedCapability
+\times
+ExternalizedCapabilityContribution
+}
+\]
+
+其 interaction 必须实证确定。
+
+---
+
+# 39AD｜Scientific Interpretation
+
+本补丁最终建议以下通信语义：
+
+\[
+\boxed{
+Internalized\ Intelligence
+\approx
+Internalized\ Component\ Capability
+}
+\]
+
+以及：
+
+\[
+\boxed{
+Externalized\ Intelligence
+\approx
+Runtime\ Externalized\ Capability\ Contribution
+}
+\]
+
+但在正式 scientific claim 中优先使用：
+
+```text
+Internalized Capability
+Externalized Capability Contribution
+Component Capability
+External Information
+System Mechanism
+System Capability
+```
+
+而不是使用模糊的：
+
+```text
+parameter intelligence
+system intelligence
+external intelligence
+```
+
+---
+
+# 39AE｜Final Normative Definition
+
+## Internalized Capability
+
+> **在明确 focal component、system boundary、context 和 evaluation time 后，已经稳定实现于 focal capability-bearing component 内部，并可在不依赖目标任务特异性新增外部信息资产或新增系统支架的条件下被调用的能力。对于参数化模型，其主要载体通常是 evaluation 前已经固定的 learned parameters 及 component-internal implementation。**
+
+---
+
+## Externalized Capability Contribution
+
+> **在明确 focal component 与 composite-system boundary 后，位于 focal component 之外、通过外部信息、其他能力组件、组件关系、系统机制、显式状态表示、控制策略、动态过程或合法人类参与，在 runtime 对 system-level capability、efficiency、viability、robustness 或 adaptability 产生的可测贡献。**
+
+---
+
+## System Capability
+
+二者最终统一于：
+
+\[
+\boxed{
+SystemCapability
+=
+ConditionalProperty(
+CompositeSystem
+\mid
+Context
+)
+}
+\]
+
+而不是：
+
+\[
+InternalizedIntelligence
++
+ExternalizedIntelligence
+\]
+
+的简单加和。
+
+更一般地：
+
+\[
+\boxed{
+\begin{aligned}
+SystemCapability
+=
+f(
+&InternalizedComponentCapability,\\
+&ExternalInformation,\\
+&ExternalComponents,\\
+&Relations,\\
+&Mechanisms,\\
+&State,\\
+&Observability,\\
+&Control,\\
+&Dynamics\\
+&\mid Context)
+\end{aligned}
+}
+\]
+
+---
+
+# 39AF｜Patch Non-Regression Decision
+
+本补丁：
+
+```text
+does NOT create a new SIS primitive
+does NOT create a new Primary Program
+does NOT create a new Cross-Cutting Program
+does NOT redefine CSCI
+does NOT redefine Information semantics
+does NOT redefine Architecture
+does NOT redefine Component
+does NOT modify ScientificExperimentContract
+does NOT modify Claim Ladder
+```
+
+它仅增加：
+
+\[
+\boxed{
+CapabilityLocalizationSemantics
+}
+\]
+
+用于消除：
+
+```text
+model capability
+parameterized knowledge
+runtime information
+system scaffold
+external evidence
+human augmentation
+architecture
+mechanism
+```
+
+之间常见的概念混淆。
+
+因此建议：
+
+\[
+\boxed{
+ScientificCoreDelta=0
+}
+\]
+
+\[
+\boxed{
+ProgramArchitectureDelta=0
+}
+\]
+
+\[
+\boxed{
+CoreExperimentSchemaDelta=0
+}
+\]
+
+并建议将：
+
+```text
+Capability Localization Semantics
+Internalized Capability Semantics
+Externalized Capability Contribution Semantics
+Internalization–Externalization Interaction Semantics
+```
+
+状态设为：
+
+```text
+FROZEN
+```
+
+前提是完成 R5 Non-Regression Review。
+
+---
+
+# Final Normative Sentence
+
+\[
+\boxed{
+\textbf{
+System intelligence is not defined by where intelligence is stored,
+but by how capability-bearing resources,
+information,
+mechanisms,
+organization,
+state and control
+jointly generate system-level properties
+under explicit boundaries.
+}
+}
+\]
+
+中文：
+
+> **SIS 不以“智能存储在哪里”定义系统智能；internalized 与 externalized 只描述能力实现与调用位置。真正的科学问题是：在明确的系统边界、信息条件、资源条件与风险约束下，组件内部能力与外部化信息、组件、机制、组织、状态和控制如何交互，并因果性地形成系统级能力。**
+
 
 ---
 
@@ -3257,6 +5781,300 @@ $$
 
 ---
 
+
+# Part XVII-A｜Human Reference & Evaluation Semantics
+
+# 68A｜Reference 是评价对象，不是 latent truth 的同义词
+
+定义 evaluator reference：
+
+$$
+\boxed{
+R^{ref}_{q,c,v}
+}
+$$
+
+其中：
+
+```text
+q  target evaluation question / scientific function
+c  reference-construction conditions
+v  reference version
+```
+
+Reference 的科学用途是：
+
+```text
+evaluation
+calibration
+benchmarking
+adjudication support
+decision-quality assessment
+```
+
+而不是宣称：
+
+$$
+Reference=WorldTruth
+$$
+
+因此冻结：
+
+$$
+\boxed{
+EvaluatorReference
+\neq
+LatentTruth
+}
+$$
+
+---
+
+# 68B｜Expert Judgment 的 epistemic status
+
+领域专家可以提供：
+
+```text
+observation interpretation
+professional judgment
+acceptable action boundaries
+risk assessment
+uncertainty characterization
+adjudication
+```
+
+但：
+
+$$
+\boxed{
+ExpertJudgment
+\neq
+LatentTruth
+}
+$$
+
+Expert judgment 可作为：
+
+```text
+measurement evidence
+reference-construction evidence
+evaluation evidence input
+```
+
+其 scientific value 取决于：
+
+```text
+information available
+expertise relevance
+independence
+evidence anchoring
+uncertainty
+adjudication
+versioning
+```
+
+而不是仅由：
+
+```text
+expert title
+institution
+seniority
+```
+
+决定。
+
+---
+
+# 68C｜Expert Agreement ≠ Reference Validity
+
+多个专家一致：
+
+$$
+Agreement\uparrow
+$$
+
+可以提高某些 reliability construct。
+
+但不能直接推出：
+
+$$
+Validity=1
+$$
+
+因此：
+
+$$
+\boxed{
+ExpertAgreement
+\neq
+ReferenceValidity
+}
+$$
+
+Reference validity 仍需结合：
+
+```text
+construct definition
+information boundary
+evidence quality
+measurement validity
+temporal integrity
+external validation where available
+```
+
+判断。
+
+---
+
+# 68D｜Reference Uncertainty
+
+正式冻结：
+
+$$
+\boxed{
+Reference
+\not\Rightarrow
+ZeroUncertainty
+}
+$$
+
+Reference 可以显式携带：
+
+```text
+measurement uncertainty
+expert disagreement
+evidence gap
+conditionality
+acceptable variation
+unresolved branch
+mapping ambiguity
+```
+
+因此 benchmark 不得默认：
+
+$$
+ReferenceUncertainty=0
+$$
+
+---
+
+# 68E｜Ex-Ante 与 Ex-Post Evidence Separation
+
+当 reference 用于评价决策：
+
+$$
+\boxed{
+ExAnteDecisionEvaluation
+\neq
+ExPostOutcomeValidation
+}
+$$
+
+Ex-ante evaluator 应根据：
+
+```text
+decision-time information
+admissible action set
+risk / constraint state
+available evidence
+```
+
+评价。
+
+Ex-post evidence 可用于：
+
+```text
+outcome validation
+retrospective mechanism analysis
+calibration
+longitudinal validation
+```
+
+但不得自动重写 prior decision correctness。
+
+---
+
+# 68F｜Hindsight Leakage
+
+现有 Decision-Time Evidence Integrity 继续冻结：
+
+$$
+EvidenceTime
+\leq
+DecisionPoint
+$$
+
+R5 进一步定义 evaluator-side：
+
+$$
+\boxed{
+HindsightLeakage
+}
+$$
+
+若：
+
+```text
+future outcome / future evidence
+```
+
+虽未直接进入 system input，
+
+但通过 evaluator / annotator 的已知结局：
+
+```text
+retroactively changes ex-ante reference
+without legitimate ex-ante evidence path
+```
+
+则视为 hindsight contamination risk。
+
+必须记录：
+
+```text
+future_information_known
+blinding_status
+hindsight_risk
+mitigation
+```
+
+---
+
+# 68G｜Reference Evidence Role Non-Inflation
+
+R5 不新增第四类 Core evidence role。
+
+仍保持：
+
+$$
+E
+=
+(
+E^{opt},
+E^{meas},
+E^{val}
+)
+$$
+
+Expert annotation 可作为：
+
+$$
+E^{meas}
+$$
+
+或 reference-construction input。
+
+Adjudicated reference：
+
+$$
+\not\Rightarrow
+E^{val}
+$$
+
+除非其确实满足目标 validation claim 的 evidence contract。
+
+---
+
 # Part XVIII｜Opportunity, Actionability and Regulation
 
 # 69｜Diagnosis 不等于 Optimization Opportunity
@@ -3422,6 +6240,221 @@ AdaptiveRegulation
 \neq
 ContinuousOptimization
 }
+$$
+
+---
+
+
+# Part XIX-A｜Decision Reference Semantics
+
+# 73A｜Decision Quality ≠ Realized Outcome
+
+正式冻结：
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+一个 decision 的 ex-ante quality 取决于：
+
+```text
+information available at decision time
+admissible actions
+risk
+constraints
+policy
+decision evidence
+expected utility / viability
+```
+
+而不是单独取决于：
+
+```text
+later realized outcome
+```
+
+因此：
+
+$$
+\boxed{
+ExPostOutcome
+\not\Rightarrow
+ExAnteDecisionCorrectness
+}
+$$
+
+---
+
+# 73B｜Set-Valued Decision Correctness
+
+真实世界 decision reference 允许：
+
+$$
+\boxed{
+\mathcal A_{acceptable}(H_t,c)
+}
+$$
+
+即：
+
+> 在给定 information history 与 reference conditions 下，可以存在多个可接受行动。
+
+正确性不必退化为：
+
+$$
+A_{model}=A_{single\ gold}
+$$
+
+更一般地：
+
+$$
+\boxed{
+A_{model}
+\in
+\mathcal A_{acceptable}(H_t,c)
+}
+$$
+
+---
+
+# 73C｜Conditional Admissibility
+
+一个 action 可以：
+
+```text
+PREFERRED
+ACCEPTABLE
+CONDITIONAL
+NOT_CURRENTLY_INDICATED
+PROHIBITED
+```
+
+其中 `CONDITIONAL` 必须显式声明：
+
+$$
+Condition
+\rightarrow
+ActionStatus
+$$
+
+这允许：
+
+```text
+same state family
+different boundary values
+different acceptable action set
+```
+
+---
+
+# 73D｜DecisionReferenceEnvelope
+
+执行侧 Canonical Decision Contract 不变。
+
+评价侧允许外部 governance artifact：
+
+```yaml
+DecisionReferenceEnvelope:
+
+  reference_id:
+  decision_point_ref:
+
+  information_boundary_ref:
+
+  admissible_actions: []
+  preferred_actions: []
+
+  conditionally_admissible:
+    - action:
+      condition:
+      rationale:
+      evidence_refs: []
+
+  prohibited_actions:
+    - action:
+      reason:
+      severity:
+      evidence_refs: []
+
+  no_change_status:
+  abstention_status:
+
+  uncertainty:
+  expert_disagreement:
+
+  evidence_refs: []
+  adjudication_ref:
+  evaluator_refs: []
+
+  version:
+```
+
+该对象属于：
+
+$$
+\boxed{
+BenchmarkGovernanceArtifact
+}
+$$
+
+不是：
+
+```text
+SIS Core Object
+ASR Program Object
+Policy Primitive
+```
+
+---
+
+# 73E｜Reference Answer ≠ Decision Reference
+
+自然语言：
+
+```text
+reference answer
+expert report
+model answer
+```
+
+可以作为：
+
+$$
+CandidateReferenceEvidence
+$$
+
+但：
+
+$$
+\boxed{
+ReferenceAnswer
+\neq
+ReferenceSemantics
+}
+$$
+
+正确流程：
+
+$$
+ReferenceMaterial
+\rightarrow
+ReferenceConstruction
+\rightarrow
+DecisionReferenceEnvelope
+\rightarrow
+EvaluatorCriteria
+$$
+
+而不是：
+
+$$
+ReferenceAnswer
+\rightarrow
+ExactMatchGold
 $$
 
 ---
@@ -5804,6 +8837,403 @@ $$
 
 ---
 
+
+# Part XXXI-B｜Reference & Evaluation Governance Foundation
+
+# RG1｜设计原则
+
+R5 对 reference / evaluation layer 采用：
+
+$$
+\boxed{
+OrthogonalGovernancePattern
+}
+$$
+
+而不是：
+
+$$
+CoreSchemaExpansion
+$$
+
+因此：
+
+$$
+\boxed{
+CoreExperimentSchemaDelta=0
+}
+$$
+
+---
+
+# RG2｜Canonical Reference Governance Graph
+
+$$
+\boxed{
+DomainEvidence
+}
+$$
+
+↓
+
+$$
+\boxed{
+ExpertJudgments
+}
+$$
+
+↓
+
+$$
+\boxed{
+ReferenceConstructionRecord
+}
+$$
+
+↓
+
+必要时：
+
+$$
+\boxed{
+ReferenceAdjudicationRecord
+}
+$$
+
+↓
+
+$$
+\boxed{
+DecisionReferenceEnvelope
+/
+OtherReferenceArtifact
+}
+$$
+
+↓
+
+$$
+\boxed{
+Evaluator
+}
+$$
+
+这些对象：
+
+$$
+\boxed{
+Connected
+\ but\
+NonOwning
+}
+$$
+
+不得拥有：
+
+```text
+Program Routing
+Scientific Claim Identity
+Core Ontology
+Framework Program Membership
+Claim Maturity
+```
+
+---
+
+# RG3｜ReferenceConstructionRecord
+
+```yaml
+ReferenceConstructionRecord:
+
+  reference_id:
+  reference_version:
+
+  target_record_ref:
+  target_evaluation_function:
+
+  reference_type:
+
+  information_boundary:
+    decision_point_ref: optional
+    allowed_information_refs: []
+    future_information_refs: []
+    cutoff_time: optional
+
+  source_judgments:
+    - judgment_ref:
+      human_ref:
+      human_role:
+      expertise_profile:
+      independent_annotation:
+      information_available_refs: []
+
+  source_evidence_refs: []
+
+  reference_semantics:
+    direct_facts: []
+    accepted_interpretations: []
+    uncertainty_regions: []
+    acceptable_variations: []
+
+  adjudication_ref: optional
+
+  temporal_integrity:
+    future_information_excluded:
+    hindsight_contamination_status:
+
+  evaluator_refs: []
+  provenance_refs: []
+
+  status:
+```
+
+推荐 `reference_type`：
+
+```text
+SPEC_DERIVED
+EMPIRICAL_MEASUREMENT
+EXPERT_CONSTRUCTED
+ADJUDICATED_EXPERT
+HYBRID
+OUTCOME_ANCHORED
+```
+
+这些属于 governance metadata。
+
+不是新的 evidence role。
+
+---
+
+# RG4｜ReferenceAdjudicationRecord
+
+```yaml
+ReferenceAdjudicationRecord:
+
+  adjudication_id:
+  reference_ref:
+
+  input_judgment_refs: []
+  adjudicator_refs: []
+
+  disagreement_items: []
+  acceptable_variations: []
+  unresolved_items: []
+
+  adjudication_method:
+
+  decision:
+
+  evidence_refs: []
+
+  version:
+```
+
+Canonical decision：
+
+```text
+AGREED
+ACCEPTABLE_VARIATION
+ADJUDICATED
+UNRESOLVED
+INSUFFICIENT_EVIDENCE
+REQUIRES_ADDITIONAL_REVIEW
+```
+
+---
+
+# RG5｜DomainElicitationProtocol
+
+`DomainAdapterDefinition` 继续拥有 domain-to-SIS semantic translation。
+
+R5 新增 companion governance artifact：
+
+```yaml
+DomainElicitationProtocol:
+
+  protocol_id:
+  protocol_version:
+
+  domain_id:
+  domain_adapter_ref:
+
+  target_reference_function:
+
+  expert_roles: []
+
+  native_questions: []
+
+  input_visibility:
+    allowed_input_types: []
+    hidden_input_types: []
+
+  uncertainty_expression:
+  disagreement_policy:
+
+  machine_preannotation:
+    allowed:
+    permitted_functions: []
+    prohibited_functions: []
+
+  final_reference_authority:
+
+  mapping_targets: []
+
+  validation_refs: []
+  provenance_refs: []
+```
+
+其用途是：
+
+$$
+\boxed{
+NativeExpertJudgment
+\rightarrow
+DomainSemantics
+}
+$$
+
+而 Domain Adapter 执行：
+
+$$
+\boxed{
+DomainSemantics
+\rightarrow
+SISSemantics
+}
+$$
+
+二者不能合并。
+
+---
+
+# RG6｜Human Role Semantics
+
+同一 human identity 可拥有不同 role：
+
+```text
+HUMAN_SYSTEM_COMPONENT
+HUMAN_ANNOTATOR
+HUMAN_EVALUATOR
+HUMAN_ADJUDICATOR
+HUMAN_OPERATOR
+HUMAN_VALIDATION_SOURCE
+```
+
+冻结：
+
+$$
+\boxed{
+HumanIdentity
+\neq
+HumanRole
+}
+$$
+
+这些 governance roles 不改变 SIS primitive taxonomy。
+
+---
+
+# RG7｜Exact Ownership
+
+| Object | Owner |
+|---|---|
+| ReferenceConstructionRecord | Benchmark / Evaluation Governance |
+| ReferenceAdjudicationRecord | Benchmark / Evaluation Governance |
+| DecisionReferenceEnvelope | Benchmark / Evaluation Governance |
+| DomainElicitationProtocol | Domain Elicitation Governance |
+| DomainAdapterDefinition | Domain Semantic Mapping |
+| Evaluator lineage | Evaluation Governance |
+| ScientificExperimentContract | SIS Core |
+| ProgramClassification | Domain Classification Layer |
+
+---
+
+# RG8｜Forbidden Ownership Inversion
+
+正式禁止：
+
+$$
+ReferenceConstruction
+\rightarrow
+ProgramRoutingOwnership
+$$
+
+$$
+DecisionReferenceEnvelope
+\rightarrow
+ASRProgramOwnership
+$$
+
+$$
+DomainElicitationProtocol
+\rightarrow
+CoreOntologyOwnership
+$$
+
+$$
+ExpertAgreement
+\rightarrow
+ScientificTruthOwnership
+$$
+
+---
+
+# RG9｜Reference Versioning
+
+以下变化必须产生 new reference revision：
+
+```text
+information boundary
+source expert set
+reference semantics
+acceptable action set
+prohibited action set
+adjudication result
+uncertainty interpretation
+hindsight contamination status
+```
+
+不得覆盖历史。
+
+---
+
+# RG10｜Logical vs Physical Contract
+
+R5 冻结：
+
+```text
+logical reference semantics
+ownership
+required lineage
+role separation
+temporal integrity
+set-valued decision semantics
+versioning
+```
+
+而：
+
+```text
+Pydantic
+JSON Schema
+DB table
+API DTO
+annotation UI
+runtime evaluator implementation
+```
+
+保持：
+
+$$
+\boxed{
+FREEZE\ CANDIDATE
+}
+$$
+
+直到 automated conformance execution 通过。
+
+---
+
 # Part XXXII｜Program Conformance Suite
 
 # 141｜PC-SCF
@@ -6069,6 +9499,166 @@ v0.2 已将 real-world vertical systems 放在这一层。
 
 ---
 
+
+# 150A｜Reference Construction Governance
+
+任何依赖人工、规范、历史结果或复合证据构造 reference 的 benchmark，都应至少恢复：
+
+```text
+target evaluation function
+information boundary
+source evidence
+source judgments
+expert / evaluator roles
+independence
+adjudication
+uncertainty
+temporal integrity
+version
+```
+
+正式冻结：
+
+$$
+\boxed{
+ReferenceConstruction
+\neq
+ReferenceLabeling
+}
+$$
+
+复杂领域中的 reference construction 是：
+
+$$
+Evidence
++
+Measurement
++
+Judgment
++
+Adjudication
++
+Boundary
++
+Versioning
+$$
+
+的治理过程。
+
+---
+
+# 150B｜Tier-3 Expert Reference Complexity Profile
+
+Tier-3 real-world benchmark 可声明：
+
+```yaml
+tier3_complexity_profile:
+
+  partial_observability:
+  temporal_dependency:
+  multimodality:
+  evidence_conflict:
+  information_acquisition:
+  expert_disagreement:
+  action_multiplicity:
+  safety_criticality:
+  human_in_the_loop:
+  resource_cost:
+```
+
+该 profile 用于：
+
+```text
+benchmark stratification
+coverage analysis
+boundary analysis
+transportability analysis
+deployment interpretation
+```
+
+不得用于：
+
+```text
+automatic program routing
+claim maturity inflation
+scientific value ranking
+```
+
+---
+
+# 150C｜Reference Quality under Resource Constraints
+
+真实 reference construction 消耗：
+
+```text
+expert time
+annotation time
+adjudication time
+tooling cost
+review cost
+```
+
+因此可研究：
+
+$$
+\boxed{
+ReferenceQuality
+\mid
+ExpertTimeBudget
+}
+$$
+
+例如：
+
+$$
+AgentPreannotation
+\rightarrow
+ExpertTime\downarrow
+$$
+
+是否在：
+
+$$
+ReferenceReliability
+$$
+
+保持条件下成立。
+
+该问题可以形成 SCF / CSCI / ASR claim。
+
+但 benchmark production 本身不自动产生这些 scientific claims。
+
+---
+
+# 150D｜Decision Reference Requirements
+
+若 benchmark 评价 information-conditioned decision：
+
+至少应明确：
+
+```text
+decision point
+information boundary
+admissible actions
+NO_CHANGE status
+ABSTAIN status
+conditionally acceptable actions
+prohibited / unsafe actions where relevant
+reference uncertainty
+```
+
+因此：
+
+$$
+\boxed{
+DecisionEvaluation
+>
+SingleAnswerMatch
+}
+$$
+
+---
+
 # Part XXXIV｜Benchmark Conformance Fixtures
 
 # 151｜Fixture Families
@@ -6112,6 +9702,329 @@ $$
 
 ---
 
+
+
+# Part XXXIV-R｜Reference Construction & Expert Evaluation Fixtures
+
+# RCF1｜Reference Benchmark Position
+
+Reference Construction Benchmark 不建立新的 Benchmark Tier。
+
+继续跨越：
+
+```text
+Tier 1
+Tier 2
+Tier 3
+```
+
+其目标是检验：
+
+> Reference 是否在不混淆 latent truth、expert judgment、future outcome 与 evaluator semantics 的条件下被构造。
+
+---
+
+# RCF2｜Single Expert Authority Trap
+
+若：
+
+```text
+one expert judgment
+```
+
+被直接宣称：
+
+```text
+latent truth
+```
+
+则：
+
+```text
+FAIL
+```
+
+除非 target construct 本身就是：
+
+> that expert's judgment.
+
+---
+
+# RCF3｜Reference Answer Trap
+
+若一篇自然语言 reference answer 被自动解释为：
+
+```text
+complete state truth
+complete action truth
+complete uncertainty truth
+complete safety truth
+```
+
+则：
+
+```text
+FAIL
+```
+
+正确流程：
+
+$$
+ReferenceMaterial
+\rightarrow
+ReferenceConstruction
+\rightarrow
+ReferenceSemantics
+$$
+
+---
+
+# RCF4｜Hindsight Outcome Trap
+
+若：
+
+```text
+future outcome
+```
+
+被无条件用于倒推：
+
+```text
+prior decision correctness
+```
+
+则：
+
+```text
+FAIL
+```
+
+---
+
+# RCF5｜Consensus Inflation Trap
+
+若：
+
+```text
+expert agreement
+```
+
+自动升级为：
+
+```text
+objective truth
+```
+
+或：
+
+```text
+validation evidence
+```
+
+则：
+
+```text
+FAIL
+```
+
+---
+
+# RCF6｜Single-Action Collapse
+
+若已知多个行动在不同条件下均可接受，
+
+benchmark 却强制：
+
+```text
+one exact action only
+```
+
+且无法表达 conditional admissibility：
+
+```text
+FAIL
+```
+
+---
+
+# RCF7｜Rubric-First Inversion
+
+禁止：
+
+$$
+Rubric
+\rightarrow
+ReferenceMeaning
+$$
+
+要求：
+
+$$
+\boxed{
+ReferenceSemantics
+\rightarrow
+EvaluatorCriteria
+}
+$$
+
+否则：
+
+```text
+FAIL
+```
+
+---
+
+# RCF8｜Ontology Burden Leakage
+
+若 Domain Elicitation 强迫领域专家直接填写 SIS ontology，
+
+并导致：
+
+```text
+native judgment distortion
+template-completion artifact
+material burden increase without scientific utility
+```
+
+则记录：
+
+```text
+DOMAIN_ELICITATION_NONCONFORMANT
+```
+
+---
+
+# RCF9｜Evaluator Self-Gold
+
+被测 runtime 不得在无独立 governance 的情况下同时成为：
+
+```text
+candidate generator
+sole reference generator
+sole final evaluator
+```
+
+否则：
+
+```text
+FAIL
+```
+
+---
+
+# RCF10｜Reference Information Boundary
+
+如果 reference constructor / evaluator 使用：
+
+```text
+information not legitimately available
+at the target evaluation point
+```
+
+且该信息改变 evaluator reference，
+
+则：
+
+```text
+FAIL
+```
+
+或：
+
+```text
+REFERENCE_TEMPORAL_NONCONFORMANT
+```
+
+---
+
+# RCF11｜Expert Disagreement Preservation
+
+若两个独立合格 expert judgment 不同，
+
+benchmark 必须允许：
+
+```text
+ACCEPTABLE_VARIATION
+ADJUDICATED
+UNRESOLVED
+INSUFFICIENT_EVIDENCE
+```
+
+而不是强制：
+
+```text
+one expert must be wrong
+```
+
+---
+
+# RCF12｜Medical Tier-3 Stress Fixture
+
+Medical Expert CoworkRL 的 high-difficulty Clinical Decision Trajectory 可作为：
+
+$$
+\boxed{
+Tier3ReferenceStressFixture
+}
+$$
+
+重点测试：
+
+```text
+partial observability
+decision-time information boundary
+information acquisition
+expert disagreement
+set-valued action reference
+safety constraints
+monitoring / re-decision
+reference uncertainty
+```
+
+其目的不是将医疗 ontology 写入 SIS Core。
+
+而是验证：
+
+$$
+\boxed{
+SISCore
++
+DomainAdapter
++
+ReferenceGovernance
+}
+$$
+
+能否无损表达真实专家决策环境。
+
+---
+
+# RCF13｜Reference Non-Regression
+
+Reference fixture 通过条件包括：
+
+```text
+original SIS Program Conformance PASS
+Framework Conformance no regression
+Domain mapping no forced fit
+reference lineage complete
+temporal integrity preserved
+expert disagreement preserved
+set-valued decision semantics preserved where needed
+```
+
+正式冻结：
+
+$$
+\boxed{
+ReferenceFixturesPASS
+\land
+OriginalSISConformancePASS
+}
+$$
+
+---
 
 # Part XXXIV-A｜Framework Conformance & Replacement Benchmark
 
@@ -7388,6 +11301,13 @@ BenchmarkCoverageManifest:
 
   fixture_refs: []
 
+  reference_governance:
+    reference_fixture_refs: []
+    expert_adjudication_fixture_refs: []
+    decision_reference_fixture_refs: []
+
+  tier3_complexity_profiles: []
+
   negative_control_refs: []
   unresolved_fixture_refs: []
   nonconformance_fixture_refs: []
@@ -7668,6 +11588,119 @@ Core Ontology
 
 ---
 
+
+# DA4｜Domain Elicitation ≠ Domain Semantic Mapping
+
+正式冻结：
+
+$$
+\boxed{
+DomainElicitation
+\neq
+DomainAdapter
+}
+$$
+
+Domain Elicitation 解决：
+
+> 如何以领域专家自然工作语言获取 judgment？
+
+Domain Adapter 解决：
+
+> 如何将已经形成的 domain semantics 映射到 SIS semantics？
+
+正确链：
+
+$$
+NativeExpertJudgment
+\rightarrow
+DomainSemantics
+\rightarrow
+DomainAdapter
+\rightarrow
+SISSemantics
+$$
+
+---
+
+# DA5｜Human–Ontology Separation
+
+正式冻结：
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+领域专家不应被强迫直接填写：
+
+```text
+SIS primitive
+program routing
+primary estimand
+scientific claim maturity
+framework metadata
+```
+
+除非该专家同时承担相应 scientific-coding role。
+
+Domain expert 的首要职责是提供：
+
+```text
+domain-native judgment
+decision boundary
+risk boundary
+uncertainty
+evidence interpretation
+```
+
+科学结构化由：
+
+```text
+research layer
+domain adapter
+reference governance
+```
+
+承担。
+
+---
+
+# DA6｜Machine Pre-Annotation Boundary
+
+Agent / machine 可以执行：
+
+```text
+candidate extraction
+timeline candidate
+evidence-span candidate
+schema prefill
+consistency check
+```
+
+但：
+
+$$
+\boxed{
+MachinePreannotation
+\neq
+FinalExpertReference
+}
+$$
+
+是否允许 machine pre-annotation、允许哪些功能以及最终 authority，必须由：
+
+```text
+DomainElicitationProtocol
+```
+
+显式声明。
+
+---
+
 # Part XXXVII｜Normative Non-Equivalences
 
 正式冻结：
@@ -7840,6 +11873,93 @@ ScientificClaimIdentity
 $$
 
 ---
+
+# 156B｜R5 Reference & Evaluation Non-Equivalences
+
+正式冻结：
+
+$$
+\boxed{
+ExpertJudgment
+\neq
+LatentTruth
+}
+$$
+
+$$
+\boxed{
+EvaluatorReference
+\neq
+LatentTruth
+}
+$$
+
+$$
+\boxed{
+ExpertAgreement
+\neq
+ReferenceValidity
+}
+$$
+
+$$
+\boxed{
+ReferenceAnswer
+\neq
+ReferenceSemantics
+}
+$$
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+$$
+\boxed{
+ExPostOutcome
+\not\Rightarrow
+ExAnteDecisionCorrectness
+}
+$$
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+$$
+\boxed{
+HumanIdentity
+\neq
+HumanRole
+}
+$$
+
+$$
+\boxed{
+ReferenceConstruction
+\neq
+ProgramRouting
+}
+$$
+
+$$
+\boxed{
+ReferenceUncertainty
+\neq
+ModelUncertainty
+}
+$$
+
+---
+
 # Part XXXVIII｜Ownership Rules
 
 # 157｜SIS Core Owns
@@ -8037,6 +12157,97 @@ ScientificPrimitiveOwnership
 $$
 
 ---
+
+# 161E｜Reference & Evaluation Governance Owns
+
+Reference / Evaluation Governance 拥有：
+
+```text
+reference construction lineage
+expert-judgment provenance
+adjudication records
+reference uncertainty
+acceptable variation
+set-valued decision reference
+hindsight contamination status
+reference versioning
+```
+
+但不拥有：
+
+```text
+Latent Truth
+Core Ontology
+Program Routing
+Scientific Claim Identity
+Claim Maturity
+Framework Program Membership
+```
+
+---
+
+# 161F｜Domain Elicitation Governance Owns
+
+Domain Elicitation Governance 拥有：
+
+```text
+expert-facing native question design
+input visibility
+uncertainty-expression interface
+machine pre-annotation boundary
+expert role declaration
+final reference authority process
+```
+
+但不拥有：
+
+```text
+SIS primitive definitions
+Program Routing
+Scientific Claim Strength
+Domain-to-SIS mapping semantics
+```
+
+最后一项仍由：
+
+```text
+DomainAdapterDefinition
+```
+
+拥有。
+
+---
+
+# 161G｜Reference Ownership Non-Inversion
+
+正式禁止：
+
+$$
+ExpertJudgment
+\rightarrow
+LatentTruthOwnership
+$$
+
+$$
+ReferenceConstruction
+\rightarrow
+ScientificClaimOwnership
+$$
+
+$$
+DecisionReferenceEnvelope
+\rightarrow
+ASRProgramOwnership
+$$
+
+$$
+DomainElicitationProtocol
+\rightarrow
+CoreOntologyOwnership
+$$
+
+---
+
 # Part XXXIX｜Schema Governance
 
 # 162｜Layer S1 — Core Scientific Semantics
@@ -8098,6 +12309,54 @@ framework non-destructive migration rules
 $$
 \boxed{
 FROZEN
+}
+$$
+
+---
+
+
+# 163A｜Layer S2-R — Logical Reference & Evaluation Governance Contracts
+
+R5 新增并冻结：
+
+```text
+ReferenceConstructionRecord
+ReferenceAdjudicationRecord
+DecisionReferenceEnvelope
+DomainElicitationProtocol
+Tier3ComplexityProfile semantics
+Reference Construction Fixture semantics
+```
+
+这些属于：
+
+$$
+\boxed{
+OrthogonalGovernanceContracts
+}
+$$
+
+不是：
+
+```text
+SIS Core Objects
+Program Objects
+Evidence Role Objects
+```
+
+逻辑 semantics：
+
+$$
+\boxed{
+FROZEN
+}
+$$
+
+Physical implementation：
+
+$$
+\boxed{
+FREEZE\ CANDIDATE
 }
 $$
 
@@ -8187,6 +12446,12 @@ ASSERT historical evidence objects are immutable
 ASSERT framework version is explicit
 ASSERT unsupported claim classes are permitted
 ASSERT UNMAPPABLE domain mapping is permitted
+ASSERT ReferenceConstructionRecord.primary_program DOES NOT EXIST
+ASSERT DecisionReferenceEnvelope.primary_program DOES NOT EXIST
+ASSERT DomainElicitationProtocol.core_ontology_override DOES NOT EXIST
+ASSERT expert agreement DOES NOT imply latent truth
+ASSERT reference answer DOES NOT define reference semantics by itself
+ASSERT future outcome DOES NOT automatically redefine ex-ante decision correctness
 ```
 
 ---
@@ -8404,6 +12669,128 @@ REOPEN
 $$
 
 ---
+
+# Part XL-B｜Reference & Evaluation Layer Reopen Conditions
+
+Reference & Evaluation Layer 不自动触发 Scientific Core reopen。
+
+以下条件首先触发：
+
+$$
+ReferenceGovernance
+\rightarrow
+REVIEW
+$$
+
+---
+
+# RR1｜Reference Expressivity Failure
+
+若重要 real-world reference 无法表达：
+
+```text
+uncertainty
+acceptable variation
+expert disagreement
+conditional action
+information boundary
+```
+
+则：
+
+$$
+\boxed{
+ReferenceContractLayer
+\rightarrow
+REOPEN
+}
+$$
+
+---
+
+# RR2｜Systematic Hindsight Contamination
+
+若 benchmark 长期无法区分：
+
+```text
+ex-ante decision evidence
+ex-post outcome evidence
+```
+
+则：
+
+$$
+\boxed{
+ReferenceTemporalGovernance
+\rightarrow
+REOPEN
+}
+$$
+
+---
+
+# RR3｜Domain Elicitation Distortion
+
+若多个 domain 持续出现：
+
+```text
+expert-native judgment
+```
+
+在映射前已经被 ontology-facing form 系统性扭曲，
+
+则：
+
+$$
+\boxed{
+DomainElicitationGovernance
+\rightarrow
+REOPEN
+}
+$$
+
+---
+
+# RR4｜Evaluator Lineage Insufficiency
+
+若现有 evaluator lineage 无法恢复：
+
+```text
+reference source
+expert roles
+adjudication
+information boundary
+reference version
+```
+
+则：
+
+$$
+\boxed{
+EvaluationGovernance
+\rightarrow
+REOPEN
+}
+$$
+
+---
+
+# RR5｜Core Reopen Escalation Rule
+
+只有当 reference-governance review 进一步证明：
+
+> 某重要 scientific question 无法由 existing SIS Core + external governance 无损表达，
+
+才升级至：
+
+```text
+RA1 / RA6
+```
+
+并重新考虑 Scientific Core。
+
+---
+
 # Part XLI｜Current Scientific Architecture
 
 System Intelligence Science v0.3.1 最终架构：
@@ -8527,6 +12914,83 @@ Framework 是 scientific operationalization instrument。
 三者不能互相替代。
 
 ---
+
+## R5 Reference & Evaluation Architecture
+
+SIS v0.3.1 R5 增加第三条 orthogonal governance axis：
+
+### Scientific Classification Axis
+
+$$
+ScientificQuestion
+\rightarrow
+PrimaryEstimand
+\rightarrow
+ProgramRouting
+\rightarrow
+ScientificClaim
+$$
+
+### Scientific Operationalization Axis
+
+$$
+FrameworkDefinition
+\rightarrow
+FrameworkUseRecord
+\rightarrow
+ScientificRecord
+$$
+
+### Reference & Evaluation Axis
+
+$$
+DomainEvidence
+\rightarrow
+ExpertJudgments
+\rightarrow
+ReferenceConstruction
+\rightarrow
+Adjudication
+\rightarrow
+Evaluator
+$$
+
+Domain translation 继续：
+
+$$
+DomainSemantics
+\rightarrow
+DomainAdapterDefinition
+\rightarrow
+SISSemantics
+$$
+
+Domain elicitation：
+
+$$
+DomainExpertInterface
+\rightarrow
+DomainSemantics
+$$
+
+这些轴：
+
+$$
+\boxed{
+Connected
+\ but\
+NonOwning
+}
+$$
+
+Reference layer 不拥有 Scientific Classification。
+
+Framework layer 不拥有 Reference truth。
+
+Domain expert interface 不拥有 Core Ontology。
+
+---
+
 # Part XLII｜Canonical System-Level Causal Skeleton
 
 定义：
@@ -8833,6 +13297,109 @@ $$
 Framework 不插入这一分类链。
 
 ---
+
+# Part XLIII-B｜Reference & Evaluation Workflow
+
+Reference workflow 与 canonical scientific workflow、Framework workflow 平行存在。
+
+它不是 Program routing 的前置条件。
+
+Canonical reference workflow：
+
+$$
+\boxed{
+ReferenceNeed
+}
+$$
+
+↓
+
+$$
+\boxed{
+InformationBoundary
+}
+$$
+
+↓
+
+$$
+\boxed{
+EvidenceCollection
+}
+$$
+
+↓
+
+$$
+\boxed{
+IndependentJudgments
+}
+$$
+
+↓
+
+必要时：
+
+$$
+\boxed{
+Adjudication
+}
+$$
+
+↓
+
+$$
+\boxed{
+ReferenceSemantics
+}
+$$
+
+↓
+
+$$
+\boxed{
+EvaluatorCriteria
+}
+$$
+
+↓
+
+$$
+\boxed{
+VersionedEvaluation
+}
+$$
+
+重要的是：
+
+$$
+\boxed{
+ReferenceWorkflow
+\not\rightarrow
+ProgramOwnership
+}
+$$
+
+同时：
+
+$$
+\boxed{
+ReferenceSemantics
+\rightarrow
+EvaluatorCriteria
+}
+$$
+
+而不是：
+
+$$
+EvaluatorCriteria
+\rightarrow
+ReferenceSemantics
+$$
+
+---
+
 # Part XLIV｜The Eight v0.3.1 Principles
 
 # 171｜Estimand-First Program Principle
@@ -9021,6 +13588,109 @@ $$
 > **一个 Framework 被接纳或通过 conformance，只证明它是一个合法的科学操作工具，不证明其中的机制有效，也不提高具体 scientific claim 的证据级别。**
 
 ---
+
+# Part XLIV-A｜R5 Reference & Evaluation Principles
+
+# 179｜Reference Non-Identity Principle
+
+$$
+\boxed{
+EvaluatorReference
+\neq
+LatentTruth
+}
+$$
+
+中文：
+
+> **用于评价系统的 reference 是版本化 scientific / governance artifact，不应被当作潜在真实状态本身。**
+
+---
+
+# 180｜Ex-Ante Decision Integrity Principle
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+以及：
+
+$$
+\boxed{
+ExPostOutcome
+\not\Rightarrow
+ExAnteDecisionCorrectness
+}
+$$
+
+中文：
+
+> **评价一个决策，应尊重该决策当时合法可获得的信息边界，而不能用后来结局机械倒推当时决策的正确性。**
+
+---
+
+# 181｜Human–Ontology Separation Principle
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+中文：
+
+> **领域专家应以领域自然语言提供专业判断；SIS 语义映射、estimand、program routing 与 ontology coding 应由相应科学治理层承担。**
+
+---
+
+# 182｜Set-Valued Evaluation Principle
+
+$$
+\boxed{
+DecisionCorrectness
+\not\Rightarrow
+SingleExactAction
+}
+$$
+
+中文：
+
+> **在真实世界决策中，可以存在条件化的多个可接受行动；benchmark 应能表达 acceptable action set、conditional action 与 prohibited action。**
+
+---
+
+# 183｜Reference Lineage Principle
+
+$$
+\boxed{
+ReferenceQuality
+\Rightarrow
+InformationBoundary
++
+Evidence
++
+Roles
++
+Adjudication
++
+Uncertainty
++
+Versioning
+}
+$$
+
+中文：
+
+> **高质量 reference 必须可恢复其信息边界、证据来源、角色分离、仲裁、不确定性与版本 lineage。**
+
+---
+
 # Part XLV｜What SIS v0.3.1 Does Not Claim
 
 SIS v0.3.1 不声称：
@@ -9158,6 +13828,85 @@ $$
 作为正确 scientific outcomes。
 
 ---
+
+SIS v0.3.1 R5 不声称：
+
+> 专家意见天然等于 ground truth。
+
+冻结：
+
+$$
+\boxed{
+ExpertJudgment
+\neq
+LatentTruth
+}
+$$
+
+---
+
+SIS v0.3.1 R5 不声称：
+
+> 多专家一致就证明 reference 绝对有效。
+
+冻结：
+
+$$
+\boxed{
+ExpertAgreement
+\neq
+ReferenceValidity
+}
+$$
+
+---
+
+SIS v0.3.1 R5 不声称：
+
+> 一个高质量 decision benchmark 必须只有一个正确 action。
+
+允许：
+
+$$
+\boxed{
+\mathcal A_{acceptable}(H_t,c)
+}
+$$
+
+---
+
+SIS v0.3.1 R5 不声称：
+
+> 后来得到好结局即可证明先前决策正确，或坏结局即可证明先前决策错误。
+
+冻结：
+
+$$
+\boxed{
+DecisionQuality
+\neq
+RealizedOutcome
+}
+$$
+
+---
+
+SIS v0.3.1 R5 不声称：
+
+> 领域专家必须直接使用 SIS ontology 才能产生合格 annotation。
+
+冻结：
+
+$$
+\boxed{
+DomainExpertInterface
+\neq
+ScientificOntology
+}
+$$
+
+---
+
 # Part XLVI｜Exact Open Questions
 
 以下 scientific questions 继续保持 OPEN：
@@ -9205,6 +13954,33 @@ $$
 不得由 Mother Specification 预先给出经验答案。
 
 ---
+
+R5 新增 Reference / Evaluation open questions：
+
+```text
+How should reference uncertainty be quantified across domains?
+When is one expert sufficient for a target evaluation function?
+When does independent expert redundancy materially improve reference validity?
+How should acceptable action sets be calibrated?
+When should expert disagreement remain unresolved rather than adjudicated away?
+How much machine pre-annotation preserves expert-native judgment?
+What domain elicitation interfaces minimize expert burden without semantic loss?
+How should hindsight contamination be measured?
+When does ex-post outcome evidence legitimately update an ex-ante reference?
+How should reference construction cost enter benchmark design?
+Which reference-construction mechanisms are transportable across domains?
+```
+
+这些保持：
+
+$$
+\boxed{
+OPEN
+}
+$$
+
+---
+
 # Part XLVII｜Exact Implementation Questions
 
 以下不由 SIS v0.3.1 Mother Specification 冻结：
@@ -9226,6 +14002,12 @@ exact sample sizes
 exact utility functions
 exact benchmark instances
 exact fixture serialization
+exact reference-construction UI
+exact expert-adjudication workflow
+exact number of experts
+exact reference-uncertainty estimator
+exact acceptable-action-set calibration
+exact machine pre-annotation policy
 exact CI platform
 exact test framework
 exact API framework
@@ -9247,6 +14029,10 @@ FrameworkUseRecord Pydantic model
 FrameworkConformanceRecord Pydantic model
 FrameworkReplacementAssessment Pydantic model
 DomainAdapterDefinition Pydantic model
+ReferenceConstructionRecord Pydantic model
+ReferenceAdjudicationRecord Pydantic model
+DecisionReferenceEnvelope Pydantic model
+DomainElicitationProtocol Pydantic model
 JSON Schema
 DB Schema
 API DTOs
@@ -9558,6 +14344,8 @@ SIS\ v0.3.1
 & +\ CrossCuttingScientificPrograms\\
 & +\ ThinReplaceableFrameworks\\
 & +\ OrthogonalGovernanceContracts\\
+& +\ HumanReferenceGovernance\\
+& +\ SetValuedDecisionEvaluation\\
 & +\ AdversarialConformance\\
 & +\ NonDestructiveVersioning
 \end{aligned}
@@ -9646,6 +14434,43 @@ FrameworkReplacement
 $$
 
 ---
+
+SIS v0.3.1 R5 进一步规定：
+
+> **真实世界 benchmark 所使用的 reference 必须被视为版本化、可审计、可携带不确定性的评价构造，而不是 latent truth 的默认同义词。**
+
+因此：
+
+$$
+\boxed{
+ReferenceMeaning
+belongs\ to
+Evidence+InformationBoundary+Judgments+Adjudication+Versioning
+}
+$$
+
+而：
+
+$$
+\boxed{
+EvaluatorCriteria
+must\ be\ derived\ from
+ReferenceSemantics
+}
+$$
+
+成熟 SIS 的评测科学应满足：
+
+$$
+\boxed{
+StrongEvaluation
+survives
+ReasonableReferenceVariation
+}
+$$
+
+---
+
 # Part LI｜Final Freeze Statement
 
 最终冻结：
@@ -9662,7 +14487,7 @@ $$
 
 必须同时成立。
 
-v0.3.1 的层级不应理解为简单树，而应理解为两个正交轴。
+v0.3.1 的层级不应理解为简单树，而应理解为三个相互连接但不互相拥有的正交轴。
 
 ## Scientific Classification Axis
 
@@ -9722,6 +14547,32 @@ DomainAdapterDefinition
 SISSemantics
 $$
 
+## Reference & Evaluation Axis
+
+$$
+\boxed{
+DomainEvidence
+\rightarrow
+ExpertJudgments
+\rightarrow
+ReferenceConstruction
+\rightarrow
+Adjudication
+\rightarrow
+Evaluator
+}
+$$
+
+Domain elicitation：
+
+$$
+\boxed{
+DomainExpertInterface
+\rightarrow
+DomainSemantics
+}
+$$
+
 这几条轴：
 
 $$
@@ -9745,6 +14596,22 @@ $$
 $$
 \boxed{
 FrameworkLeaderboard
+}
+$$
+
+Reference / Evaluation Axis 也不得演化为：
+
+$$
+\boxed{
+ExpertAuthorityLeaderboard
+}
+$$
+
+或：
+
+$$
+\boxed{
+SingleGoldAnswerDogma
 }
 $$
 
@@ -9788,8 +14655,16 @@ Logical Framework Governance Contracts       FROZEN
 Framework Conformance Specification          FROZEN
 Benchmark Architecture                       FROZEN
 Engineering Semantic Foundation              FROZEN
+Human Reference Semantics                      FROZEN
+Reference Construction Governance              FROZEN
+Reference Adjudication Semantics               FROZEN
+Set-Valued Decision Reference Semantics        FROZEN
+Human–Ontology Separation Semantics            FROZEN
+Tier-3 Expert Reference Complexity Profile     FROZEN
+Reference Construction Fixture Semantics       FROZEN
 
 Exact Engineering Schemas                    FREEZE CANDIDATE
+Exact Reference Governance Schemas            FREEZE CANDIDATE
 Exact Framework Physical Schemas             FREEZE CANDIDATE
 Automated Conformance Execution              OPEN
 Runtime Implementation                       OPEN
@@ -9853,17 +14728,48 @@ SIS v0.3.1 R1
 SIS v0.3.1 R2
 SIS v0.3.1 R3
 SIS v0.3.1 R4
+SIS v0.3.1 R5
 ```
 
-后序 revision decision 对 Framework Layer 的解释优先级：
+后序 revision decision 对 Framework / Reference Governance Layer 的解释优先级：
 
 $$
-R4>R3>R2>R1>R0
+R5>R4>R3>R2>R1>R0
 $$
 
 但该优先级不覆盖 v0.3 已冻结且在 v0.3.1 中明确 KEEP FROZEN 的 Scientific Core。
 
-被 R1–R4 否决的 R0 candidate design 不进入本 Master，包括：
+R5 Non-Regression 判定：
+
+$$
+\boxed{
+ScientificCoreDelta=0
+}
+$$
+
+$$
+\boxed{
+ProgramArchitectureDelta=0
+}
+$$
+
+$$
+\boxed{
+CoreExperimentSchemaDelta=0
+}
+$$
+
+R5 新增内容均通过：
+
+$$
+\boxed{
+OrthogonalReferenceAndBenchmarkGovernance
+}
+$$
+
+接入 Master。
+
+被 R1–R5 继续否决或未重新打开的 R0 candidate design 不进入本 Master，包括：
 
 ```text
 Flat Scientific Kernel tuple
@@ -9892,4 +14798,20 @@ $$
 
 > **真正稳定的科学体系，应当允许用于操作化科学问题的 Framework 被替换，而不需要重写科学问题本身、目标 estimand、历史 evidence 与 scientific claim 的含义。**
 
-这构成 **System Intelligence Science v0.3.1** 后续科学研究、Framework 设计、Domain validation、benchmark 建设、工程实现、自动 conformance 与经验系统规律累积的统一 Mother Specification。
+R5 同时冻结：
+
+$$
+\boxed{
+\textbf{
+A stable evaluation science must not confuse
+the reference used to evaluate a system
+with the latent reality the reference attempts to represent.
+}
+}
+$$
+
+中文：
+
+> **成熟的评价科学，不应把用于评价系统的 reference 与该 reference 试图表征的潜在真实状态混为一谈；reference 必须具有显式的信息边界、证据来源、角色分离、不确定性、仲裁与版本 lineage。**
+
+这构成 **System Intelligence Science v0.3.1 R5 Regenerated Edition** 后续科学研究、Framework 设计、Domain validation、reference construction、benchmark 建设、工程实现、自动 conformance 与经验系统规律累积的统一 Mother Specification。
