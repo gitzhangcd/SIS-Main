@@ -1,43 +1,45 @@
 # SIS-GOV-P0-A1 — R5 Authority Baseline Alignment (DRAFT)
 
-> **This branch and PR are a review proposal, not an adopted release. Do not merge until SIS Core Owner / Scientific Governance approves.**
+> **DRAFT NOT ADOPTED. This PR is an auditable release candidate, not a normative release.**
 
-## Base snapshot
+## Main and archived predecessor
 
 - Repository: `gitzhangcd/SIS-Main`
-- Base main commit when branch created: `096593987a928517d7fce66a3907019c767e36b9`
+- Base commit: `096593987a928517d7fce66a3907019c767e36b9`
 - Previous normative path: `specs/System_Intelligence_Science_v0.3.1.md`
-- Previous Git blob SHA-1: `2c99d87f2c3d5458dca254b1ece3eb9bb7097ce4`
-- Exact previous content archived as `specs/archive/System_Intelligence_Science_v0.3.1_R0-R4_Pre_R5.md`.
+- Previous blob SHA-1: `2c99d87f2c3d5458dca254b1ece3eb9bb7097ce4` (117227 bytes; R0-R4).
+- Archived unchanged: `specs/archive/System_Intelligence_Science_v0.3.1_R0-R4_Pre_R5.md` (same Git blob SHA).
 
-## Candidate R5 source
+## Two source-distinct R5 files and decision
 
-- Source: user-provided `SIS-v0.3.1-R5-Regenerated-Master-Specification (1).md`
-- Bytes: `181565`
-- Source SHA-256: `3e1da79a14111d2ead7bc49d47665bc05c1879969b9233fdaa060c2f95436a82`
-- Git blob SHA-1 expected: `419aa8c841206a63e0bf6d7f067fa3331880d5a3`
-- Update mode: **verbatim complete Master**, no edits, no appended R5.1 candidate.
+**Selected baseline for this draft PR:** the 149590-byte Library `System-Intelligence-Science-v0.3.1-R5-Regenerated-Master-Specification.md`. Previous user decision on 2026-10-21 selected this as substitute R5 baseline; treat that selection as a recorded project choice, **not by itself as an independently signed release approval**.
 
-## Known review blockers
+- Selected R5 SHA-256: `f7dff71e2c5973f75a7f83c77f189b6d605c5f1ea50f738506e0d115a857c44d`
+- Selected R5 Git blob SHA-1: `9a8365ad944402d1f37668b222e7c2c9f2d3250d`
+- Selected R5 size: 149590 bytes, 12415 text lines.
 
-1. **Approval evidence:** local R5 text self-describes its R5 freeze and non-regression decisions, but an independently verifiable historical adoption signature, tag or approved PR was not located in the audited SIS-Main branch. A Core Owner decision is still required.
-2. **Capability Localization semantic status:** Part VII-A labels itself `PROPOSED NORMATIVE PATCH` but later uses freeze-like wording. Resolve normative precedence expressly without retroactively rewriting the source snapshot.
-3. **Domain adoption:** SIS-MED R6 and Nutrition Foundation cite SIS R5 but need immutable upstream tag/commit pin after release; do not update other projects in this PR.
-4. **Regression:** historical claims, literature registry, program routing and exact engineering schemas have not been independently re-executed in this PR. Static identical-source verification is not sufficient for adoption.
-5. **R5.1 exclusion:** R5.1 RSI/scientific-positioning revision stays `CANDIDATE / NOT_ADOPTED`; the RSI pilot and expert utility evidence remain separate.
+**Non-selected extended R5 snapshot:** user-supplied 181565-byte `SIS-v0.3.1-R5-Regenerated-Master-Specification (1).md`.
 
-## Required review checks before merge
+- Extended R5 SHA-256: `3e1da79a14111d2ead7bc49d47665bc05c1879969b9233fdaa060c2f95436a82`
+- Extended R5 Git blob SHA-1: `419aa8c841206a63e0bf6d7f067fa3331880d5a3`
+- Difference: it inserts a contiguous Part VII-A block of approximately 2402 lines labeled **PROPOSED NORMATIVE PATCH** for Capability Localization; the rest of the original Library R5 lines are identical (sequence comparison; this is not formal semantic equivalence).
+- This insert is **not adopted** by replacement of the normative Master. It remains a separate proposed overlay requiring science-owner review.
+- The R5.1 candidate composite was constructed using the extended 181565-byte snapshot; its upstream prefix therefore requires explicit reconciliation/rebase before future normative consideration.
 
-- [ ] SIS Core Owner confirms normative R5 adoption and accepts exact upstream file fingerprint.
-- [ ] Reviewers compare R0–R4 vs R5 at clause level and check Core/Program/Experiment non-regression.
-- [ ] Confirm proposed-patch status interpretation (without silent semantic upgrades).
-- [ ] Confirm old file archive SHA equals original Git blob.
-- [ ] Confirm new R5 Git blob equals the supplied source.
-- [ ] Decide release tag, manifest authority status, rollback path, downstream notifications.
-- [ ] Applicable CI / domain conformance passes or each unresolved item is explicitly handled.
+## Non-regression and approval blockers
 
-## Rollback
+1. SIS Core Owner / scientific governance must ratify the Library R5 substitution for the canonical GitHub normative path and resolve any historical contrary approval evidence.
+2. Confirm R5 ScientificCoreDelta=0, ProgramArchitectureDelta=0, CoreExperimentSchemaDelta=0 through applicable scientific review; a text statement inside R5 is not independent execution proof.
+3. Decide Capability Localization patch status explicitly; do not silently promote a proposal to FROZEN.
+4. Confirm exact source Git blobs and preservation of the pre-R5 archive; check downstream SIS-MED R6 and NDSF source pins after approval.
+5. Keep R5.1 Candidate, RSI experiment data, literature artifacts and schema changes **outside** this PR.
+6. Confirm production and CI results separately; do not infer science evidence from documentation checks.
 
-Revert this PR if merged or restore normative file from archived exact pre-R5 blob; never delete original revision, annotation or claim evidence. Versioned downstream adoption must be a separate PR.
+## Release / rollout after approval
 
-**Current Gate: HOLD_PENDING_SIS_CORE_OWNER_APPROVAL_AND_NON_REGRESSION.**
+- Approve and merge through standard code review only after blockers resolved.
+- Record approved commit and immutable release tag in an ApprovedNormativeManifest.
+- Propagate new source refs to SIS-MED and Nutrition Foundation by separate domain PRs.
+- If not approved: close draft PR without merge. `main` remains unchanged.
+
+**Current Gate:** `HOLD_PENDING_CORE_OWNER_APPROVAL_AND_NON_REGRESSION`.
