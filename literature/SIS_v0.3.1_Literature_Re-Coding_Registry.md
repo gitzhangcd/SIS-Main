@@ -427,3 +427,35 @@ Source window: latest Friday arXiv list (2026-10-23; first submissions Oct 19–
 
 - [Daily evidence notes](updates/2026-10-26_SIS_Daily_Literature_Update.md) contain full provenance, boundary and classification detail.
 - [P0 audit](evidence-map/audits/SIS_P0_Reaudit_2026-10-26.md) contains 9 distinct claim decisions for SIS-LIT-033/034/038. Permanent corpus totals and pre-existing final labels **unchanged**; second coder pending.
+
+---
+
+## 2026-10-27 daily provisional candidates (NOT permanent SIS-LIT IDs)
+
+**Window:** arXiv cs.AI 2026-10-26 announcement (79 new of 321 total listings), studies initially submitted 2026-10-22 or 2026-10-23 UTC; none first submitted 2026-10-27. Cross-check with 145 permanent Registry IDs and provisional Oct 24–26 (29 items), older Oct 9–23 bundles not exhaustively available. No confirmed independent peer-reviewed study in selected fresh batch; one author-described nonarchival workshop poster is categorized as preprint. No independent community replication. Detailed [daily source update](updates/2026-10-27_SIS_Daily_Literature_Update.md) and [P0 re-audit](evidence-map/audits/SIS_P0_Reaudit_2026-10-27.md).
+
+| Temporary ID | Primary paper / version | Primary | Cross-cutting | Framework | Claim-level primary estimand | First-coder claim ceiling | I / T | Evidence role |
+
+|---|---|---|---|---|---|---|---|---|
+
+| SIS-CAND-20261027-01 | [SWE-Shift: Evaluating Coding Agents in Evolving Workspaces](https://arxiv.org/abs/2610.32196), arXiv v1 2026-10-23 | SDR | BGT | TD/ID/MEAS/EG/BT | `MID_EXECUTION_CHANGE_RECOVERY_EFFECT` | CL1; local CL2 candidate | I2-local/T1 | CONTROLLED_BOUNDARY_NEGATIVE |
+
+| SIS-CAND-20261027-02 | [The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows](https://arxiv.org/abs/2610.31985), arXiv v1 2026-10-22 | SDR | CSCI/BGT | TD/IA/EG/ID/MEAS/BT | `BENIGN_CROSS_OWNER_COOPERATION_OVERSIGHT_BYPASS_EFFECT` | CL1; local intervention candidate | I1/I2-local/T0 | NEGATIVE_BOUNDARY |
+
+| SIS-CAND-20261027-03 | [Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows](https://arxiv.org/abs/2610.31916), arXiv v1 2026-10-22 | SDR | BGT | TD/DR/EG/ID/MEAS/BT | `AUTHORITY_CONDITIONAL_RETRY_RECOVERY_CONFORMANCE` | CL1; local CL2 candidate | I2-local/T0 | CONTROLLED_RECOVERY_BOUNDARY |
+
+| SIS-CAND-20261027-04 | [Not All Information Is Worth Asking For: Decision-Informed Information Seeking with LLMs](https://arxiv.org/abs/2610.32181), arXiv v1 2026-10-23 | ASR | BGT | DR/ID/MEAS/EG/BT | `DECISION_CONDITIONAL_VALUE_OF_INFORMATION_NET_REGRET` | CL1; local controlled comparison | I1/I2-local/T1 | REGULATION_MEASUREMENT |
+
+| SIS-CAND-20261027-05 | [Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents](https://arxiv.org/abs/2610.32429), arXiv v1 2026-10-23 | SDR | BGT | TD/DR/ID/MEAS/BT | `ASYNCHRONOUS_EVENT_RESPONSE_CONFORMANCE_EFFECT` | CL1; local CL2 candidate | I2-local/T1 | DYNAMIC_MEASUREMENT_NEGATIVE |
+
+| SIS-CAND-20261027-06 | [Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons](https://arxiv.org/abs/2610.31846), arXiv v1 2026-10-22 | SCF | CSCI/BGT | MI/DR/EG/MEAS/BT | `PERSISTENT_LOCAL_ADAPTER_REPAIR_RETENTION_EFFECT` | CL1; mechanism not independently identified | I1/T2-performance-only | CAPABILITY_RETENTION_IMPLEMENTATION |
+
+| SIS-CAND-20261027-07 | [Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?](https://arxiv.org/abs/2610.31918), arXiv v1 2026-10-22 | SCF | CSCI/BGT | MI/TD/ID/MEAS/BT | `HISTORY_POLICY_BY_ACTION_PREFIX_SOURCE_INTERACTION_EFFECT` | CL1; local CL2 candidate | I2-local/T1 | TRAINING_MECHANISM_INTERACTION |
+
+| SIS-CAND-20261027-08 | [Do AI-for-Science Agents Preserve Model Safety?](https://arxiv.org/abs/2610.32045), arXiv v1 2026-10-23 | SCF | CSCI/BGT | IA/EG/ID/MEAS/BT | `SCIENCE_HARNESS_BY_MODEL_SAFETY_RETENTION_EFFECT` | CL1; local CL2 candidate | I2-local/T1 | NEGATIVE_SAFETY_BOUNDARY |
+
+| SIS-CAND-20261027-09 | [CEMIR vs. FISER: a comparative study of reasoning-based and enrichment-based approaches to pragmatic intent recognition](https://arxiv.org/abs/2610.32022), arXiv v1 2026-10-23 | SCF | CSCI/BGT | MI/ID/MEAS/BT | `SYNTHETIC_MULTIMODAL_ENRICHMENT_INCREMENTAL_INTENT_VALUE` | CL1 conditional null | I2-local/T1 | NEGATIVE_BOUNDARY |
+
+| SIS-CAND-20261027-10 | [Who Verifies the Tools? How Warped Formatters Mislead Agents and Their Verifiers](https://arxiv.org/abs/2610.32110), arXiv v1 2026-10-23 | ROUTING_ABSTAIN | BGT | MI/EG/ID/MEAS/BT | `TOOL_FORMATTER_OMISSION_EVALUATOR_CONSTRUCT_EFFECT` | CL1; local CL2 candidate | I2-local/T0 | MEASUREMENT_INSTRUMENT_BOUNDARY |
+
+**Evidence status:** Provisional; no CL3, T3 or T4 admitted. The old 2026-10-09–23 unmerged candidate corpus has not been exhaustively reconciled. Prevent permanent-ID collision; do not alter final Gold without second coder/adjudication.
