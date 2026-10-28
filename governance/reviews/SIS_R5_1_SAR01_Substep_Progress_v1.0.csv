@@ -1,5 +1,5 @@
 "id","status","evidence_gate","completed_work","remaining_work","next_action"
 "SAR-01-A","REVIEW_COMPLETE_CONCEPTUAL","G-S CONDITIONAL; G-O/G-E NOT_EXECUTED","4 cases; 13 distinct claims; 18 reasoned adversarial tests; 4 open gaps","No science-owner decision; no empirical/runner tests","SAR-01-B"
 "SAR-01-B","REVIEW_COMPLETE_CONCEPTUAL","G-S CONDITIONAL; G-O FIXTURE_CONSISTENCY_ONLY; G-E NOT_EXECUTED","28 hypothetical boundary fixtures; 22 adversarial conceptual expectations; 70 authored fixture logic/structure checks PASS; scope gate proposed","Two irreducible theoretical objections remain; no system runs; no science-owner approval","SAR-01-C"
-"SAR-01-C","NOT_STARTED","OPEN","None","Mother Problem v0.8 compact definition with no more than 2 irreducible objections","After B"
-"SAR-01-D","NOT_STARTED","OPEN","None","Science-owner interactive final decision card; no automatic Master release","After C"
+"SAR-01-C","REVIEW_CANDIDATE_COMPLETE","G-S CONDITIONAL; G-O FORMAL NOT_EXECUTED; G-E NOT_EXECUTED","Identity v0.8 + Mother Problem + 5 Scope Gate rules + 2 strongest objections + 14 design-level nonregression checks; 23/23 document/source structure checks PASS","NR-13 scientific identity scope owner decision; NR-14 automation/RSI exact boundary open; empirical experiments 0","SAR-01-D"
+"SAR-01-D","DECISION_PENDING","SCIENCE OWNER REQUIRED","Decision-card preview prepared; no approval given","Accept/modify/defer candidate v0.8; preserve O1/O2 and explicit downstream impacts","Science Owner decision card"
