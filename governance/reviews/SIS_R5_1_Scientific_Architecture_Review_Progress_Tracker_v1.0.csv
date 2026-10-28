@@ -1,6 +1,6 @@
 "id","phase","review_topic","status","decision_status","review_gate","deliverable","next_action","owner"
 "SAR-01","I","科学身份与母问题","REVIEW_ACCEPTED_WITH_OPEN_GATES","A_CONDITIONAL_ACCEPT_FOR_REVIEW_BASELINE","SAR-01 v0.8仅为科学审核工作基线；C1/C2有效；O1/O2开放；NR-13仅准许review语义，normative delta未验；NR-14开放；G-O/G-E未执行","SAR-01-D-DEC-001 Decision Receipt v1.0；Decision Register v1.1；A/B/C概念审核完成；14项定向NR中12设计保持、2后续处理","SAR-02-A First-Principles Ontology Inventory Necessity and Sufficiency Audit","core-owner"
-"SAR-02","I","第一性 Ontology 最小充分性","NOT_STARTED","READY_TO_START","SAR-01条件性审核基线已授权；尚无SAR-02科学审查结果","Minimum Ontology Audit","START SAR-02-A Ontology Inventory/Minimality/Single-Component Stress Tests","core-owner"
+"SAR-02","I","第一性 Ontology 最小充分性","IN_REVIEW","OPEN","SAR-02-A 本体16条、5个合成系统、30项预期Kill Tests、20项定向非回归已完成概念审核；49/49来源/结构断言PASS；2项HIGH语义歧义、5项附加开放项；真实系统/正式工程试验0","SAR-02-A审核报告+本体清单+五系统矩阵+反例+非回归+开放问题均已归档；未新增Primitive/Program；并非Ontology正式冻结","SAR-02-B Full-Observability & Dynamic-Component-Membership Semantic Kill Audit","core-owner"
 "SAR-03","II","SCF / SDR / ASR 科学纲领覆盖","NOT_STARTED","NONE","主纲领的可区分路由与负向测试","Program Routing Atlas","SAR-02 完成后启动","core-owner"
 "SAR-04","II","RSI 与反馈自我改进","NOT_STARTED","NONE","区分改进输出、改进策略与递归改进机制","RSI Scientific Contract","SAR-03 完成后启动","core-owner"
 "SAR-05","II","能力定位、认知下限及弱脑强身补偿","NOT_STARTED","NONE","认知能力多维下限、系统能力与模型贡献分离","Compensation Factorial Matrix","SAR-04 完成后启动","core-owner"
