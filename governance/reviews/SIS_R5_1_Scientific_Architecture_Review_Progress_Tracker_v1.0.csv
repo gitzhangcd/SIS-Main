@@ -1,6 +1,6 @@
 "id","phase","review_topic","status","decision_status","review_gate","deliverable","next_action","owner"
-"SAR-01","I","科学身份与母问题","IN_REVIEW","DECISION_PENDING","SAR-01-A/B/C审核已完成；D科学裁决档案已发布、实际owner选择未给出；v0.8; NR 12保留/2待处理；实证0","Science Owner裁决选项A/B/C已归档；O1/O2仍OPEN；不修改Master","WAIT_FOR_SCIENCE_OWNER_SAR-01-D_DECISION","core-owner"
-"SAR-02","I","第一性 Ontology 最小充分性","NOT_STARTED","NONE","基础对象必要性、充分性、边界区分","Minimum Ontology Audit","SAR-01 形成条件性裁决后启动","core-owner"
+"SAR-01","I","科学身份与母问题","REVIEW_ACCEPTED_WITH_OPEN_GATES","A_CONDITIONAL_ACCEPT_FOR_REVIEW_BASELINE","SAR-01 v0.8仅为科学审核工作基线；C1/C2有效；O1/O2开放；NR-13仅准许review语义，normative delta未验；NR-14开放；G-O/G-E未执行","SAR-01-D-DEC-001 Decision Receipt v1.0；Decision Register v1.1；A/B/C概念审核完成；14项定向NR中12设计保持、2后续处理","SAR-02-A First-Principles Ontology Inventory Necessity and Sufficiency Audit","core-owner"
+"SAR-02","I","第一性 Ontology 最小充分性","NOT_STARTED","READY_TO_START","SAR-01条件性审核基线已授权；尚无SAR-02科学审查结果","Minimum Ontology Audit","START SAR-02-A Ontology Inventory/Minimality/Single-Component Stress Tests","core-owner"
 "SAR-03","II","SCF / SDR / ASR 科学纲领覆盖","NOT_STARTED","NONE","主纲领的可区分路由与负向测试","Program Routing Atlas","SAR-02 完成后启动","core-owner"
 "SAR-04","II","RSI 与反馈自我改进","NOT_STARTED","NONE","区分改进输出、改进策略与递归改进机制","RSI Scientific Contract","SAR-03 完成后启动","core-owner"
 "SAR-05","II","能力定位、认知下限及弱脑强身补偿","NOT_STARTED","NONE","认知能力多维下限、系统能力与模型贡献分离","Compensation Factorial Matrix","SAR-04 完成后启动","core-owner"
