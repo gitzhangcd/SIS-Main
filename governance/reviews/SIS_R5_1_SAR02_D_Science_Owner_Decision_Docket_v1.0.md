@@ -63,6 +63,19 @@ A choice to enter SAR-02-D **does not** imply selection of A.
 - `G-S=CONDITIONAL`; `G-O=NOT_EXECUTED`; `G-E=NOT_EXECUTED`. No Jev/LLM/SOP system efficacy, causal compensation or recursive improvement laws are proven.
 - R5.1 Part VII-A stays a `PROPOSED NORMATIVE PATCH`.
 
+## F0. Literature cross-check received after decision-card preparation (non-decision)
+
+The Science Owner argued that **conditional dual-view is necessary because current feedback-driven intelligent-system research can increase/decrease components** and requested validation from the `main/literature` record. We retrieved the source bibliography, 2026-10-25 and 2026-10-26 provisional updates and evidence-map/queue; checked original papers where available. Supplement: [`SIS_R5_1_SAR02_D_Literature_Check_Dynamic_Component_Evolution_v0.1.md`](SIS_R5_1_SAR02_D_Literature_Check_Dynamic_Component_Evolution_v0.1.md).
+
+**Evidence supports multiple structural change categories**, with critical scientific distinctions:
+- FAMA/Conductor: activate or compose *existing* worker/specialist pools (M1-type cases);
+- Procedural Graphs/SE-GoS: modify procedural/skill **relations** (R_t change, not necessarily C membership);
+- MASkills: induction/merger/pruning of persistent **skill artifacts**, whose status as independent SIS Components is boundary-dependent;
+- Growing Harness: feedback-driven durable executable control-code change, not automatically birth of a separately addressable agent;
+- CMAS: simulator-based typed architecture graph edits and contraction toward near-single-worker teams (directer changing active population, not proof of unrestricted fresh-agent identity).
+
+**Scientific interpretation:** This independent source check strengthens **Option A** over one universal frozen component-set assumption, but does **not** establish that M2 is always required, prove open-world creation of novel authority-bearing identities, or resolve component-boundary ambiguity. **User preference is recorded as an argument favoring A; the formal owner-choice field remains `PENDING` while evidence is being considered.** R5.1 Master remains unchanged, G-O/G-E unexecuted.
+
 ## F. Decision receipt placeholder (no decision recorded)
 
 `decision_id: SAR-02-D-DEC-001`  
