@@ -1,5 +1,5 @@
 "id","phase","review_topic","status","decision_status","review_gate","deliverable","next_action","owner"
-"SAR-01","I","科学身份与母问题","IN_REVIEW","OPEN","SAR-01-A/B概念审核完成；SAR-01-C v0.8候选形成，非回归12项设计保留/2项待裁决；23项材料检查PASS，实证0","Identity v0.8+S1–S5+O1/O2及定向Non-Regression已备妥；未正式采纳","SAR-01-D Science Owner Scientific Identity Decision","core-owner"
+"SAR-01","I","科学身份与母问题","IN_REVIEW","DECISION_PENDING","SAR-01-A/B/C审核已完成；D科学裁决档案已发布、实际owner选择未给出；v0.8; NR 12保留/2待处理；实证0","Science Owner裁决选项A/B/C已归档；O1/O2仍OPEN；不修改Master","WAIT_FOR_SCIENCE_OWNER_SAR-01-D_DECISION","core-owner"
 "SAR-02","I","第一性 Ontology 最小充分性","NOT_STARTED","NONE","基础对象必要性、充分性、边界区分","Minimum Ontology Audit","SAR-01 形成条件性裁决后启动","core-owner"
 "SAR-03","II","SCF / SDR / ASR 科学纲领覆盖","NOT_STARTED","NONE","主纲领的可区分路由与负向测试","Program Routing Atlas","SAR-02 完成后启动","core-owner"
 "SAR-04","II","RSI 与反馈自我改进","NOT_STARTED","NONE","区分改进输出、改进策略与递归改进机制","RSI Scientific Contract","SAR-03 完成后启动","core-owner"
