@@ -1,5 +1,5 @@
 "id","phase","review_topic","status","decision_status","review_gate","deliverable","next_action","owner"
-"SAR-01","I","科学身份与母问题","IN_REVIEW","OPEN","完成四类系统压力测试；收敛科学范围判据","Identity + Scope Gate + four-case test matrix","SAR-01-A 四系统表达充分性测试","core-owner"
+"SAR-01","I","科学身份与母问题","IN_REVIEW","OPEN","SAR-01-A 概念审核4/4、13条claim和18项反例已完成；SAR-01总体仍OPEN；待B/C/D","A审查材料已完成；Scope Gate与最终Scientific Identity仍待确认","SAR-01-B Scientific Scope Gate & Automation Boundary Kill Tests","core-owner"
 "SAR-02","I","第一性 Ontology 最小充分性","NOT_STARTED","NONE","基础对象必要性、充分性、边界区分","Minimum Ontology Audit","SAR-01 形成条件性裁决后启动","core-owner"
 "SAR-03","II","SCF / SDR / ASR 科学纲领覆盖","NOT_STARTED","NONE","主纲领的可区分路由与负向测试","Program Routing Atlas","SAR-02 完成后启动","core-owner"
 "SAR-04","II","RSI 与反馈自我改进","NOT_STARTED","NONE","区分改进输出、改进策略与递归改进机制","RSI Scientific Contract","SAR-03 完成后启动","core-owner"
