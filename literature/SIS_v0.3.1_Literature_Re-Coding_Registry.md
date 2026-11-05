@@ -939,3 +939,100 @@ Source window: arXiv public 2026-11-03 cs.AI listing, 816 total records / 222 ne
 
 Formal SIS Impact Decision: MEASUREMENT_IDENTIFICATION_DELTA; secondary BENCHMARK_DELTA; SPEC_REVISION_CANDIDATE=NO. Existing SCF/SDR/ASR, CSCI/BGT and thin Frameworks suffice. 115/118/127 first-coder claim re-audit in separate ledger.
 
+
+---
+
+## Provisional daily intake — 2026-11-05 (10 study-version candidates)
+
+The study date and intake date are different. These are provisional IDs, *not* permanent SIS-LIT assignments; second coder/adjudication pending. ROUTING_ABSTAIN is a governance routing outcome, not a fourth Primary Program.
+
+### SIS-CAND-20261105-01 — Retrieval Myopia: Why RL Search Agents Fail to Read What They Find
+
+- StudyVersionRecord: [primary](https://aclanthology.org/2026.findings-emnlp.1713/); 2026-10 (Findings EMNLP; delayed discovery). Study identity checked against current registry.
+- Novelty / evidence: 5 RL-search systems; up to 46.2% errors despite injected gold; reformatting restores up to 48.9% of those errors.
+- Identification limitation and key boundary variables: Forced gold and format/attention coupling; task, model and input format.
+- Primary Program: `SCF`; cross-cutting: `BGT`; Framework Capability Profile: `MI/MEAS/ID/EG/BT`.
+- Primary estimand: `FORCED_GOLD_RETRIEVAL_FORMAT_CONDITIONAL_READING_EFFECT`; Claim ceiling and identification/transport: CL1; local CL2 candidate; I2-local/T1; Evidence role: Negative/boundary.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-02 — Evaluating LLM Agents Beyond Local Edit Validity
+
+- StudyVersionRecord: [primary](https://aclanthology.org/2026.findings-emnlp.893/); 2026-10 (Findings EMNLP; delayed discovery). Study identity checked against current registry.
+- Novelty / evidence: Local-valid alloy/GB1 success 16.0%/6.8%; exhaustive 625 GB1 variants find 51.4% locally valid episodes exceed recoverability boundary.
+- Identification limitation and key boundary variables: Toy/proxy landscapes; remaining budget and future action reachability.
+- Primary Program: `SDR`; cross-cutting: `BGT`; Framework Capability Profile: `TD/MEAS/ID/BT`.
+- Primary estimand: `BUDGET_CONDITIONAL_ARTIFACT_RECOVERABILITY`; Claim ceiling and identification/transport: CL0 finite property + CL1; I1/T0; Evidence role: Negative/boundary.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-03 — Artifact-to-Capability: Diagnosing Breaks in Capability Formation of Self-Evolving Agents in a Controlled Environment
+
+- StudyVersionRecord: [primary](https://arxiv.org/abs/2611.04952); 2026-11-03 v1. Study identity checked against current registry.
+- Novelty / evidence: Controlled freestyle Gomoku shows legality-only gain, 20 missed one-move wins, and later regression.
+- Identification limitation and key boundary variables: Single controlled task, selected systems, checkpoint construct.
+- Primary Program: `SCF`; cross-cutting: `CSCI/BGT`; Framework Capability Profile: `MI/TD/IA/MEAS/ID/BT`.
+- Primary estimand: `ARTIFACT_CAPABILITY_FORMATION_CHECKPOINT`; Claim ceiling and identification/transport: CL0 definitions + CL1; I1/T0; Evidence role: Negative/construct validity.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-04 — Silent Instrument Errors Reorder Agent Leaderboards
+
+- StudyVersionRecord: [primary](https://arxiv.org/abs/2611.04399); 2026-11-03 v1. Study identity checked against current registry.
+- Novelty / evidence: HAL and tau2 artifacts: ungraded counted failure, 13-point comparison gap closes after regrading, misattributed grader actions and duplicate cost.
+- Identification limitation and key boundary variables: Selected evaluations, grader-version and coverage dependence, independent Gold required.
+- Primary Program: `ROUTING_ABSTAIN`; cross-cutting: `BGT`; Framework Capability Profile: `MEAS/EG/ID/BT`.
+- Primary estimand: `GRADER_COVERAGE_PROVENANCE_VERSION_RANKING_SENSITIVITY`; Claim ceiling and identification/transport: CL1 measurement audit; local deterministic I2/T0; Evidence role: Measurement/negative.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-05 — Verifier strength does not buy discovery quality: a pre-registered two-domain test of LLM-based automated research
+
+- StudyVersionRecord: [primary](https://arxiv.org/abs/2611.04420); 2026-11-03 v1. Study identity checked against current registry.
+- Novelty / evidence: Prespecified two-domain 100 matched pairs each; stronger gates do not improve relative heldout discovery; posthoc pool mix +1.52 one domain.
+- Identification limitation and key boundary variables: Lower tiers select near-identical candidates; mixed pool post-hoc; two domains.
+- Primary Program: `ASR`; cross-cutting: `BGT`; Framework Capability Profile: `DR/MEAS/ID/EG/BT`.
+- Primary estimand: `VERIFIER_TIER_X_PROPOSER_POOL_HOLDOUT_VALUE`; Claim ceiling and identification/transport: CL1 negative; local I2 candidate/T0; Evidence role: Negative/null, optimization boundary.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-06 — What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory
+
+- StudyVersionRecord: [primary](https://arxiv.org/abs/2611.03930); 2026-11-02 v1, newly surfaced. Study identity checked against current registry.
+- Novelty / evidence: Paired exposure answer-bearing vs matched control +0.33 (95% interval +0.21,+0.46); tested scientific/software coding shows null detectable gain.
+- Identification limitation and key boundary variables: Single-call recall, frozen reader, task distribution, format and placement.
+- Primary Program: `SCF`; cross-cutting: `BGT`; Framework Capability Profile: `MI/MEAS/ID/EG/BT`.
+- Primary estimand: `TASK_CONDITIONED_MEMORY_EXPOSURE_PAIRED_GAIN`; Claim ceiling and identification/transport: CL1; local CL2 candidate; I2-local/T1; Evidence role: Conditional mechanism/boundary.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-07 — From AutoResearch to Continual AutoResearch: Do Agents Learn Across Tasks?
+
+- StudyVersionRecord: [primary](https://arxiv.org/abs/2611.05108); 2026-11-03 v1. Study identity checked against current registry.
+- Novelty / evidence: Nine task families, five agents; persistent execution improves early efficiency but not consistently final held-out value.
+- Identification limitation and key boundary variables: Session state, code and memory co-vary; finite task streams.
+- Primary Program: `SDR`; cross-cutting: `BGT`; Framework Capability Profile: `TD/DR/MEAS/ID/EG/BT`.
+- Primary estimand: `PERSISTENCE_VS_RESET_RESEARCH_EFFICIENCY_FINAL_VALUE`; Claim ceiling and identification/transport: CL1; local CL2 candidate; I2-local/T1; Evidence role: Conditional positive/negative.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-08 — Meta^2: Precomputing Reusable Knowledge for Online Harness Evolution in Long-Horizon Agents
+
+- StudyVersionRecord: [primary](https://arxiv.org/abs/2611.05139); 2026-11-03 v1. Study identity checked against current registry.
+- Novelty / evidence: Offline precomputation and online KEEP/EVOLVE; reported Terminal-Bench 2.1 81.00%, DeepSWE 1.1 44.44% in configurations.
+- Identification limitation and key boundary variables: Meta-knowledge, editing and compute coupled; train-only verifier privilege requires audit.
+- Primary Program: `ASR`; cross-cutting: `BGT`; Framework Capability Profile: `DR/MI/TD/EG/MEAS/ID/BT`.
+- Primary estimand: `OFFLINE_META_SKILL_ONLINE_KEEP_EVOLVE_VALUE`; Claim ceiling and identification/transport: CL1 composite; local candidate; I1/I2-local/T1; Evidence role: Regulation/implementation.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-09 — Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training
+
+- StudyVersionRecord: [primary](https://arxiv.org/abs/2611.04277); 2026-11-03 v1. Study identity checked against current registry.
+- Novelty / evidence: Sibling harness rollout rescue trains shared policy then evaluates with original harness on AppWorld/SWE-Gym/DBBench.
+- Identification limitation and key boundary variables: Training volume, sibling quality and switching policy confounded; T2 not T3.
+- Primary Program: `SCF`; cross-cutting: `CSCI/BGT`; Framework Capability Profile: `MI/IA/DR/MEAS/ID/BT`.
+- Primary estimand: `SIBLING_HARNESS_RESCUE_BASE_POLICY_TRANSFER`; Claim ceiling and identification/transport: CL1; I1/T2-performance-only; Evidence role: CSCI/transport boundary.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
+### SIS-CAND-20261105-10 — Inter-Agent Influence: Evaluating Persuasion, Deception, and Coercion in Multi-Agent Systems
+
+- StudyVersionRecord: [primary](https://arxiv.org/abs/2611.04556); 2026-11-03 preprint; author states NeurIPS acceptance unverified. Study identity checked against current registry.
+- Novelty / evidence: Five environments; persuasion modifies overseer reject-to-approve and peer trajectories.
+- Identification limitation and key boundary variables: Designed settings not deployment incidence; proceedings version unverified.
+- Primary Program: `SDR`; cross-cutting: `CSCI/BGT`; Framework Capability Profile: `IA/TD/EG/MEAS/ID/BT`.
+- Primary estimand: `INTER_COMPONENT_PERSUASION_OVERSIGHT_SHIFT`; Claim ceiling and identification/transport: CL1; I1/I2-local/T1; Evidence role: Viability/authority boundary.
+- SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
+
