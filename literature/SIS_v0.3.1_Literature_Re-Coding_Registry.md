@@ -1036,3 +1036,97 @@ The study date and intake date are different. These are provisional IDs, *not* p
 - Primary estimand: `INTER_COMPONENT_PERSUASION_OVERSIGHT_SHIFT`; Claim ceiling and identification/transport: CL1; I1/I2-local/T1; Evidence role: Viability/authority boundary.
 - SIS impact: SHARPENS existing Framework and identification tests (no core revision); Priority: Must Read. The study-level metadata cannot be promoted to claim-level CL2 without a second-coder review.
 
+
+## 2026-11-06 daily intake — 10 source-verified provisional candidates (first-coder screening only)
+
+> arXiv cs.AI 2026-11-05 listing: 359 records, of which 93 new submissions; submission history and indexing/curation date are distinct. First two studies were submitted in September yet surfaced here only now; classify as delayed-indexing rather than freshly authored. Unique arXiv IDs were checked against this registry, no permanent SIS-LIT assignment. These are StudyVersionRecords, not adjudicated ClaimRecords.
+
+### SIS-CAND-20261106-01 — Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.05390; 2026-09-12 v1; surfaced 2026-11-05 as delayed-indexing cs.AI listing. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: 96 spatial policy + 96 transfer tasks; gate reduces corruption of already-correct proposals but keeps many valid repairs; prospective retain/replace/escalate differs sharply between Qwen and Mistral.
+- Key boundaries / confounds: Author-designed binding constraint and gate predefine part of effect; two models, proposal-state and jurisdiction dependence; not general institutional safety.
+- Primary routing: `ASR`; cross-cutting: `CSCI/BGT`; Framework Capability Profile: `DR/IA/EG/ID/MEAS/BT`.
+- Primary estimand: `EVIDENCE_GATED_REVIEW_AUTHORITY_CORRUPTION_REPAIR_TRADEOFF`; provisional claim ceiling / identification / transport: CL1; local intervention candidate only / I2-local / T1 performance. Evidence role: Boundary, conditional intervention.
+- SIS relevance: SHARPENS ASR regulation and CSCI authority; no new primitive. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-02 — Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.05391; 2026-09-13 v1; surfaced 2026-11-05 as delayed-indexing cs.AI listing. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: 216 matched decisions across three models: observable policy regret 4252→131 ms and single dispatch 69.4→95.8%; live fault-injection 27 decisions: 9/9 vs 5/9 success.
+- Key boundaries / confounds: Tool/network health is narrow operational domain; not direct evidence for authorization, memory, economics or general workload scheduling; host telemetry remains privileged.
+- Primary routing: `ASR`; cross-cutting: `CSCI/BGT`; Framework Capability Profile: `DR/TD/EG/ID/MEAS/BT`.
+- Primary estimand: `VERIFIED_HOST_TELEMETRY_PRE_DISPATCH_POLICY_REGRET_EFFECT`; provisional claim ceiling / identification / transport: CL1; local CL2 candidate / I2-local / T1 limited models. Evidence role: Local mechanism/boundary.
+- SIS relevance: SUPPORTS ASR condition-sensitive regulation; requires independent host-state measurements. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-03 — Verified but Vacuous: Three Failure Surfaces of LLM-Driven Verified Code Generation
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.05590; 2026-11-03 v1; newly listed 2026-11-05. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: 99.1% verifier acceptance vs 1.9% binding certificate on HumanEval in one pipeline; structurally verified Rust outputs still fail hidden tests in 11.48% and 14.82%.
+- Key boundaries / confounds: Two different pipelines/languages demonstrate distinct surfaces, not a jointly matched full causal mediation; benchmark and repair budget differ.
+- Primary routing: `ROUTING_ABSTAIN`; cross-cutting: `BGT`; Framework Capability Profile: `MI/EG/MEAS/ID/BT`.
+- Primary estimand: `VERIFIER_ACCEPTANCE_SPEC_BINDING_SEMANTIC_FIDELITY_GAP`; provisional claim ceiling / identification / transport: CL1 measurement; local formally defined predicates CL0 / I1 / T0. Evidence role: Measurement construct negative/boundary.
+- SIS relevance: SHARPENS MEAS and EG specification-grounding; no novel science primitive. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-04 — Attributing Agent Failures to Their History Needs an Executed Counterfactual: Toward a Reporting Standard
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.05650; 2026-11-03 v1; surfaced 2026-11-05. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: Proposes measured replay certificates; 24/24 same-snapshot restores agree with one another yet 9 or 20 of 24 disagree with live continuation; capturing random-stream position restores agreement.
+- Key boundaries / confounds: Paper does not itself apply full proposed standard to validate substantive history-effect claims; demonstration is narrow and model/simulator specific.
+- Primary routing: `SDR`; cross-cutting: `BGT`; Framework Capability Profile: `TD/ID/EG/MEAS/BT`.
+- Primary estimand: `EXECUTED_HISTORY_COUNTERFACTUAL_REPLAY_CERTIFICATE_IDENTIFICATION`; provisional claim ceiling / identification / transport: CL0 reporting proposal; CL1 measured replay failure / I1-I2-local / T0. Evidence role: Identification requirement and negative control.
+- SIS relevance: SHARPENS existing SDR counterfactual replay and evidence governance. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-05 — Grounded but Not Immune: Confirmation Bias in Agent-as-a-judge
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.05662; 2026-11-03 v1; surfaced 2026-11-05. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: Across four tool-using judges and five datasets, irrelevant false prescreening note flips up to 40% of previously correct decisions; two Claude judges' harmful flips 67–75% over-trust type.
+- Key boundaries / confounds: Designed authority cue and five datasets cannot estimate natural prevalence; failure-mode categories are diagnostic, not mechanistic mediation tests.
+- Primary routing: `ROUTING_ABSTAIN`; cross-cutting: `BGT`; Framework Capability Profile: `EG/MEAS/ID/BT`.
+- Primary estimand: `NONPROBATIVE_AUTHORITY_CUE_TOOL_JUDGE_VERDICT_FLIP_EFFECT`; provisional claim ceiling / identification / transport: CL1; local cue intervention CL2 candidate / I2-local / T1. Evidence role: Negative evaluator-independence boundary.
+- SIS relevance: CHALLENGES naive belief that gathering decisive evidence immunizes a judge. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-06 — One Scale, Four Texts: Gaps, Overlaps and Silent Repairs in Published Grading Schemes
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.06569; 2026-11-04 v1; newly listed 2026-11-05. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: Four retinopathy grading texts compiled to 24-variable rules; enumerated 1,425,807,360 profiles plus SMT cross-check; 927 images, one DDR conditional referral disagreement 26.8%; preregistered classifier/LLM tests.
+- Key boundaries / confounds: Thickening not observed on photos, so many comparisons are undecidable; assumption-dependent precisification, specific guidelines/datasets; not clinical outcome effect.
+- Primary routing: `ROUTING_ABSTAIN`; cross-cutting: `BGT`; Framework Capability Profile: `MI/EG/MEAS/ID/BT`.
+- Primary estimand: `VERSIONED_CLINICAL_RULE_TEXT_DECISION_NON_EQUIVALENCE`; provisional claim ceiling / identification / transport: Formal conditional CL0; empirical CL1; I1-I2-local / T1 datasets. Evidence role: Negative schema/version equivalence and measurement.
+- SIS relevance: SHARPENS specification completeness and versioned clinical evidence validity. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-07 — Signed, Sealed, Leaked: Trust Beyond Signature for MCP Toolchains
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.06585; 2026-11-04 v1; cross-listed cs.AI 2026-11-05. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: Authenticated tool can leak through allowed destination; germline isolated invocation: zero observed unauthorized disclosures in 153 attacks vs 5.9–74.5% for tested baselines; formal result under isolation assumptions.
+- Key boundaries / confounds: No claim about all information-flow channels; proof assumes confined copy and data-free germline; crafted attacks and baseline selection limit transport.
+- Primary routing: `SDR`; cross-cutting: `CSCI/BGT`; Framework Capability Profile: `TD/IA/EG/ID/MEAS/BT`.
+- Primary estimand: `DATA_ISOLATED_SIGNED_TOOL_SINK_NONINTERFERENCE_EFFECT`; provisional claim ceiling / identification / transport: Conditional formal CL0; empirical CL1/local CL2 candidate / I2-local/T0. Evidence role: Security mechanism/boundary.
+- SIS relevance: SUPPORTS action-level viability; signatures do not establish behavioral safety. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-08 — Task-Efficient Agent Evaluation Using Cached Traces
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.06803; 2026-11-04 v1; newly listed 2026-11-05. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: One task observed: trace-informed mean absolute prediction error 0.13→0.08 on SWE-bench Verified and 0.14→0.12 on Terminal-Bench 2.0, with significant Wilcoxon tests.
+- Key boundaries / confounds: Predictive error on held-out system does not certify construct validity or ranking stability under unfamiliar model/harness; LLM summary features and reference pool may leak identity.
+- Primary routing: `ROUTING_ABSTAIN`; cross-cutting: `BGT`; Framework Capability Profile: `TD/MEAS/ID/EG/BT`.
+- Primary estimand: `REFERENCE_TRACE_GEOMETRY_LOW_SAMPLE_SCORE_PREDICTION_ERROR`; provisional claim ceiling / identification / transport: CL1 measurement prediction / I1 / T1 two benchmarks. Evidence role: Measurement implementation and efficiency.
+- SIS relevance: FILLS MEAS instrumentation; not causal identification. Reading priority: Worth Skimming. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-09 — FrontierPhysics: Evaluating Agents for End-to-End Physics Research
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.06910; 2026-11-04 v1; newly listed 2026-11-05. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: 56 tasks authored by 42 physicists across nine domains, 22 models/26 configurations; best configuration passes at most 46 of 168 rollouts; deterministic checks + expert-authored rubrics.
+- Key boundaries / confounds: Expert publication-worthiness subject to rubric differences and task selection; benchmark success not a general scientific discovery law or transport claim.
+- Primary routing: `ROUTING_ABSTAIN`; cross-cutting: `BGT`; Framework Capability Profile: `MI/TD/EG/MEAS/ID/BT`.
+- Primary estimand: `END_TO_END_SCIENTIFIC_RESEARCH_CORRECTNESS_VS_PUBLISHABILITY`; provisional claim ceiling / identification / transport: CL1 benchmark / I1 / T1 cross-domain performance only. Evidence role: Scientific capability measurement.
+- SIS relevance: SHARPENS SCI research measurement, fits existing MEAS/EG. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+### SIS-CAND-20261106-10 — BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
+
+- StudyVersionRecord / primary source: https://arxiv.org/abs/2611.06911; 2026-11-04 v1; newly listed 2026-11-05; author reports NeurIPS 2026 E&D Spotlight, archival version not independently matched. Source class: PREPRINT; reviewed-proceedings lineage unconfirmed where claimed.
+- Core novelty / paper-level evidence: 1000 expert-created and reviewed questions across 11 image/video task types; 28 MLLMs offline single-turn; coarse procedure understanding stronger than apparatus, trajectory and action-region grounding.
+- Key boundaries / confounds: Offline questions do not demonstrate safe robotic actuation, physical lab execution, or scientific discovery outcomes; peer-review listing author claim only.
+- Primary routing: `ROUTING_ABSTAIN`; cross-cutting: `BGT`; Framework Capability Profile: `MI/TD/MEAS/EG/ID/BT`.
+- Primary estimand: `CHEMICAL_LAB_ACTION_GROUNDING_PROCEDURAL_FEASIBILITY_CONSTRUCT`; provisional claim ceiling / identification / transport: CL1 instrument/diagnostic / I1 / T1 model families. Evidence role: Scientific/embodied measurement boundary.
+- SIS relevance: SHARPENS SCF executable laboratory capability construct, no core change. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
