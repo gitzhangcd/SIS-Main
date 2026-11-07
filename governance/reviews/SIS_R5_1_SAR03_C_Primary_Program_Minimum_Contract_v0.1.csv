@@ -1,0 +1,4 @@
+"primary_program","scientific_target","necessary_gate","forbidden_shortcut","source"
+"SCF","System mechanism/organization/component interaction effect on system Y","Mechanism or organization target with appropriate contrast/evidence","Verifier's mere presence, branded Agent name or fixed procedure does not imply causal SCF effect","R5.1 §§22–24; §§40–44"
+"SDR","Time/transition-dependent trajectory/propagation/containment/recovery","Target cannot be recovered from terminal score or mere timestamp alone","Trajectory file or event log name alone cannot establish SDR","R5.1 §§25–28; §§40–44"
+"ASR","Endogenous action-selection or policy value conditional on legal information H_t","Action choice at decision time; NO_CHANGE/ABSTAIN allowed; evidence-time cutoff","Feedback word or policy component alone cannot force ASR","R5.1 §§29–33; §§40–44"
