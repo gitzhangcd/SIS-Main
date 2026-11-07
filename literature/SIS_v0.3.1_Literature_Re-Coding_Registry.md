@@ -1130,3 +1130,90 @@ The study date and intake date are different. These are provisional IDs, *not* p
 - Primary routing: `ROUTING_ABSTAIN`; cross-cutting: `BGT`; Framework Capability Profile: `MI/TD/MEAS/EG/ID/BT`.
 - Primary estimand: `CHEMICAL_LAB_ACTION_GROUNDING_PROCEDURAL_FEASIBILITY_CONSTRUCT`; provisional claim ceiling / identification / transport: CL1 instrument/diagnostic / I1 / T1 model families. Evidence role: Scientific/embodied measurement boundary.
 - SIS relevance: SHARPENS SCF executable laboratory capability construct, no core change. Reading priority: Must Read. **No paper-level CL2/CL3 inherited; separate claim-level adjudication required.**
+
+
+---
+
+## 2026-11-07｜新文献日期限定候选（首次提交 11-04—05；11-06 列表公开）
+
+本轮选取原始 arXiv 研究十项；对应研究版本和 Claim 证据分开，临时 ID 未分配永久编号。全部均按 PREPRINT 标记，正式同行评审版未独立核实。源页面核验、与现有 Registry arXiv ID 精确去重完成。历史 10 月 9–23 日候选仍有全局谱系欠账。
+
+### SIS-CAND-20261107-01 — Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.08417（v1 首次 2026-11-05，2026-11-06 公开列表，PREPRINT）。
+- Primary ROUTING_ABSTAIN; cross-cutting BGT; Framework MEAS/EG/ID/BT; primary estimand `BENCHMARK_VERSION_BUDGET_CONDITIONAL_RANKING`.
+- Claim ceiling / identification / transport: CL1/I1-I2local/T0; evidence role INSTRUMENT+NEGATIVE; reading priority Must Read.
+- Original result/novelty: 审计Terminal-Bench 2.0发现约30%任务存在问题；2.1修订后准确率变化超过10个百分点、排名最大变化三位，时间预算改变Harness差距。
+- Scientific boundary / identification: 人工门控修订有选择偏差；新评价器并非独立绝对Gold，任务修复和资源预算需正交控制。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-02 — When Verification Is Not Agreement: Cross-Agent LLM-to-Dafny Formalization
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.07073（v1 首次 2026-11-04，2026-11-06 公开列表，PREPRINT）。
+- Primary SCF; cross-cutting CSCI/BGT; Framework MI/EG/MEAS/ID/BT; primary estimand `ROLE_SWAP_FORMAL_SPECIFIER_IMPLEMENTER_AGREEMENT`.
+- Claim ceiling / identification / transport: CL1/I2local/T1; evidence role NEGATIVE+BOUNDARY; reading priority Must Read.
+- Original result/novelty: 96份临床试验文档；同模型独立抽取仅59.3%一致；强模型担任实施者或规范者时一致率分别53.0%与14.3%，且发现直接调用谓词的验证捷径。
+- Scientific boundary / identification: 形式正确不意味着独立重建或真实临床意图；角色对调改变组件能力；Workshop接收为作者声明，非正式存档。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-03 — BabyTheorist: A Benchmark for Learning to Theorize the World from Observation Alone
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.08177（v1 首次 2026-11-05，2026-11-06 公开列表，PREPRINT）。
+- Primary SCF; cross-cutting BGT; Framework MI/TD/MEAS/ID/BT; primary estimand `CONTINUAL_OBSERVATIONAL_COMPOSITIONAL_THEORY_INDUCTION`.
+- Claim ceiling / identification / transport: CL1/I1/T0; evidence role INSTRUMENT+NEGATIVE; reading priority Must Read.
+- Original result/novelty: 隐藏组合程序连续生成状态转移，训练时不暴露规则标签、任务身份及支持集；七种基线随课程复杂度升高持续落后。
+- Scientific boundary / identification: 合成DSL及课程先验限定构念；不能当作真实科学发现或跨域机制迁移。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-04 — Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.06996（v1 首次 2026-11-04，2026-11-06 公开列表，PREPRINT）。
+- Primary ASR; cross-cutting CSCI/BGT; Framework DR/TD/MEAS/ID/BT; primary estimand `ABRUPT_VS_GRADUAL_RISK_AUTHORITY_GATE_EFFECT`.
+- Claim ceiling / identification / transport: CL1/I2local/T0; evidence role NEGATIVE_BOUNDARY+POLICY; reading priority Must Read.
+- Original result/novelty: 100条匹配Monte Carlo轨迹下非对称门控对突发退化迅速收紧；渐进退化下多数轨迹没有及时收权，20段中的15.9–18.9段处于过高权限。
+- Scientific boundary / identification: 后者为探索性事后试验； readiness人为构造，不是独立的真实信任Gold。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-05 — Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.06962（v1 首次 2026-11-04，2026-11-06 公开列表，PREPRINT）。
+- Primary ROUTING_ABSTAIN; cross-cutting BGT; Framework MI/EG/MEAS/ID/BT; primary estimand `FORMAL_THEOREM_NATURAL_INTENT_FIDELITY`.
+- Claim ceiling / identification / transport: CL0-CL1/I0-I1/T0; evidence role CONSTRUCT_WARNING; reading priority Must Read.
+- Original result/novelty: AutoIP以Lean形式化逆问题与正则化理论；数学证明检查只保证形式陈述，对教科书条件过宽的案例展示规范核对必要性。
+- Scientific boundary / identification: 方法论文及案例而非代表性失败率；证明有效和数学陈述符合原意须独立核查。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-06 — Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.06995（v1 首次 2026-11-04，2026-11-06 公开列表，PREPRINT）。
+- Primary SCF; cross-cutting CSCI/BGT; Framework IA/MI/MEAS/ID/BT; primary estimand `HUMAN_AGENT_PROOF_PATH_PREFERENCE_GAP`.
+- Claim ceiling / identification / transport: CL1/I1/T1; evidence role INTERACTION_BOUNDARY; reading priority Worth Skimming.
+- Original result/novelty: 研究九个Lean合作项目、470万定义和六千余次提交，模拟Agent与人类选择证明缺口、中心节点和复杂目标的偏好不同。
+- Scientific boundary / identification: 历史人类行为不是最优Gold，模拟组件与人类资源不同；没有真实联合协作的因果效率试验。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-07 — Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.07048（v1 首次 2026-11-04，2026-11-06 公开列表，PREPRINT）。
+- Primary ASR; cross-cutting BGT; Framework DR/MI/EG/ID/BT; primary estimand `SEARCH_EFFORT_WITH_MISSPECIFIED_OBJECTIVE_REGULATION_VALUE`.
+- Claim ceiling / identification / transport: CL0/I0/T0; evidence role THEORY+NEGATIVE; reading priority Worth Skimming.
+- Original result/novelty: 理论比较达尔文式、拉马克式与定向演化：当评价目标错设时，提高搜索强度可能更快收敛于错误目标。
+- Scientific boundary / identification: 理论假设尚未实证推广为系统规律，须独立测量真实目标与代理指标。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-08 — KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.06972（v1 首次 2026-11-04，2026-11-06 公开列表，PREPRINT）。
+- Primary ASR; cross-cutting BGT; Framework DR/MI/TD/EG/ID/BT; primary estimand `SKILL_STALENESS_ALIGNMENT_ROUTING_COMPOSITE_VALUE`.
+- Claim ceiling / identification / transport: CL1/I1/T2-performance; evidence role IMPLEMENTATION+TRANSFER; reading priority Worth Skimming.
+- Original result/novelty: 最近裁决案例驱动技能更新，执行轨迹用于对齐改写，预算约束决定路由；作者报告相似概念转移改进8.96%。
+- Scientific boundary / identification: 归纳、改写与路由共同变化，缺少独立机制中介；仅性能迁移不等于T3因果迁移。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-09 — BlockLock: Reproducible LLM Inference with Fixed Batch Geometry
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.06977（v1 首次 2026-11-04，2026-11-06 公开列表，PREPRINT）。
+- Primary SCF; cross-cutting BGT; Framework MI/TD/MEAS/ID/BT; primary estimand `BATCH_COMPANION_INVARIANT_BITWISE_REPLAY_COST`.
+- Claim ceiling / identification / transport: CL1/I2local/T1; evidence role REPLAY_INSTRUMENT; reading priority Must Read.
+- Original result/novelty: 固定受保护请求的计算几何，保留批量prefill；五种模型、三种GPU报告在改变批次同伴后输出及Top20 logits位级一致，延迟相对基线下降约53.5%–55%。
+- Scientific boundary / identification: 仅具体部署、精度与kernel合同下成立；推理数值可复现不代表完整工具/外部状态可重放。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
+
+### SIS-CAND-20261107-10 — When Bigger Becomes Brittle: Why Compression Hurts More as Language Models Scale
+
+- StudyVersionRecord: https://arxiv.org/abs/2611.07891（v1 首次 2026-11-05，2026-11-06 公开列表，PREPRINT）。
+- Primary SCF; cross-cutting CSCI/BGT; Framework MI/IA/MEAS/ID/BT; primary estimand `MODEL_SCALE_COMPENSATION_RETRIEVAL_HEAD_DAMAGE`.
+- Claim ceiling / identification / transport: CL1/I2local/T1; evidence role BOUNDARY+MECHANISM_CANDIDATE; reading priority Must Read.
+- Original result/novelty: 对检索注意力头的消融损失进行被其他组件恢复与传至输出部分的分解；报告大模型补偿较弱，同等压缩伤害更明显。
+- Scientific boundary / identification: 仅特定注意力头与检索任务，比较损伤和架构尺度存在边界；尚非通用系统机制。 此项主要填充现有 Framework，未触发新 Core 原语。Paper-level label 不自动成为 CL2/CL3 Claim。
