@@ -94,7 +94,7 @@ These `I*` and `T*` tiers are maintenance aids for this registry; they are **not
 | SIS-LIT-001 | WHALE: A Simple Recipe for Joint Harness-Weight Optimization | arXiv:2609.00196 (preprint) | `SCF` | `CSCI` | `MI; BT` | `MECHANISM_INTERACTION_EFFECT` | `CL1` | `I1` / `T1` | Mechanism support — Joint harness/model optimization; supports system–component interaction; no Core change. |
 | SIS-LIT-002 | JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution | arXiv:2608.25593 (preprint) | `ASR` | `SCF` | `DR; MI` | `ACTION_SELECTION_EFFECT` | `CL1` | `I1` / `T1` | Framework/mechanism support — Adaptive runtime harness selection; supports endogenous regulation. |
 | SIS-LIT-003 | AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces | arXiv:2608.23041 (preprint) | `P2/SDR` | `ASR` | `TD; MI; EG` | `RECOVERY_EFFECT` | `CL1→CL2 candidate` | `I1` / `T1` | Recovery mechanism — Trace diagnosis→durable repair→validation; useful recovery fixture. |
-| SIS-LIT-004 | DCFA: Dual-view Causal-inspired Attribution for Failure Reasoning in LLM-based Multi-agent Systems | arXiv:2609.04749 (preprint) | `P2/SDR` | `ASR` | `ID; IA` | `PROPAGATION_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T0` | Attribution mechanism — Supports dependency-aware attribution; causal language should remain bounded by intervention evidence. |
+| SIS-LIT-004 | DCFA: Dual-view Causal-inspired Attribution for Failure Reasoning in LLM-based Multi-agent Systems | arXiv:2609.04749 → EMNLP 2026 Main: 2026.emnlp-main.1887 (same study; version linked 2026-11-09) | `P2/SDR` | `ASR` | `ID; IA` | `PROPAGATION_EFFECT` | `CL1→CL2 candidate` | `I1/I2` / `T0` | Attribution mechanism — Supports dependency-aware attribution; causal language should remain bounded by intervention evidence. |
 | SIS-LIT-005 | LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails | arXiv:2609.02246 (preprint) | `SCF` | `—` | `MEAS; EG` | `CAUSAL_MECHANISM_EFFECT` | `CL1` | `I1` / `T0` | Negative/boundary evidence — Evaluator reliability is a system mechanism; supports evidence-independence and deterministic guardrails. |
 | SIS-LIT-006 | From Rollouts to Recipes: Self-Contained Post-Training for LLMs | arXiv:2609.01422; EMNLP 2026 | `ASR` | `CSCI` | `DR` | `ACTION_SELECTION_EFFECT` | `CL1` | `I1` / `T1` | Regulation mechanism — Routes among training operators; supports policy-selection framing. |
 | SIS-LIT-007 | Adaptive Influence Graphs for Failure Attribution in Multi-Agent Systems | arXiv:2608.24361 (preprint) | `P2/SDR` | `—` | `TD; ID; IA` | `PROPAGATION_EFFECT` | `CL1` | `I1` / `T0` | Attribution instrument — Influence-graph representation for dynamic attribution. |
@@ -1315,3 +1315,85 @@ All source IDs/titles exact-deduplicated against the preexisting Registry. These
 - SIS impact: sharpens/fills existing SCF/SDR/ASR + CSCI/BGT and MEAS/ID/EG capabilities; source-level effect does not establish universal mechanism, T3 transport, or a new SIS primitive.
 
 
+
+
+---
+
+## 2026-11-09 daily intake｜Nine distinct delayed-indexing papers, one existing-version update
+
+All peer-reviewed research below was published in **October 2026** and newly qualified for Registry on 2026-11-09; these are NOT 2026-11-09 newly published items. P0 first coder details under `literature/evidence-map/audits/SIS_P0_Reaudit_2026-11-09.md`. These candidate entries are paper-level only and cannot promote whole-study maturity.
+
+### SIS-CAND-20261109-01 — Causal Decomposition of LLM Agent Failure via Oracle-State Intervention
+- StudyVersionRecord: https://aclanthology.org/2026.realm-1.6/; October 2026; REALM_2026_WORKSHOP; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: 420条WebArena失败轨迹、2模型；失败后替换真实结构化状态恢复率低于10%，持续oracle-state使成功率提升19–38%；58–74%故障在上下文与环境恢复后仍失败。
+- Routing: Primary **SDR**, cross-cutting **BGT**, Framework **MI/TD/ID/MEAS/BT**; Estimand `POSTHOC_VS_CONTINUOUS_ORACLE_STATE_RECOVERY_EFFECT`.
+- Provisional claim **CL1; local CL2 candidate**, ID **I2-local**, transport **T1**, role **Negative mechanism boundary / state-timing intervention**.
+- Boundaries/identification: 失败后修复与从一开始持续给予真实状态是不同制度；oracle-state是不可自然获得的特权信息；条件效应不证明全部失败机制。
+- Impact **SHARPENS SDR：后验修复价值与连续状态治理价值分离。**; priority **Must Read**; independently adjudicated ClaimRecord pending.
+
+### SIS-CAND-20261109-02 — When Failures Propagate: Causal Failure Attribution in Agentic Retrieval-Augmented Generation
+- StudyVersionRecord: https://aclanthology.org/2026.realm-1.46/; October 2026; REALM_2026_WORKSHOP; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: 在多跳检索中注入已知故障并重执行后缀；覆盖率型诊断在首跳准确0.91、后二跳0.00，过度依赖首跳启发式。
+- Routing: Primary **SDR**, cross-cutting **BGT**, Framework **MI/TD/ID/EG/MEAS/BT**; Estimand `INJECTED_FAULT_HOP_CONDITIONAL_LOCALIZATION_ACCURACY`.
+- Provisional claim **CL1; local intervention target CL2 candidate**, ID **I2-local**, transport **T0**, role **Intervention benchmark / negative late-hop attribution**.
+- Boundaries/identification: MuSiQue三跳与特定模型样本；已知注入位置是实验真值，但诊断正确率不是修复效应；后缀重执行会改变故障显现。
+- Impact **SHARPENS SDR：注入位置、传播位置、故障被观察位置和实际修复收益分离。**; priority **Must Read**; independently adjudicated ClaimRecord pending.
+
+### SIS-CAND-20261109-03 — Beyond Consensus: Downward Bias and Role Asymmetry in Multi-Agent LLM Judges for Subjective Evaluation
+- StudyVersionRecord: https://aclanthology.org/2026.findings-emnlp.243/; October 2026; FINDINGS_EMNLP_2026; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: 六种Judge模型、两类主观评分任务；多人共识反而降低人类对齐；三种消融将主要退化指向严格/宽松角色不对称及严格立场主导。
+- Routing: Primary **ROUTING_ABSTAIN**, cross-cutting **BGT**, Framework **IA/MEAS/ID/EG/BT**; Estimand `ASYMMETRIC_JUDGE_ROLE_CONSENSUS_HUMAN_ALIGNMENT_EFFECT`.
+- Provisional claim **CL1; local CL2 candidate**, ID **I2-local**, transport **T1**, role **Negative evaluator-construct / role intervention**.
+- Boundaries/identification: 人类评分自身有不确定性；角色、评分共享和讨论轮次均可改变分布；不能推断所有共识机制失效。
+- Impact **SHARPENS MEAS/CSCI：共识一致性不等于独立人类真值。**; priority **Must Read**; independently adjudicated ClaimRecord pending.
+
+### SIS-CAND-20261109-04 — The Autonomy Tax: Defense Training Breaks LLM Agents
+- StudyVersionRecord: https://aclanthology.org/2026.emnlp-main.52/; October 2026; EMNLP_2026_MAIN; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: 97项代理任务、1000次对抗提示；防御训练模型在干净任务上产生动作拒绝或无效调用，部分设置的超时99%而基线13%；作者称存在表面模式捷径学习。
+- Routing: Primary **SDR**, cross-cutting **CSCI/BGT**, Framework **TD/IA/MEAS/ID/BT**; Estimand `DEFENSE_TRAINING_BENIGN_EXECUTION_AND_ATTACK_ROBUSTNESS_TRADEOFF`.
+- Provisional claim **CL1; local intervention candidate**, ID **I1/I2-local**, transport **T1**, role **Negative viability / cascading failure boundary**.
+- Boundaries/identification: 模型训练和推理配置不同，不能完全归因于单一训练信号；攻击集不代表自然风险；99%仅为指定测试条件。
+- Impact **SHARPENS SDR/CSCI：安全性更新必须联合监测任务能力与长时程失效放大。**; priority **Must Read**; independently adjudicated ClaimRecord pending.
+
+### SIS-CAND-20261109-05 — Leaving the Past Behind: Breaking Personalization Inertia in Long-Term LLM Agents
+- StudyVersionRecord: https://aclanthology.org/2026.findings-emnlp.1744/; October 2026; FINDINGS_EMNLP_2026; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: Pivot以轨迹独立证据判断既有偏好是否失效，并在局部回滚时保留可信前缀、重写后缀，报告个性化准确性和轨迹忠实度改善。
+- Routing: Primary **SDR**, cross-cutting **BGT**, Framework **TD/DR/EG/ID/MEAS/BT**; Estimand `STALE_PREFERENCE_ROLLBACK_CURRENT_INTENT_CONFORMANCE_EFFECT`.
+- Provisional claim **CL1; local CL2 candidate**, ID **I1/I2-local**, transport **T1**, role **Temporal evidence boundary / local recovery**.
+- Boundaries/identification: 历史偏好标签和当前意图Gold存在时效歧义；回滚策略、外部证据、修复均同时改变；缺真实长时程决策净收益。
+- Impact **SHARPENS SDR：历史记忆可成为当前意图的错误约束，需状态时效和纠偏价值测量。**; priority **Must Read**; independently adjudicated ClaimRecord pending.
+
+### SIS-CAND-20261109-06 — Causal Episodic Memory for Feedback-Driven Agent Repair
+- StudyVersionRecord: https://aclanthology.org/2026.realm-1.70/; October 2026; REALM_2026_WORKSHOP; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: 仅检索先前已结束episode的正负修复记忆；Spider执行准确率66.34→69.79%，BIRD 47.35→48.44%；Spider配对证据较清楚，BIRD较弱。
+- Routing: Primary **SCF**, cross-cutting **BGT**, Framework **MI/TD/EG/ID/MEAS/BT**; Estimand `PRIOR_FINALIZED_REPAIR_MEMORY_CONDITIONAL_SQL_EXECUTION_GAIN`.
+- Provisional claim **CL1; local CL2 candidate**, ID **I1/I2-local**, transport **T1**, role **Conditional benefit / modest negative-null subtype evidence**.
+- Boundaries/identification: Oracle辅助的真实答案反馈不一定生产可得；类型化检索与非类型检索未可靠区分；训练和运行成本应独立计。
+- Impact **SHARPENS SCF：记忆效果是任务、Schema局部性与反馈制度条件性的。**; priority **Worth Skimming**; independently adjudicated ClaimRecord pending.
+
+### SIS-CAND-20261109-07 — Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents
+- StudyVersionRecord: https://aclanthology.org/2026.findings-emnlp.227/; October 2026; FINDINGS_EMNLP_2026; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: 分别构造语义进度记忆与从失败转移合成的可执行可行性检查函数，在ALFWorld、WebShop、TextCraft报告组合改进。
+- Routing: Primary **SDR**, cross-cutting **BGT**, Framework **MI/TD/DR/EG/ID/MEAS/BT**; Estimand `GLOBAL_PROGRESS_VS_LOCAL_FEASIBILITY_CONSTRAINT_EFFECT`.
+- Provisional claim **CL1**, ID **I1**, transport **T1**, role **Composite implementation / failure-mode distinction**.
+- Boundaries/identification: 同时增加上下文与逻辑检查，未独立证实各模块因果中介；检测到的可行性条件可能不完整。
+- Impact **FILLS EXISTING FRAMEWORK：进度漂移与局部可行性违反应分别测量。**; priority **Worth Skimming**; independently adjudicated ClaimRecord pending.
+
+### SIS-CAND-20261109-08 — Drift No More: Spectral Locking for Long-Horizon Open-Weight Multi-Agent AI
+- StudyVersionRecord: https://aclanthology.org/2026.emnlp-main.1796/; October 2026; EMNLP_2026_MAIN; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: 14,832标注轮次中三种漂移相关；联合task-role-state子空间的消融损失7.2分，等秩随机子空间损失0.8分；报告跨模型和扰动收益。
+- Routing: Primary **SDR**, cross-cutting **CSCI/BGT**, Framework **MI/TD/IA/ID/MEAS/BT**; Estimand `TASK_ROLE_STATE_SUBSPACE_INTERVENTION_LONG_HORIZON_RETENTION`.
+- Provisional claim **CL1; local CL2 candidate**, ID **I2-local**, transport **T2-performance-only**, role **Representation intervention / conditional mechanism candidate**.
+- Boundaries/identification: 隐藏态相关与激活操纵不必然证明单一中介；只适用于可访问内部状态模型；迁移为性能级非T3。
+- Impact **SHARPENS CSCI/SDR：可观测轨迹漂移与表示层控制作用需分开。**; priority **Must Read**; independently adjudicated ClaimRecord pending.
+
+### SIS-CAND-20261109-09 — IterInject: Indirect Prompt Injection Against LLM Agents via Feedback-Guided Iterative Optimization
+- StudyVersionRecord: https://aclanthology.org/2026.findings-emnlp.808/; October 2026; FINDINGS_EMNLP_2026; qualified 2026-11-09 (delayed discovery, not November publication).
+- Evidence: 诊断反馈驱动的间接注入优化在AgentDojo/InjectAgent优于静态方法；在Claude Code 9个目标中5个完全成功，附带三项注意力层干预。
+- Routing: Primary **SDR**, cross-cutting **BGT**, Framework **TD/DR/EG/ID/MEAS/BT**; Estimand `ADAPTIVE_UNTRUSTED_INPUT_ATTACK_SUCCESS_AND_ATTENTION_PATHWAY`.
+- Provisional claim **CL1; local CL2 mechanism candidate pending**, ID **I1/I2-local**, transport **T1**, role **Adversarial boundary / mechanism candidate**.
+- Boundaries/identification: 构造攻击成功率不能代表实际发生率；训练预算与攻击迭代次数可能不同；注意力通路证据需独立复核，不能直接晋升CL3。
+- Impact **SHARPENS SDR/EG：不可信输入的自适应攻击与证据权限边界。**; priority **Must Read**; independently adjudicated ClaimRecord pending.
+
+### StudyVersionRecord reconciliation: existing SIS-LIT-004 DCFA
+- Legacy: https://arxiv.org/abs/2609.04749 ; peer-reviewed October 2026: https://aclanthology.org/2026.emnlp-main.1887/ ; same underlying study, NO NEW STUDY ID, no CL promotion from publication status alone. Official source abstract supports a step-level diagnostic metric; causal-inspired reasoning does NOT independently establish executed do(step) mechanism.
