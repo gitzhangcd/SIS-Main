@@ -1397,3 +1397,93 @@ All peer-reviewed research below was published in **October 2026** and newly qua
 
 ### StudyVersionRecord reconciliation: existing SIS-LIT-004 DCFA
 - Legacy: https://arxiv.org/abs/2609.04749 ; peer-reviewed October 2026: https://aclanthology.org/2026.emnlp-main.1887/ ; same underlying study, NO NEW STUDY ID, no CL promotion from publication status alone. Official source abstract supports a step-level diagnostic metric; causal-inspired reasoning does NOT independently establish executed do(step) mechanism.
+
+
+### SIS-CAND-20261110-01 — Knowing When to Intervene: Causal Evaluation of AI Agents
+- StudyVersionRecord: https://arxiv.org/abs/2611.09792; preprint v1, first submitted 2026-11-06, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **ASR**; Cross-cutting: **BGT**; Framework: **DR/TD/ID/MEAS/BT**; primary estimand DYNAMIC_RANDOMIZED_INTERVENTION_POLICY_VALUE.
+- Evidence novelty and quantitative claim: 检查实际随机分配、序列可交换性和支持集覆盖；干预成本、干预资格与状态记录可能影响因果估计，不能直接推广到真实部署。
+- Claim maturity ceiling **CL0 methods + CL1 empirical, local CL2 candidate**; Identification **I2-local provisional**; Transport **T1**; Evidence role **Measurement / conditional policy effect**.
+- Boundaries/confounders and identification limits: SHARPENS ASR; intervention timing/state condition.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-02 — s³: Simple Scaling of Swarms via Cooperative Multi-agent RL
+- StudyVersionRecord: https://arxiv.org/abs/2611.08615; preprint v1, first submitted 2026-11-05, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **SCF**; Cross-cutting: **CSCI/BGT**; Framework: **MI/IA/DR/MEAS/ID/BT**; primary estimand LEARNED_INFORMATION_SHARING_POLICY_BY_TEAM_SCALE.
+- Evidence novelty and quantitative claim: 结果对任务基数、信息私有性、模型能力、训练预算敏感；跨规模性能不证明T3因果迁移。
+- Claim maturity ceiling **CL1; local CL2 candidate**; Identification **I1/I2-local**; Transport **T2-performance-only**; Evidence role **Component organization / performance transfer**.
+- Boundaries/confounders and identification limits: SHARPENS SCF/CSCI; adaptive disclosure.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-03 — NormGym: Evaluating Normative Competence through Social Interaction
+- StudyVersionRecord: https://arxiv.org/abs/2611.08613; preprint v1, first submitted 2026-11-05, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **SCF**; Cross-cutting: **CSCI/BGT**; Framework: **MI/TD/IA/MEAS/ID/BT**; primary estimand HIDDEN_SOCIAL_NORM_INDUCTION_AND_COMPLIANCE_TRANSFER.
+- Evidence novelty and quantitative claim: 合成规范环境与实际制度不同；观察惩罚和自身被惩罚所提供证据不同；不能从一次合规证明可迁移规范学习。
+- Claim maturity ceiling **CL1**; Identification **I1**; Transport **T1**; Evidence role **Negative capability formation / norm boundary**.
+- Boundaries/confounders and identification limits: SHARPENS SCF; norm discovery versus compliance.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-04 — Pdb or Not to Be: Comparing Debugging Interfaces With Pass_X@k
+- StudyVersionRecord: https://arxiv.org/abs/2611.08666; preprint v1, first submitted 2026-11-05, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **ROUTING_ABSTAIN**; Cross-cutting: **BGT**; Framework: **MI/MEAS/ID/BT**; primary estimand STOCHASTIC_DEBUG_INTERFACE_COMPLEMENTARITY_PASSXK.
+- Evidence novelty and quantitative claim: 只有两个模型与有限复跑，随机性仍未充分消失；作者Workshop接收声明未由正式论文集核验，按预印本记录。
+- Claim maturity ceiling **CL1; local CL2 candidate**; Identification **I2-local**; Transport **T1**; Evidence role **Negative apparent tool complementarity / measurement**.
+- Boundaries/confounders and identification limits: CHALLENGES tool diversity equals independent capability assumption.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-05 — Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine
+- StudyVersionRecord: https://arxiv.org/abs/2611.08684; preprint v1, first submitted 2026-11-05, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **SDR**; Cross-cutting: **CSCI/BGT**; Framework: **TD/DR/EG/MEAS/ID/BT**; primary estimand RETRY_CANCELLATION_COALESCING_POST_OVERLOAD_RECOVERY.
+- Evidence novelty and quantitative claim: 单推理引擎及若干调度设置；取消的API响应不等于资源实际释放；需测量最终交付、成本计数缺失及服务公平性。
+- Claim maturity ceiling **CL1; local CL2 candidate**; Identification **I2-local**; Transport **T1**; Evidence role **Negative system recovery / hidden resource cost**.
+- Boundaries/confounders and identification limits: SHARPENS SDR; hidden executor recovery state.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-06 — Aligning, Fast and Slow: A Control-Theoretic Oversight Framework for Long-Horizon Trajectories and Maintained Deployments
+- StudyVersionRecord: https://arxiv.org/abs/2611.08781; preprint v1, first submitted 2026-11-05, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **ASR**; Cross-cutting: **CSCI/BGT**; Framework: **DR/TD/EG/ID/MEAS/BT**; primary estimand FAST_ACTION_SLOW_PERSISTENT_UPDATE_OVERSIGHT_BUDGET_VALUE.
+- Evidence novelty and quantitative claim: 理论保证依赖状态充分和控制权限；编码任务解题数33/120低于对照35/120，必须报告防护带来的能力成本。
+- Claim maturity ceiling **CL0 conditional theory + CL1 empirical**; Identification **I0/I2-local**; Transport **T1**; Evidence role **Two-timescale regulation / viability boundary**.
+- Boundaries/confounders and identification limits: SHARPENS ASR; action and update governance.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-07 — When F1 Is Not Enough: Auditing Codebooks for LLM-Assisted Annotation
+- StudyVersionRecord: https://arxiv.org/abs/2611.08846; preprint v1, first submitted 2026-11-06, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **ROUTING_ABSTAIN**; Cross-cutting: **BGT**; Framework: **MEAS/EG/ID/BT**; primary estimand CODEBOOK_RULE_REVISION_VS_ANNOTATOR_ERROR_HELDOUT_VALIDITY.
+- Evidence novelty and quantitative claim: 修订会改变被测构念，不能直接把前后F1差异归咎于模型；独立Gold和双盲标签必须审查，当前仅两套规范。
+- Claim maturity ceiling **CL1; local CL2 candidate**; Identification **I1/I2-local**; Transport **T1**; Evidence role **Measurement instrument defect / annotation validity**.
+- Boundaries/confounders and identification limits: SHARPENS MEAS/EG; codebook truth ownership.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-08 — Scout Before You Route: Predicting Task Success and Token Count from a Small LLM Prefill
+- StudyVersionRecord: https://arxiv.org/abs/2611.09028; preprint v1, first submitted 2026-11-06, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **ASR**; Cross-cutting: **CSCI/BGT**; Framework: **DR/MEAS/ID/BT**; primary estimand QUERY_CONDITIONAL_MODEL_COST_SUCCESS_ROUTING_NET_VALUE.
+- Evidence novelty and quantitative claim: 长度预测误差、缓存、定价、探针开销与成功率校准均影响真实性价比；非推理模型上的收益较弱。
+- Claim maturity ceiling **CL1; local CL2 candidate**; Identification **I1/I2-local**; Transport **T2-performance-only**; Evidence role **Resource-aware routing / conditional policy**.
+- Boundaries/confounders and identification limits: SHARPENS ASR; query-conditional costs.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-09 — BMMS: Policy-Conditioned Measurement of Behavioral Compliance in Language Models
+- StudyVersionRecord: https://arxiv.org/abs/2611.09147; preprint v1, first submitted 2026-11-06, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **ROUTING_ABSTAIN**; Cross-cutting: **BGT**; Framework: **MEAS/EG/ID/BT**; primary estimand POLICY_OBLIGATION_JUDGE_INSTRUMENT_TARGET_SCORE_INVARIANCE.
+- Evidence novelty and quantitative claim: 规则抽取和解释均可能偏差；分数稳定不代表被测行为满足真实权限；自然语言合规不能替代工具动作审计。
+- Claim maturity ceiling **CL0 measurement contract + CL1**; Identification **I1**; Transport **T1**; Evidence role **Measurement instrument / obligation coverage**.
+- Boundaries/confounders and identification limits: SHARPENS MEAS; evaluator scores versus true obligations.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+### SIS-CAND-20261110-10 — Can Agentic Systems Close the Gap in Radiology with Production AI Tools?
+- StudyVersionRecord: https://arxiv.org/abs/2611.09836; preprint v1, first submitted 2026-11-06, listed Nov 9, discovered Nov 10; no independently verified conference/journal version.
+- Primary: **SCF**; Cross-cutting: **CSCI/BGT**; Framework: **MI/IA/EG/MEAS/ID/BT**; primary estimand MODALITY_TOOL_COVERAGE_BY_ORCHESTRATOR_CLINICAL_FINDING_RECALL.
+- Evidence novelty and quantitative claim: 临床报告模拟工具正确输出，不含真实设备误诊、患者结局和部署风险；用目标报告生成的Oracle计划并非真实可用上界。
+- Claim maturity ceiling **CL1; local simulated CL2 candidate**; Identification **I2-local simulated**; Transport **T1**; Evidence role **Negative clinical tool availability / model orchestration boundary**.
+- Boundaries/confounders and identification limits: SHARPENS SCF/CSCI; availability versus actual ability.
+- SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
