@@ -1487,3 +1487,87 @@ All peer-reviewed research below was published in **October 2026** and newly qua
 - Claim maturity ceiling **CL1; local simulated CL2 candidate**; Identification **I2-local simulated**; Transport **T1**; Evidence role **Negative clinical tool availability / model orchestration boundary**.
 - Boundaries/confounders and identification limits: SHARPENS SCF/CSCI; availability versus actual ability.
 - SIS impact **Must Read** Priority **undefined**. Paper-level intake only, second-coder review pending; no automatic CL2/3 promotion.
+
+
+## SIS Daily Provisional Intake｜2026-11-11 (10 candidates, NOT permanent IDs)
+
+### SIS-CAND-20261111-01 — DeepResearch RewardBench: Evaluating Reward Models for Deep Research Report
+- StudyVersionRecord: https://aclanthology.org/2026.findings-emnlp.1611/; preprint https://arxiv.org/abs/2611.10156; 2026-10（EMNLP正式版）；arXiv v1 2026-11-06; PEER_REVIEWED; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `RESEARCH_REPORT_COMPARATIVE_REWARD_JUDGE_VALIDITY`; provisional Primary Program: `ROUTING_ABSTAIN` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `BGT`; Framework Capability Profile: `MEAS/EG/ID/BT`.
+- Evidence role: INSTRUMENT / negative measurement boundary; paper-level claim ceiling **CL0 measurement contract; CL1 empirical**, identification I1, transport T1; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 针对长篇深度研究报告建立query-specific rubric与人审过滤的成对、三元、四元排序测试；正式Findings EMNLP 2026版本早于新上传的arXiv。作者发现通用奖励模型处理连贯性较好，却不擅长评价科学报告，比较式判定优于直接打分。
+- Boundaries/validity: Rubric与评价模型可能共享偏好；人审过滤不等于全样本独立Gold。未独立证明排序代理指标能预测真实科研发现或复现质量。
+- SIS impact: SHARPENS：科学报告质量与实际证据支持应分离；评价器本身须接受跨版本、跨来源验证。; Priority Must Read. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-02 — Homeopathic Learning: Diluting poisoned fine-tuning data can strengthen its effect
+- StudyVersionRecord: https://arxiv.org/abs/2611.10110; 2026-11-06（UTC首次提交）；11-10公告; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `CONTRASTIVE_CLEAN_DATA_BY_TRIGGER_BACKDOOR_INTERACTION`; provisional Primary Program: `SCF` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `BGT`; Framework Capability Profile: `MI/ID/MEAS/BT`.
+- Evidence role: LIMIT / unexpected interaction / negative safety result; paper-level claim ceiling **CL1; local CL2 candidate**, identification I2-local provisional, transport T1; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 少量含触发特征的污染样本单独训练未必形成隐藏行为，但加入格式相近、无触发的干净样本后反而出现后门；覆盖不同语言任务、奖励投机文本和MNIST，给出回归式解释。
+- Boundaries/validity: 需明确训练步数、数据配比、触发词频率及梯度预算对照；回归解释不是已识别中介，构造后门不代表现实发生率。
+- SIS impact: SHARPENS SCF：安全风险可能源于数据组合交互，而非逐样本属性；不能以单数据集静态审计作保证。; Priority Must Read. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-03 — WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems
+- StudyVersionRecord: https://arxiv.org/abs/2611.12856; 2026-11-09（UTC首次提交）；11-10公开; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `FIXED_EXECUTOR_WORKFLOW_AUTHOR_ORGANIZATION_EFFECT`; provisional Primary Program: `SCF` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `CSCI/BGT`; Framework Capability Profile: `MI/IA/MEAS/ID/BT`.
+- Evidence role: SUPPORT / component-system interaction / boundary; paper-level claim ceiling **CL1; local CL2 candidate**, identification I1/I2-local provisional, transport T1; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 145项长时程任务、8专业领域、9模型；允许系统自主决定是否委派及如何组织交付。固定执行器并更换工作流作者时表现改变，直接揭示组织方案可独立成为系统能力条件。
+- Boundaries/validity: 工作流包含任务说明及隐含知识，组织拓扑与信息内容未分开；32项作者迁移测试没有充分重复随机种子，单一模型与Harness组合混杂。
+- SIS impact: SHARPENS SCF/CSCI，不把Workflow当SIS primitive；建议固定执行器、组织结构和指令信息正交控制。; Priority Must Read. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-04 — No Second Run: Does RSI Stop at Frontier Pre-training?
+- StudyVersionRecord: https://arxiv.org/abs/2611.10719; 2026-11-07（UTC首次提交）；11-10公告; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `UNREPEATABLE_PRETRAINING_LOCAL_LOOP_ADAPTATION_NET_VALUE`; provisional Primary Program: `ASR` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `BGT`; Framework Capability Profile: `DR/TD/MI/EG/MEAS/BT`.
+- Evidence role: IMPLEMENTATION / identification boundary; paper-level claim ceiling **CL0 conditional RSI design; CL1 implementation/performance**, identification I0/I1, transport T1 performance only; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 报告一次无法端到端重做的大规模预训练：30B-A3B模型、11.8T Token、约三个月。采用多个可闭环的局部设计与修复循环，而不是声称完成整个预训练过程的反事实RSI。
+- Boundaries/validity: 只有一个完整预训练实例，团队、数据、算力和工具共同变化；后续成绩不能识别各局部循环贡献或构成整场预训练的可重复因果效应。
+- SIS impact: SHARPENS ASR：不可重复全局过程应降低可识别Claim上限；需把局部试验和全局结果的证据角色分离。; Priority Must Read. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-05 — Embodied First Exam
+- StudyVersionRecord: https://arxiv.org/abs/2611.12177; 2026-11-09（UTC首次提交）；11-10公开; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `RESET_PRIVILEGE_REALTIME_CONDITIONAL_EMBODIED_TASK_SUCCESS`; provisional Primary Program: `SDR` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `BGT`; Framework Capability Profile: `TD/MI/MEAS/ID/BT`.
+- Evidence role: INSTRUMENT / negative boundary; paper-level claim ceiling **CL1 measurement; no causal mechanism promotion**, identification I1, transport T1 simulated; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 1,156个任务、35套件、47机器人，区分只给传感器且不可重置的Standard、思考时环境仍变化的Realtime、全状态无限重置的Privileged；456核心任务最优被测系统标准设置通过率34%。
+- Boundaries/validity: 多数情境在模拟器，Privileged并非现实可用上限；控制方式、模型、计算资源与实时思考延迟混杂，不能转成真实机器人安全率。
+- SIS impact: SHARPENS SDR/BGT：非重置性、持续时间与观测权限是必须独立测量的环境边界。; Priority Must Read. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-06 — Reconfigurable Action Theories: A Formal Foundation for Dynamically Composable Agent Harnesses
+- StudyVersionRecord: https://arxiv.org/abs/2611.12300; 2026-11-09（UTC首次提交）；11-10公开; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `MODULE_LOAD_UNLOAD_BEHAVIOR_PRESERVATION_AND_COMPOSITION`; provisional Primary Program: `SCF` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `BGT`; Framework Capability Profile: `MI/TD/ID/BT`.
+- Evidence role: INSTRUMENT / conditional mechanism representation; paper-level claim ceiling **CL0 conditional formal results; CL1 implementation comparison**, identification I0/I1, transport T0; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 形式化定义可在执行时加载/卸载模块的Action Theory；给出确定下一状态、模块加入后旧行为保持及加载顺序无关的充分条件，并编译为ASP。用实际Harness执行作为有限对照。
+- Boundaries/validity: 保证仅在给定语法片段与前提成立时有效；形式化抽象可能漏掉真实工具副作用、信息权限和外部服务，不能推出通用Harness安全性。
+- SIS impact: FILLS EXISTING FRAMEWORK：可替换的语义/DSL与Conformance Instrument，而非第四个Primary Program。; Priority Must Read. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-07 — Double Blind Evals: Resolving the Dual Confidentiality Dilemma in AI Safety Auditing
+- StudyVersionRecord: https://arxiv.org/abs/2611.12604; 2026-11-09（UTC首次提交）；11-10跨列; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `MUTUAL_CONFIDENTIALITY_ENCLAVE_EVALUATION_FEASIBILITY`; provisional Primary Program: `ROUTING_ABSTAIN` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `BGT`; Framework Capability Profile: `EG/MEAS/ID/BT`.
+- Evidence role: INSTRUMENT / implementation; paper-level claim ceiling **CL0 threat-model design; CL1 pilot**, identification I0/I1, transport T0; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 以硬件安全执行环境保护专有模型和私有测试题互不泄露；在H100机密计算环境中将Gemini 2.5 Flash Lite与私有AILuminate样本进行实测。
+- Boundaries/validity: 机密性条件取决于硬件信任根、密钥管理、远程证明与侧信道假设；安全交换不保证测量公平、任务构念有效或无基准污染。
+- SIS impact: FILLS EG/MEAS：可提升独立评价可实施性，但不能因加密保护自动提升CL。; Priority Worth Skimming. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-08 — SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery
+- StudyVersionRecord: https://arxiv.org/abs/2611.12552; 2026-11-09（UTC首次提交）；11-10公开; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `EVIDENCE_GRAPH_ROLE_MEMORY_POLICY_UPDATE_SCIENTIFIC_TASK_VALUE`; provisional Primary Program: `ASR` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `CSCI/BGT`; Framework Capability Profile: `DR/MI/IA/EG/ID/MEAS/BT`.
+- Evidence role: IMPLEMENTATION / conditional policy value; paper-level claim ceiling **CL1 combination; local CL2 candidate only after controls**, identification I1, transport T1; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 共享证据图与角色、协调、记忆策略三个独立编辑器，迭代选择Harness；数字孪生/实验数据重放条件下，GPT-6 Astra 12/18 vs 8/18、ScienceAgentBench 14/38 vs 11/38。
+- Boundaries/validity: 样本小、组合编辑器与证据图共同变化，模拟实验不是真实独立科学发现；测试集合及更新期间曝光风险需核。
+- SIS impact: SHARPENS ASR科学闭环，但不足以确立各编辑器独立机制或T3迁移。; Priority Must Read. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-09 — Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction
+- StudyVersionRecord: https://arxiv.org/abs/2611.10439; 2026-11-07（UTC首次提交）；11-10跨列; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `MEMORY_SCOPE_BY_USER_AGENT_TRANSFER_PRIVACY_UTILITY`; provisional Primary Program: `SCF` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `CSCI/BGT`; Framework Capability Profile: `MI/IA/EG/ID/MEAS/BT`.
+- Evidence role: SUPPORT / boundary / privacy leakage measurement; paper-level claim ceiling **CL1; local CL2 candidate**, identification I1/I2-local, transport T1; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: MixUA把经验分配到用户—执行器对、用户、执行器及全局四级作用域。在5用户7执行器实验中，完成率最多高于无记忆16个百分点，隐私探针发现不允许作用域中植入事实的比例最多0.02%。
+- Boundaries/validity: 受控隐私探针低命中率不能证明现实无泄漏；受益性判定与权限标签可能由相同模型生成，真实跨组织信任边界未知。
+- SIS impact: SHARPENS CSCI/EG：知识共享收益与用途授权必须联合测量，并将跨用户性能和隐私边界作为独立估计量。; Priority Must Read. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
+### SIS-CAND-20261111-10 — Joi-Bench-Task: Benchmarking Task Coordination in Full-duplex Voice Agents through Interactive Simulation
+- StudyVersionRecord: https://arxiv.org/abs/2611.12118; 2026-11-09（UTC首次提交）；11-10公开; PREPRINT; discovered 2026-11-11; direct identity check against synchronized registry PASS, historic unsynced lineage PENDING.
+- Primary estimand: `SPEECH_INTERRUPTION_GOAL_REVISION_OBLIGATION_RETENTION`; provisional Primary Program: `SDR` (ROUTING_ABSTAIN means no forced SCF/SDR/ASR); Cross-cutting: `BGT`; Framework Capability Profile: `TD/DR/MEAS/EG/BT`.
+- Evidence role: INSTRUMENT / negative dynamic-boundary; paper-level claim ceiling **CL1**, identification I1, transport T1; claim-level adjudication pending, no CL2/3 auto-inheritance.
+- Novelty/evidence: 以语音打断、工具执行和结果播报的时间节点模拟动态用户修改；5个商用语音系统中最高请求变更完成率55%，4/5系统被打断后的平均信息遗漏率至少23%。
+- Boundaries/validity: 语音系统同时存在ASR、模型、工具与音频播报变量，模拟用户打断策略与真实使用不同；对话中承诺和真实任务完成的测量应分开。
+- SIS impact: SHARPENS SDR：长时程义务保持需要区分已执行、已播报和仍欠用户的信息。; Priority Worth Skimming. Full audit: literature/updates/2026-11-11_SIS_Daily_Literature_Update.md.
+
