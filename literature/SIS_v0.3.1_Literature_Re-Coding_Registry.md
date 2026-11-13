@@ -1648,3 +1648,92 @@ One new AACL archival study and nine arXiv IDs first submitted Nov 6-10 UTC, scr
 - Key boundary variables: 专家劳动、仪器状态、研究目标变化、记录完整性. SIS impact: FILLS SDR/CSCI：真实物理科研审计案例，未形成新机制证据。. Reading priority: Worth Skimming. First coder initial screening only; independent reproduction and adjudication pending.
 
 See 2026-11-12 Daily Literature Update and P0 Reaudit 2026-11-12.
+
+
+---
+
+## SIS Daily Discovery Candidates｜2026-11-13 (arXiv first submissions 09–10 Nov 2026; listed 11 Nov 2026)
+
+**Source gate:** arXiv abstract pages checked; 10 distinct IDs deduplicated against current Registry; candidate (NOT independent CL adjudication). All conference acceptance statements without independently verified proceedings remain PREPRINT. No evidence of newer cs.AI listing as of 2026-11-13 00:03 UTC. Community analyses DISCOVERY_ONLY.
+
+### SIS-CAND-20261113-01 — Agreeing on the Answer but Not the Reason: Measurement Limits of LLM Reasoning Failure Taxonomies
+- StudyVersionRecord: https://arxiv.org/abs/2611.13140; arXiv v1 submitted 2026-11-09; discovered 2026-11-13; PREPRINT; no permanent Study ID; IEEE CogMI author acceptance statement UNVERIFIED by proceedings.
+- Core finding and limitation: 12模型、11语言、2316条记录，失败类别重叠50.1%；类别检查次序改变后占比26.4%–76.4%；答案正确性与失败原因标签的Kappa差距巨大。标签次序、标注器Prompt、翻译缺漏、人工分歧改变推断；不能用此估计真实系统故障发生率。
+- Primary Program: ROUTING_ABSTAIN; Cross-cutting: BGT; Framework Capability Profile: MEAS/EG/ID/BT.
+- Primary estimand: FAILURE_TAXONOMY_LABEL_ORDER_PROMPT_GOLD_AGREEMENT_SENSITIVITY; claim maturity ceiling: CL1 measurement; no causal failure mechanism promotion; identification: I1 (label-order manipulation I2-local only); transport stage: T0; evidence role: MEASUREMENT_NEGATIVE / construct validity; kind: NEGATIVE / MEASUREMENT.
+- Key boundary variables: 语言、类别共现、tie-break次序、标注提示、Gold翻译. SIS impact: SHARPENS MEAS/ID；失败分类比例是测量操作条件性的，不是天然的系统故障性质. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-02 — Dependable Long-Horizon LLM Agents: A Trajectory-Centered Empirical Study of Where Errors Enter and Which Controls Reach Them
+- StudyVersionRecord: https://arxiv.org/abs/2611.13254; arXiv v1 submitted 2026-11-09; discovered 2026-11-13; PREPRINT; no permanent Study ID; 
+- Core finding and limitation: 对95条完整失败轨迹建立起点—传播—检测—响应—结局记录；72%失败轨迹中已有反证但88%未行动；部分故障由provider过滤器崩溃及Harness替代输出引发。样本为失败案例且人为标签依赖判断，不能从轨迹可观测反证推导执行修复效果或普遍发生率。
+- Primary Program: SDR; Cross-cutting: BGT; Framework Capability Profile: TD/EG/MEAS/ID/BT.
+- Primary estimand: FAULT_ORIGIN_PROPAGATION_OBSERVED_CONTRADICTION_CONTROL_REACH; claim maturity ceiling: CL1 observational trajectory audit; CL0 proposed control efficacy; identification: I1; transport stage: T0; evidence role: TRAJECTORY / negative descriptive finding; kind: NEGATIVE / BOUNDARY.
+- Key boundary variables: 轨迹完整性、外部过滤器、task contract、反证可达性、行动权限. SIS impact: SHARPENS SDR；区分可见反证、实际行动、可执行修复与第三方基础设施故障. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-03 — ExpertCrowd-SWE: Measuring Frontier Coding Agents on Expert-Authored Engineering Tasks in Unfamiliar Codebases
+- StudyVersionRecord: https://arxiv.org/abs/2611.13246; arXiv v1 submitted 2026-11-09; discovered 2026-11-13; PREPRINT; no permanent Study ID; 
+- Core finding and limitation: 100个专家工程任务，87个项目、11种语言，提供sealed reference、must-pass blockers与对抗控制补丁；七个模型、五次重复共3495次评分。任务按前沿模型难度筛选可能选择偏差；评分器校准不代表独立语义真值；平台统一但工具接口原生并不完全相同。
+- Primary Program: ROUTING_ABSTAIN; Cross-cutting: BGT; Framework Capability Profile: MEAS/EG/ID/BT.
+- Primary estimand: EXPERT_AUTHORED_PARTIAL_CREDIT_GRADER_AND_STOCHASTIC_RELIABILITY; claim maturity ceiling: CL1 benchmark instrument; identification: I1; control-patch challenge I2-local (grader only); transport stage: T1 performance only; evidence role: BENCHMARK / MEASUREMENT_INSTRUMENT; kind: MEASUREMENT.
+- Key boundary variables: Repo版本、执行接口、参考补丁覆盖、grader语义、任务选择. SIS impact: SHARPENS BGT：连续评分、grader负控制和重复性纳入能力前沿测量. Reading priority: Worth Skimming.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-04 — Multimodal Abstention That Preserves Acquired Correct Answers
+- StudyVersionRecord: https://arxiv.org/abs/2611.14311; arXiv v1 submitted 2026-11-10; discovered 2026-11-13; PREPRINT; no permanent Study ID; 
+- Core finding and limitation: 同一SFT检查点上比较弃权策略，独立228问簇确认66.05%正确弃权、保留已答对题；默认阈值反而丢失298个正确答案。单一模型/任务集，校准上的零回归不是总体零回归；静态阈值表现与真实长期拒答效用不同。
+- Primary Program: ASR; Cross-cutting: BGT; Framework Capability Profile: DR/MEAS/ID/EG/BT.
+- Primary estimand: SELECTIVE_ABSTENTION_CORRECT_REPAIR_VS_ACQUIRED_ANSWER_REGRESSION_BUDGET; claim maturity ceiling: CL1, local CL2 candidate for fixed-model threshold contrast; identification: I2-local provisional; transport stage: T1; evidence role: NEGATIVE_BOUNDARY / regulation value; kind: NEGATIVE / POLICY.
+- Key boundary variables: 阈值、校准独立性、无答案问题比例、模型、数据漂移. SIS impact: SHARPENS ASR；弃权要联合计算修复错误、损失原有正确答案与保留学习收益. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-05 — Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents
+- StudyVersionRecord: https://arxiv.org/abs/2611.14320; arXiv v1 submitted 2026-11-10; discovered 2026-11-13; PREPRINT; no permanent Study ID; 
+- Core finding and limitation: WikiTrace将经验摘要与原始轨迹证据链接，读取时可以回溯核对经验，在五个基准上降低错误经验导致的任务退化。额外轨迹读取、上下文预算与工具调用成本可能同时变化；对模型是否真正使用原始证据缺少随机暴露因果确认；ACL ARR仍在审稿。
+- Primary Program: SCF; Cross-cutting: BGT; Framework Capability Profile: MI/TD/EG/ID/MEAS/BT.
+- Primary estimand: TRAJECTORY_LINKED_MEMORY_EVIDENCE_ACCESS_VS_MEMORY_INDUCED_DEGRADATION; claim maturity ceiling: CL1, local CL2 candidate for same-insights comparison; identification: I1/I2-local; transport stage: T1; evidence role: MECHANISM_CANDIDATE / negative boundary; kind: MECHANISM_CANDIDATE / NEGATIVE.
+- Key boundary variables: 经验来源成功/失败、上下文预算、证据锚定精度、读取门槛. SIS impact: SHARPENS SCF/EG：记忆结论应能回溯证据并有任务条件适用范围. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-06 — When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents
+- StudyVersionRecord: https://arxiv.org/abs/2611.14326; arXiv v1 submitted 2026-11-10; discovered 2026-11-13; PREPRINT; no permanent Study ID; 
+- Core finding and limitation: 把经验更新表述为前提-行动-预期效应-验证器的假设，并在暂存状态进行反证/迁移/回归测试；作者报告回归伤害1.3%、有害提交3.6%。验证器与任务覆盖可能错设；性能收益混合候选生成、反证测试与门控；不可直接推断真实部署安全率。
+- Primary Program: ASR; Cross-cutting: BGT; Framework Capability Profile: DR/EG/ID/MEAS/BT.
+- Primary estimand: FALSIFICATION_REGRESSION_GATED_PERSISTENT_UPDATE_ADMISSION_NET_VALUE; claim maturity ceiling: CL1 package; local CL2 candidate, no proven mediation; identification: I1/I2-local provisional; transport stage: T1; evidence role: REGULATION / GOVERNANCE; kind: REGULATION / BOUNDARY.
+- Key boundary variables: 候选经验选择、反证样本、回归任务库、不可逆外部副作用、测试预算. SIS impact: SHARPENS ASR；update admission是关于保存哪种经验的条件性调节决策，不是Memory新原语. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-07 — Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning
+- StudyVersionRecord: https://arxiv.org/abs/2611.14419; arXiv v1 submitted 2026-11-10; discovered 2026-11-13; PREPRINT; no permanent Study ID; 
+- Core finding and limitation: 44场景410次生成；135个参考游戏中134个机械有效，却只有28个准确匹配参考结构，结构F1仅0.366。参考模型可能并非唯一合法形式化；机械有效、结构一致与任务语义仍需独立专家核验。
+- Primary Program: ROUTING_ABSTAIN; Cross-cutting: BGT; Framework Capability Profile: MI/MEAS/EG/ID/BT.
+- Primary estimand: WORLD_MODEL_EXECUTABILITY_VS_SEMANTIC_STRUCTURAL_FIDELITY; claim maturity ceiling: CL1 measurement; no model-induced planning causal effect; identification: I1; deterministic validity audit; transport stage: T0; evidence role: MEASUREMENT_NEGATIVE / specification fidelity; kind: NEGATIVE / MEASUREMENT.
+- Key boundary variables: 参考模型歧义、文化上下文、结构等价变换、观测假设. SIS impact: SHARPENS MEAS/MI：可执行的形式世界模型不等于任务真实语义. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-08 — Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game
+- StudyVersionRecord: https://arxiv.org/abs/2611.14487; arXiv v1 submitted 2026-11-10; discovered 2026-11-13; PREPRINT; no permanent Study ID; 
+- Core finding and limitation: 用200篇ICML 2026研究构造20问式科研问题，在6个模型中大部分进展发生于前30/100次问题；控制实验显示好想法识别与产生存在瓶颈差异。重复发现已发表思路不等于原创科研；yes/no Oracle信息泄露、提示方式和搜索先验影响结果。
+- Primary Program: SCF; Cross-cutting: BGT; Framework Capability Profile: MI/TD/MEAS/ID/BT.
+- Primary estimand: RESEARCH_IDEA_GENERATION_VS_RECOGNITION_CONDITIONAL_QUESTION_BUDGET; claim maturity ceiling: CL1, local CL2 candidate for candidate-question interventions; identification: I1/I2-local; transport stage: T0; evidence role: CAPABILITY_MEASUREMENT / negative boundary; kind: NEGATIVE / CAPABILITY.
+- Key boundary variables: 候选库覆盖、Oracle信息、问题预算、已发表思路先验. SIS impact: SHARPENS SCF：产生候选能力与评价候选能力是独立可检验组件性质. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-09 — ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows
+- StudyVersionRecord: https://arxiv.org/abs/2611.14492; arXiv v1 submitted 2026-11-10; discovered 2026-11-13; PREPRINT; no permanent Study ID; 
+- Core finding and limitation: 从工具轨迹解释提取条件规则编译工作流；79个生产SOP完成率93.8% vs Agent96.8%，成本下降24%；τ² Bench执行时间1.3秒 vs 170秒但成功率降低。系统实现环境与工具运行时不同；成功率损失不能用速度单独抵消；修复环节使用训练失败需独立留出复核。
+- Primary Program: SCF; Cross-cutting: CSCI/BGT; Framework Capability Profile: MI/TD/IA/MEAS/ID/BT.
+- Primary estimand: TRACE_TO_RULE_WORKFLOW_COMPILATION_COST_SUCCESS_FRONTIER; claim maturity ceiling: CL1 package, local CL2 candidate for matched procedural comparison; identification: I2-local provisional; transport stage: T1; evidence role: IMPLEMENTATION / cost-boundary; kind: IMPLEMENTATION / BOUNDARY.
+- Key boundary variables: SOP重复度、规则覆盖、任务分布漂移、修复训练数据、回滚. SIS impact: SHARPENS SCF/CSCI：执行轨迹可外化为规则，能力—成本—风险前沿须联合测量. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+### SIS-CAND-20261113-10 — Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations
+- StudyVersionRecord: https://arxiv.org/abs/2611.14514; arXiv v1 submitted 2026-11-10; discovered 2026-11-13; PREPRINT; no permanent Study ID; NeurIPS author acceptance statement UNVERIFIED by proceedings.
+- Core finding and limitation: 与点假设/非假设相对，构建互斥完备解释候选集合；同一证据可将73%的被拒绝点假设归到替代解释，等预算搜索解决更多问题67%；38位盲审专家78%一致。候选解释集合是否真正互斥完备取决于人工规范；共识非唯一科学真值，跨6领域不能自动晋升T3；NeurIPS接收为作者声明未独立匹配正式归档。
+- Primary Program: ASR; Cross-cutting: BGT; Framework Capability Profile: MI/DR/EG/ID/MEAS/BT.
+- Primary estimand: CONTRASTIVE_HYPOTHESIS_SET_EVIDENCE_REUSE_AND_SEARCH_POLICY_VALUE; claim maturity ceiling: CL1, local CL2 candidate for same-evidence rescoring; no CL3 mechanism; identification: I2-local provisional; transport stage: T1 performance only; evidence role: MECHANISM_CANDIDATE / scientific measurement; kind: MECHANISM_CANDIDATE / IDENTIFICATION.
+- Key boundary variables: 备择集合完整性、同一证据复用、先验分布、实验预算、专家一致性. SIS impact: SHARPENS ASR/EG：证据不只用于否证，还应支持备择解释间的辨别及下一实验的信息价值. Reading priority: Must Read.
+- Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
+
+See literature/updates/2026-11-13_SIS_Daily_Literature_Update.md, literature/evidence-map/audits/SIS_P0_Reaudit_2026-11-13.md; ScientificCoreDelta=0; CorePressure=WATCH (not SPEC_REVISION_CANDIDATE).
