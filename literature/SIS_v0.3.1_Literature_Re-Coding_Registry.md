@@ -152,7 +152,7 @@ These `I*` and `T*` tiers are maintenance aids for this registry; they are **not
 | SIS-LIT-059 | Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents | EMNLP 2026 Findings | `P2/SDR` | `SCF` | `TD; MI; IA` | `RECOVERY_EFFECT` | `CL2 candidate` | `I2` / `T1` | Coupled bottleneck evidence — Multiple failure modes may require joint intervention. |
 | SIS-LIT-060 | Recursive Self-Improvement LLM Agents for Inverter Dynamic Model Identification | 2026 position/proof-of-concept preprint | `SCF` | `ASR` | `MI; DR` | `CAUSAL_MECHANISM_EFFECT` | `CL0→CL1` | `I0/I1` / `T0` | Cross-domain implementation — Typed vocabulary + grammar-constrained program search; proof-of-concept only. |
 | SIS-LIT-061 | ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents | 2026 preprint | `SCF` | `CSCI` | `MI; BT; DR` | `MECHANISM_INTERACTION_EFFECT` | `CL1` | `I1` / `T1` | Co-evolution hypothesis — Harness evolution + model learning; interaction effect needs factorial validation. |
-| SIS-LIT-062 | EvoOntology: A Self-Evolving Ontology Layer for Data Agents | 2026 preprint | `SCF` | `ASR` | `MI; DR; EG` | `CAUSAL_MECHANISM_EFFECT` | `CL1` | `I1` / `T1` | Typed semantic mechanism — Ontology as mutable typed artifact with paired evaluation. |
+| SIS-LIT-062 | EvoOntology: A Self-Evolving Ontology Layer for Data Agents | arXiv:2609.15779 v2 (2026-11-02; same study) | `SCF` | `ASR` | `MI; DR; EG` | `CAUSAL_MECHANISM_EFFECT` | `CL1` | `I1` / `T1` | Typed semantic mechanism — Ontology as mutable typed artifact with paired evaluation. |
 | SIS-LIT-063 | REALM: Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents | 2026 preprint | `P2/SDR` | `ASR` | `TD; DR` | `RECONFIGURATION_TRAJECTORY_EFFECT` | `CL1` | `I1` / `T1` | Memory dynamics — Retrieval feedback changes future memory organization. |
 | SIS-LIT-064 | Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems | 2026 preprint | `P2/SDR` | `BGT` | `TD; IA; MEAS` | `LONG_HORIZON_EFFECT` | `CL0→CL1` | `I0/I1` / `T1` | Stress-test benchmark — Failure can propagate through memory/environment/agent network over long horizons. |
 | SIS-LIT-065 | Assembling the CREW: A Collaborative Multi-Agent Reinforcement Learning Framework for Automated Related Work Generation | 2026 preprint | `ASR` | `SCF` | `DR; IA` | `POLICY_VALUE` | `CL1` | `I1` / `T0` | Regulation mechanism — Learned collaboration policy; single-domain evidence. |
@@ -1737,3 +1737,100 @@ See 2026-11-12 Daily Literature Update and P0 Reaudit 2026-11-12.
 - Evidence status: PAPER-LEVEL PRIMARY SOURCE ABSTRACT VERIFIED; CLAIM-LEVEL FIRST-CODER SCREEN only; independent full-text audit, second coder, adjudication pending.
 
 See literature/updates/2026-11-13_SIS_Daily_Literature_Update.md, literature/evidence-map/audits/SIS_P0_Reaudit_2026-11-13.md; ScientificCoreDelta=0; CorePressure=WATCH (not SPEC_REVISION_CANDIDATE).
+
+
+---
+
+## Daily SIS temporary candidates｜2026-11-14
+
+**Scope:** arXiv cs.AI list Friday 2026-11-13 (537 total entries; 113 new submissions), targeted OpenReview/ACL/NeurIPS and official sources; discovery cut-off 2026-11-14. **10 distinct preprints** first submitted 2026-11-10–12. Source identifier verified at official arXiv abstract; paper-level provenance only. Community commentary DISCOVERY_ONLY. These records are NOT permanent SIS-LIT IDs, NOT final claim adjudications. No core revision; CorePressure WATCH.
+
+### SIS-CAND-20261114-01 — Cleaning an Agent's History Hurts When the World Still Holds the Error
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.14654 ; v1 submitted 2026-11-10; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 同一正确值以真实备注写入历史，使恢复率51%→66%；伪装已执行动作则50%→44%；AppWorld错误成功回执在世界状态未实际改变时令成功率45%→28%。
+- **Evidence quality / limitations:** 冻结状态后编辑历史/世界带来较强局部因果对照，但接收模型、写入操作、回执真实性、随机流位置与任务分布均限制迁移。
+- **SIS scientific routing:** Primary `SDR` ; cross-cutting `BGT`; Framework Capability `TD/MI/EG/ID/MEAS/BT`; primary estimand `HISTORY_WORLD_STATE_CONSISTENCY_RECOVERY_INTERACTION`.
+- **Claim maturity / identification / transport:** CL1; local CL2 candidate (history × world intervention), no CL3; I2-local; T1; evidence role NEGATIVE_BOUNDARY / EXECUTED_STATE_INTERVENTION; claim nature NEGATIVE / BOUNDARY.
+- **Boundary variables:** world mutation; receipt truthfulness; history edit framing; receiver; tool side effects; replay fidelity.
+- **Impact:** SHARPENS SDR/ID：历史语义与真实世界状态的交互，不是仅把错误从文本中删除；补充真实状态条件的恢复实验。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-02 — When Should Semantic Priors Enter Partially-Identified Causal Discovery?
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.14736 ; v1 submitted 2026-11-10; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 将语义先验拆为边查询分配、提议准入和DAG集合保留；不稳定边优先没有证实胜过随机分配；准入证书在当前校准样本下无法实现有用准入；学习参考集仅3/80包含真DAG。
+- **Evidence quality / limitations:** 基准网络允许已知真图，能检验错误纳入与排除；但校准样本不足、参考集合覆盖缺失、总体不可识别与有限样本不稳定必须区分。
+- **SIS scientific routing:** Primary `ASR` ; cross-cutting `BGT`; Framework Capability `DR/ID/EG/MEAS/BT`; primary estimand `SEMANTIC_CAUSAL_EDGE_QUERY_ADMISSION_GRAPH_RETENTION_VALUE`.
+- **Claim maturity / identification / transport:** CL0 formal / CL1 controlled simulations; no CL2 confirmed; I1 / I2-local allocation controls; T0; evidence role NEGATIVE_IDENTIFICATION / CALIBRATION_BOUNDARY; claim nature NEGATIVE / MEASUREMENT.
+- **Boundary variables:** causal identifiability; calibration support; reference DAG coverage; semantic prior error; graph Markov equivalence.
+- **Impact:** SHARPENS ID/ASR：语义提议有信息量不代表其入场决策可认证。强调识别支持集和选择器准入。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-03 — Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.14769 ; v1 submitted 2026-11-10; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 公开偏好排名在战略投票、挑选提示及插入无关模型后可被操纵；作者报告单一手段改变15–20名、联合手段最多45名。
+- **Evidence quality / limitations:** 排名敏感性重评分不等于实际平台攻击发生率，Bradley–Terry假设、投票分布和允许的参与规则决定外推范围。
+- **SIS scientific routing:** Primary `ROUTING_ABSTAIN` ; cross-cutting `BGT`; Framework Capability `MEAS/EG/ID/BT`; primary estimand `BRADLEY_TERRY_RANK_SENSITIVITY_TO_VOTE_PROMPT_NOMINATION`.
+- **Claim maturity / identification / transport:** CL1 instrument audit; local deterministic re-ranking; I2-local (controlled manipulation); T0; evidence role MEASUREMENT_NEGATIVE / RANKING_INSTRUMENT; claim nature NEGATIVE / MEASUREMENT.
+- **Boundary variables:** pairwise sampling; voting access; prompt selection; nomination rights; BT model assumptions.
+- **Impact:** SHARPENS MEAS/EG：公开排行榜是可被参与机制影响的测量器，而不必然是系统能力变化。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-04 — When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.14794 ; v1 submitted 2026-11-10; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 对GPQA、AIME、MATH的分步认证提高被接纳回答的答案匹配精度，但仅覆盖35%或21%；等输出token的自一致基线精度差+4.8pp，95% CI [-8.2,18.5]；88个样本中52个构建证明前已失败。
+- **Evidence quality / limitations:** 论文报告NeurIPS MATH-AI Workshop接收但未独立确认论文集；答案匹配、外部LLM接纳、形式证明真值不同；没有独立人类或形式内核真值。
+- **SIS scientific routing:** Primary `ASR` ; cross-cutting `BGT`; Framework Capability `DR/EG/MEAS/ID/BT`; primary estimand `PROOF_STEP_CERTIFY_OR_DECLINE_PRECISION_COVERAGE_NET_VALUE`.
+- **Claim maturity / identification / transport:** CL1; no independently verified proof-truth CL2; I1/I2-local comparative gate; T1 performance only; evidence role NEGATIVE / SELECTIVE_VERIFICATION_BOUNDARY; claim nature NEGATIVE / POLICY.
+- **Boundary variables:** coverage; solver strength; proof parser failures; verifier budget; proof truth; task saturation.
+- **Impact:** SHARPENS ASR/MEAS：验证的净收益应同时计入覆盖损失、前置执行失败与独立证明真值。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-05 — AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.14844 ; v1 submitted 2026-11-10; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 把89个ML系统算法映射为显式假设与Lean证明图，再放松某项假设、重推导、重证明并生成代码；作者在KV缓存淘汰与剪枝中报告较好结果，等预算与OpenEvolve相近。
+- **Evidence quality / limitations:** 证明只保证给定形式假设与实现的相容性，算法选择、代码优化、基础设施和评测覆盖共同变化，不能独立识别‘假设放松’中介。
+- **SIS scientific routing:** Primary `ASR` ; cross-cutting `BGT`; Framework Capability `MI/DR/EG/ID/MEAS/BT`; primary estimand `ASSUMPTION_RELAXATION_PROOF_CHECKED_ALGORITHM_DISCOVERY_VALUE`.
+- **Claim maturity / identification / transport:** CL0 conditional proof validity / CL1 empirical package; I1; local matched budget; T1 performance only; evidence role IMPLEMENTATION / SCIENTIFIC_DISCOVERY_CANDIDATE; claim nature IMPLEMENTATION / MECHANISM_CANDIDATE.
+- **Boundary variables:** formalization fidelity; assumption coverage; proof checker; code synthesis; equal compute; holdout.
+- **Impact:** SHARPENS ASR/MI：假设本身可成为受约束的优化变量，但非新的科学纲领。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-06 — Verify by Doing: Co-Evolving Agent Execution and Evaluation without External Feedback
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.15276 ; v1 submitted 2026-11-11; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 固定权重、同任务演化Actor和Evaluator，后者主动检查工具及环境证据；在AutomationBench、τ³ Banking、GDPval上相较强基线分别报告+3.3、+4.1、+2.3个百分点。
+- **Evidence quality / limitations:** 执行者与评价者协同演化造成互相适应、选择偏差和共同盲点；自生成评价不能替代外部独立Gold。
+- **SIS scientific routing:** Primary `ASR` ; cross-cutting `CSCI/BGT`; Framework Capability `DR/MI/EG/ID/MEAS/BT`; primary estimand `CO_EVOLVED_ACTOR_EVALUATOR_FROZEN_MODEL_BUDGETED_VALUE`.
+- **Claim maturity / identification / transport:** CL1; local CL2 candidate for ablation only; I1/I2-local; T1; evidence role MECHANISM_CANDIDATE / EVALUATOR_INDEPENDENCE_BOUNDARY; claim nature MECHANISM_CANDIDATE / POLICY.
+- **Boundary variables:** shared failure modes; evaluator evolution; tool observability; fixed candidate pool; budget; independent Gold.
+- **Impact:** SHARPENS ASR/EG：评价器进化应独立校准，不能让自评反馈自动授权更新。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-07 — Where Autonomy Belongs: A Separation of Powers for Agentic Program Evolution
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.15309 ; v1 submitted 2026-11-11; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** EvoTrias分离Govern、Propose、Judge的权限与Typed Contract；作者报告治理—提议分离降低64% token，扩展到68万行代码仓库，并主张保护独立Judge。
+- **Evidence quality / limitations:** 治理、提议、评价权限、类型契约与工程实现可能共同变化；‘Protected Judge’的独立性需盲评及污染测试而非仅系统自述。
+- **SIS scientific routing:** Primary `ASR` ; cross-cutting `CSCI/BGT`; Framework Capability `IA/DR/EG/MEAS/ID/BT`; primary estimand `GOVERN_PROPOSE_JUDGE_AUTHORITY_SEPARATION_NET_VALUE`.
+- **Claim maturity / identification / transport:** CL1 package; no isolated authority mediation confirmed; I1/I2-local component comparison; T1; evidence role IMPLEMENTATION / AUTHORITY_BOUNDARY; claim nature IMPLEMENTATION / MECHANISM_CANDIDATE.
+- **Boundary variables:** judge ownership; information leakage; candidate search budget; role capability; contract enforceability.
+- **Impact:** SHARPENS ASR/CSCI：制度权威是因果干预变量，不是‘Multi-Agent’新原语。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-08 — CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.17115 ; v1 submitted 2026-11-12; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 不让弱模型编写授权策略，基于工具schema和用户请求预先约束写操作；作者报告在13,935次AgentDojo受攻击执行中未成功越权，受攻击效用29.0%对CaMeL 27.2%。
+- **Evidence quality / limitations:** 零次攻击成功不意味着任意工具/权限/用户请求都安全；写完整性保证依赖用户意图可明确定义、无隐藏副作用与固定威胁模型。
+- **SIS scientific routing:** Primary `SDR` ; cross-cutting `CSCI/BGT`; Framework Capability `TD/IA/EG/MEAS/ID/BT`; primary estimand `SCHEMA_DERIVED_WRITE_AUTHORITY_INTEGRITY_AND_BENIGN_UTILITY`.
+- **Claim maturity / identification / transport:** CL0 conditional integrity property / CL1 controlled episodes; I2-local under specified threat model; T1; evidence role NEGATIVE_BOUNDARY / CONDITIONAL_SAFETY_INSTRUMENT; claim nature NEGATIVE / BOUNDARY.
+- **Boundary variables:** schema correctness; explicit user authorization; write-vs-read; hidden side effects; adversary powers; small model.
+- **Impact:** SHARPENS SDR/EG：系统安全依赖可验证的权限边界，不能依赖较弱模型自证其安全策略。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-09 — Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.17161 ; v1 submitted 2026-11-12; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 通过替换检索段落中事实再提问，观察引用与模型内部知识的分离；所测配置中1.2%–15.7%可引用结论更像来自参数记忆，普通NLI校验接近随机，归因探针也不足以可靠触发干预。
+- **Evidence quality / limitations:** 反事实替换会引入不自然内容和分布变化；能测模型已有知识，不必然识别当时实际使用的来源，故不能把检测输出视为科学证据溯源真值。
+- **SIS scientific routing:** Primary `SCF` ; cross-cutting `BGT`; Framework Capability `MI/EG/ID/MEAS/BT`; primary estimand `CITATION_SUPPORT_VS_ACTUAL_RETRIEVED_EVIDENCE_USE`.
+- **Claim maturity / identification / transport:** CL1; local I2 substitutions not mechanism identification; I2-local contrast, I1 provenance interpretation; T1; evidence role NEGATIVE_IDENTIFICATION / EVIDENCE_PROVENANCE; claim nature NEGATIVE / MEASUREMENT.
+- **Boundary variables:** substitution distance; model scale; retrieved evidence conflict; NLI verifier; causal use vs availability.
+- **Impact:** SHARPENS EG/ID：‘有引用’不等于‘使用了该证据’，也不等于证据对结论的因果贡献。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
+
+### SIS-CAND-20261114-10 — CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.17316 ; v1 submitted 2026-11-12; discovered 2026-11-14; **PREPRINT** (no independent proceedings match); no new permanent Study ID.
+- **Core idea / evidence:** 对同一继承代码仓库状态比较下一任务有无轨迹片段，结合记忆锚点和读写成本；ChainSWE上27B模型解决率21.0%→25.7%，步数减少17%，总缓存计费token减少11%。
+- **Evidence quality / limitations:** 未来任务分布、片段筛选偏倚、actor再训练与锚点门控共同作用；相同继承仓库和配对控制只支持局部效应，不自动成立跨执行器迁移。
+- **SIS scientific routing:** Primary `SCF` ; cross-cutting `CSCI/BGT`; Framework Capability `MI/DR/EG/ID/MEAS/BT`; primary estimand `PROSPECTIVE_MEMORY_SEGMENT_INTERVENTION_UTILITY_NET_COST`.
+- **Claim maturity / identification / transport:** CL1; local CL2 candidate for next-task paired exposure; I2-local / package I1; T1; evidence role MECHANISM_CANDIDATE / COST_BOUNDARY; claim nature MECHANISM_CANDIDATE / POLICY.
+- **Boundary variables:** future task distribution; inherited repo state; memory read-write cost; anchor use; actor policy; nonstationarity.
+- **Impact:** SHARPENS SCF/CSCI/ASR：记忆价值应包含未见任务的真实增量及读写成本。 Reading priority **Must Read**. No inferred CL2/CL3 promotion; second-coder/adjudication PENDING.
