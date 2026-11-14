@@ -1,0 +1,7 @@
+"issue","priority","source","inherited_evidence","candidate_clarification","decision_state"
+"G-01","HIGH","R5.1 §9 L666–700","Identity observation refutes universal value inequality","State and Observation are distinct roles; equal payload allowed","NOT_ADOPTED; SAR-02-D"
+"G-02","HIGH","R5.1 §6/§8/§19","Known finite universe 512 paths; closed finite ID capacity no-go","M1 bounded-known vs M2 open membership; both require identity,version,provenance lineage","NOT_ADOPTED; SAR-02-D"
+"G-03","MEDIUM","§8/§10/§19","Same R different π; same π different R/F","Separate permission/relations, proposed selection, executed transition","NOT_ADOPTED; SAR-02-D"
+"G-04","MEDIUM","§5/§9/§10/§33","Manual may vary with same O; future information is illegal","Ω.Information access, O runtime observation, H legal history and provenance","NOT_ADOPTED; SAR-02-D"
+"G-05","MEDIUM","§5/§16/§20/§83","Viability depends on T","Use existing context.time_horizon and declare T","NOT_ADOPTED; SAR-02-D"
+"G-06","MEDIUM","§1/§6/§32","Singleton R=empty and NO_CHANGE coherent","Allow degenerate system instances; scope depends on scientific estimand","NOT_ADOPTED; SAR-02-D"
