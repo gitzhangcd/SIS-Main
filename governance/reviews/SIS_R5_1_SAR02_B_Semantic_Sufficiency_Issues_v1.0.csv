@@ -1,0 +1,7 @@
+"issue_id","priority","source","question","bounded_witness","disposition","next_topic","normative_status"
+"G-01","HIGH","§9 L666–700","State and observation distinct roles; value equality possible","Identity O=X refutes universal value inequality, not epistemic distinctness","CLARIFY_ROLE_VS_VALUE","SAR-02-C","NOT_ADOPTED"
+"G-02","HIGH","§6 L570–604; §8 L632–662; §19 L929–962","Membership creation/deletion and provenance","512 finite known-U paths expressible via activation; n+1 cannot inject into closed n","M1_VS_M2_NOT_RESOLVED","SAR-02-C/SAR-04","NOT_ADOPTED"
+"G-03","MEDIUM","§8/§10/§19","Authority vs selection vs execution","Same R different π; same π different R; same selected action different F","ROLE_CLARIFICATION_CANDIDATE","SAR-02-C","NOT_ADOPTED"
+"G-04","MEDIUM","§5/§9/§10/§33","Context knowledge vs observed state vs legal history","Same observation with different permitted manuals; future information excluded","PROVENANCE_AND_TIME_CLARIFICATION_CANDIDATE","SAR-02-C/SAR-06","NOT_ADOPTED"
+"G-05","MEDIUM","§5/§16/§20","Explicit task/evaluation horizon","Identical initial system has T=1 viable but T=3 nonviable","DECLARE_HORIZON_IN_EXISTING_CONTRACT","SAR-02-C","NOT_ADOPTED"
+"G-06","MEDIUM","§1/§6/§32","Singleton/no-op conventions","One component R=empty, π=NO_CHANGE, F=identity","ADMIT_DEGENERATE_SYSTEM_SEMANTICS","SAR-02-C","NOT_ADOPTED"

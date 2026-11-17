@@ -1,0 +1,2 @@
+"decision_id","candidate","owner","recommended_choice","actual_owner_choice","sar01_status","gate_s","gate_o","gate_e","objections","normative_master_change","next_action"
+"SAR-01-D-DEC-001","Scientific Identity and Mother Problem v0.8","Science Owner User","A CONDITIONAL_ACCEPT_FOR_REVIEW_BASELINE","PENDING","OPEN","CONDITIONAL_REVIEW_COMPLETE","NOT_EXECUTED","NOT_EXECUTED","O1 OPEN; O2 OPEN; NR-13 OWNER DECISION; NR-14 OPEN","NONE","WAIT_FOR_EXPLICIT_SCIENCE_OWNER_A_B_C"
