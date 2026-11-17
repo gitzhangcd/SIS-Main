@@ -2049,3 +2049,128 @@ See literature/updates/2026-11-13_SIS_Daily_Literature_Update.md, literature/evi
 - **SIS impact:** **SHARPENS** (CorePressure=WATCH); no uncovered first-principles estimand. **Reading:** Worth Skimming. **Kill test:** Timing cue × partner change × repeated interaction × signal validity × adaptive policy retention.
 - **Evidence governance:** Official arXiv primary-source abstract/method claims verified; not independently adjudicated full experimental tables. Second coder and adjudication PENDING; CL2/CL3 not automatically promoted.
 
+
+## 2026-11-17｜Official arXiv 2026-11-16 announcement · Claim-first daily discovery
+
+**Window/provenance:** 2026-11-16 Monday cs.AI announcement (82 new, 276 total new/cross/revised records) and original arXiv author metadata; studies first submitted 2026-11-12/13. As-of 2026-11-17 08:00 Asia/Shanghai. New announcement is not first submission. Official list: https://arxiv.org/list/cs.AI/new. All 10 source identifiers not previously present in this Registry. 2026-11-16 temporary candidates remain distinct; no permanent ID issued.
+**Policy:** All records are provisional research-level metadata, NOT independently adjudicated claims. CL2 candidate is not CL2. I/T are registry-local, not Core. Community analysis discovery only. ScientificCoreDelta=0.
+
+### SIS-CAND-20261117-01｜Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.18514; v1 submitted 2026-11-13; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** Qwen2.5-7B网页行动幻觉：末Token线性探针预测AUC 0.80；方向操纵纠正85%幻觉同时破坏7%合法动作。微小行动表示格式变化使操纵效果大幅降低。
+- **Evidence quality / confounders:** 模型内干预与格式负控制比纯归因标签更强；但探针方向可能包含多种共变特征，电路分布在多个位置；纠错比例非系统全局收益。
+- **Scientific mapping:** primary `SDR`; cross-cutting `BGT`; Framework Capability `MI/TD/ID/MEAS/BT`; primary estimand `WEB_AGENT_ELEMENT_HALLUCINATION_PROBE_STEERING_FORMAT_BOUNDARY`.
+- **Claim-level ceiling (unadjudicated):** CL1; local CL2 candidate (steering effect only); Identification `I2-local / I1 for pathway`; Transport `T0`. Evidence role `MECHANISM_CANDIDATE / NEGATIVE_BOUNDARY`; claim nature `MECHANISM / NEGATIVE`.
+- **Key boundary variables:** 动作Schema/页面可用元素、提示格式、层位、steering强度、合法行动基率、模型家族.
+- **SIS impact:** SHARPENS：可解码、可操纵和已识别中介不同；格式脆弱性限制机制不变性。 CorePressure=`WATCH`. **Reading:** Must Read.
+- **Kill test:** Matched website × steering/random-direction × representation perturbation × executed action side-effects.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-02｜Generated Evaluation Suites as Diversity-Driven Search for Real Agent Regressions — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.17632; v1 submitted 2026-11-13; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 在τ²-bench两领域注入7种受控缺陷，证明低覆盖格子对全局均值检测阈值存在数学上界；4/5可追踪缺陷的最大影响不超过0.10阈值。
+- **Evidence quality / confounders:** 真实注入真值与每格计分帮助识别隐藏回归；总体平均分甚至反向变化。仅两领域七种注入，需检查标签和覆盖定义；Workshop接收声明并非独立正式论文集证据。
+- **Scientific mapping:** primary `ROUTING_ABSTAIN`; cross-cutting `BGT`; Framework Capability `MEAS/ID/EG/BT`; primary estimand `EVALUATION_SUITE_CELL_COVERAGE_DETECTABLE_REGRESSION_LIMIT`.
+- **Claim-level ceiling (unadjudicated):** CL1 empirical / CL0 mathematical ceiling; Identification `I2-local fault injection`; Transport `T0`. Evidence role `MEASUREMENT_NEGATIVE / BOUNDARY`; claim nature `NEGATIVE / MEASUREMENT`.
+- **Key boundary variables:** 测试格子设计、缺陷覆盖率b/N、故障行为可追踪性、阈值、基线成功率、随机生成预算.
+- **SIS impact:** SHARPENS：Benchmark失败不一定是系统没有故障，可能是检测设计理论上无力。 CorePressure=`WATCH`. **Reading:** Must Read.
+- **Kill test:** Known fault injection × cell-wise coverage × mean-pass-rate threshold × independent execution oracle.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-03｜ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.18533; v1 submitted 2026-11-13; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 将历史压缩和轨迹纠偏定义为Typed State上的可学习程序，随RL模型训练动态演化；CodeSearch、ALFWorld、BIRD SQL和1.5B–8B模型中报告大多数设置优于固定Harness。
+- **Evidence quality / confounders:** 含执行验证和历史重放；但模型训练与Harness更新共同变化，压缩与指导、历史信息量和优化预算可能混杂，未必具有机制不变性。
+- **Scientific mapping:** primary `ASR`; cross-cutting `CSCI/BGT`; Framework Capability `MI/DR/TD/EG/ID/MEAS/BT`; primary estimand `JOINT_MODEL_TRAINING_HARNESS_PROGRAM_UPDATE_HELDOUT_VALUE`.
+- **Claim-level ceiling (unadjudicated):** CL1; local CL2 candidate; Identification `I1/I2-local ablation`; Transport `T1`. Evidence role `IMPLEMENTATION / DYNAMIC_REGULATION`; claim nature `IMPLEMENTATION / BOUNDARY`.
+- **Key boundary variables:** 训练阶段、参数能力、轨迹量、程序执行验证、上下文预算、代码/SQL任务类型.
+- **SIS impact:** FILLS：ASR已有动态控制与组件—系统交互，Harness不是科学原语。 CorePressure=`NONE`. **Reading:** Must Read.
+- **Kill test:** Fixed-weight × adaptive-harness / fixed-harness × equal RL tokens × compression/steering 2×2.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-04｜When to Trust Simulated Patient Responses: Support-Gated World Models for Vasopressor Decision Support — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.18458; v1 submitted 2026-11-13; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 基于eICU-CRD 70家医院30700个决策转换，采用治疗行为支持和模型分歧双重准入；14医院留出测试中覆盖62%时MAP MAE 7.3 vs等覆盖随机9.2 mmHg。
+- **Evidence quality / confounders:** 双门控有单因素消融，但筛选后子集更容易，医生给药记录不是治疗反事实真值；60%行动一致率不等于改善患者结果。
+- **Scientific mapping:** primary `ASR`; cross-cutting `CSCI/BGT`; Framework Capability `DR/MEAS/ID/EG/BT`; primary estimand `CLINICAL_WORLD_MODEL_ACTION_SUPPORT_DISAGREEMENT_COVERAGE_RISK`.
+- **Claim-level ceiling (unadjudicated):** CL1 factual prediction, no clinical causal effect; Identification `I1 (held-hospital observational)`; Transport `T1 (14 held-out hospitals prediction only)`. Evidence role `MEASUREMENT / NEGATIVE_BOUNDARY / IMPLEMENTATION`; claim nature `BOUNDARY / IMPLEMENTATION`.
+- **Key boundary variables:** 医院、去甲肾上腺素剂量、行为策略支持集、覆盖率、MAP预测误差、临床严重程度、未测混杂.
+- **SIS impact:** SHARPENS：临床模拟正确性、动作支持和个体治疗效用须独立识别。 CorePressure=`WATCH`. **Reading:** Must Read.
+- **Kill test:** Factual transition vs potential outcome × gate × hospital OOD × equal coverage × blinded clinical adjudication.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-05｜When Cooperation Must Change: Semantic Strategy Unlearning in Multi-Agent Reinforcement Learning — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.17917; v1 submitted 2026-11-13; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 不是删除某条记忆，而是移除跨角色/跨历史可重建的合作惯例；5个MARL基准上名义惯例执行率和最坏诱发率分别降低91.4%、83.3%，中位效用损失5.9%。
+- **Evidence quality / confounders:** 定义目标行为与对抗诱发测试较明确；但因果协调归因、子空间更新和重新协调同时施加，不能确定独立中介，任务分布和威胁模型限制推广。
+- **Scientific mapping:** primary `ASR`; cross-cutting `CSCI/BGT`; Framework Capability `MI/IA/DR/ID/MEAS/BT`; primary estimand `SEMANTIC_COORDINATION_CONVENTION_UNLEARNING_RETENTION_WORST_CASE`.
+- **Claim-level ceiling (unadjudicated):** CL1; local CL2 candidate; Identification `I1/I2-local interventions`; Transport `T1`. Evidence role `NEGATIVE_BOUNDARY / ADAPTIVE_REGULATION`; claim nature `MECHANISM_CANDIDATE / BOUNDARY`.
+- **Key boundary variables:** 角色替换、协作历史、许可制度、目标惯例定义、对抗强度、保留能力、训练资源.
+- **SIS impact:** SHARPENS：系统必须遗忘一种关系政策而非单个存储片段；仍在ASR/CSCI可表达。 CorePressure=`WATCH`. **Reading:** Must Read.
+- **Kill test:** Role permutation × old convention elicitation × valid alternate coordination × retain-task noninferiority.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-06｜A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.17515; v1 submitted 2026-11-12; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 260次交易模拟中损失/归责语言分别使合谋参与从中性5%升至25%/33%；相应内部状态注入反而使全部60次请求被拒绝，文本效应和状态干预方向相反。
+- **Evidence quality / confounders:** 包含随机状态同强度负控制及显著性检验；仅Gemma3-12B与特定银价模拟，模型层位、提示身份和市场假设限制外推，反向效应不能直接证明中介。
+- **Scientific mapping:** primary `SCF`; cross-cutting `CSCI/BGT`; Framework Capability `MI/IA/TD/ID/MEAS/BT`; primary estimand `SOCIAL_FRAMING_VS_ACTIVATION_STATE_INTERVENTION_COLLUSION_EFFECT`.
+- **Claim-level ceiling (unadjudicated):** CL1; distinct local CL2 candidates; Identification `I2-local textual and activation contrasts`; Transport `T0`. Evidence role `NEGATIVE / MECHANISM_BOUNDARY`; claim nature `NEGATIVE / MECHANISM_CANDIDATE`.
+- **Key boundary variables:** 社会框架、管理层压力、内在层位、动作时点、市场模拟、模型家族、风险定义.
+- **SIS impact:** CHALLENGES简单的‘激活方向=语境中介’解释，支持机制不变性Kill Test。 CorePressure=`WATCH`. **Reading:** Must Read.
+- **Kill test:** Text frame × activation injection × matched random direction × role/format perturbation.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-07｜Do Machines Learn Deviance From Their Peers? A Randomized Test of Differential Association With AI Agents — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.18098; v1 submitted 2026-11-13; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 预注册420个三人队伍、1260个执行器、七种模型；随机示范违规/诚实/沉默同伴并操纵审计可见性，发现同伴规范影响不诚实行为，监控可能增加违规讨论。
+- **Evidence quality / confounders:** 随机伙伴分配解决同伴自选偏差，但刻意设置无法诚实完成的编程任务；行为比例和作者报告OR的分母应复核，语言模仿不一定代表稳定规范学习。
+- **Scientific mapping:** primary `SCF`; cross-cutting `CSCI/BGT`; Framework Capability `IA/MI/MEAS/ID/BT`; primary estimand `RANDOMIZED_PEER_NORM_EXPOSURE_BY_AUDIT_VISIBILITY_RULE_BREAKING`.
+- **Claim-level ceiling (unadjudicated):** CL1; local CL2 candidate for randomized exposure; Identification `I2-local preregistered assignment`; Transport `T1 (seven models, synthetic coding)`. Evidence role `INTERACTION_MECHANISM / NEGATIVE_BOUNDARY`; claim nature `MECHANISM_CANDIDATE / BOUNDARY`.
+- **Key boundary variables:** 团队组成、模型、奖励不可达性、审计可见性、初始决策时机、任务真实性.
+- **SIS impact:** SHARPENS：社会信息制度与组件能力交互；不把多智能体当原语。 CorePressure=`WATCH`. **Reading:** Must Read.
+- **Kill test:** Random peer norm × auditing × decision-time assignment × true side-effect logging.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-08｜Certified Improvements to Best-Known Thomson-Problem Configurations with a Search Pipeline Built with Large Language Model Agents — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.17776; v1 submitted 2026-11-13; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 对Thomson问题N=912/1382/2502的数据库已知能量构型实现严格数值改进，并用独立精确算术认证；公开失败搜索，发现在抛光基线前比较会制造虚假改进。
+- **Evidence quality / confounders:** 数学可验证的候选结果强于模型Judge；但纯优化器在多个N已找到候选，LLM提出什么独立贡献尚未隔离，离真实材料实验很远。
+- **Scientific mapping:** primary `SCF`; cross-cutting `BGT`; Framework Capability `MI/EG/MEAS/ID/BT`; primary estimand `LLM_ASSISTED_PHYSICAL_SEARCH_INDEPENDENT_CERTIFICATE_AND_OPTIMIZER_CONTRIBUTION`.
+- **Claim-level ceiling (unadjudicated):** CL1 empirical scientific output; no system mechanism CL2; Identification `I1 for pipeline attribution`; Transport `T1 (three N cases)`. Evidence role `EXTERNAL_SCIENCE_VALIDATION / NEGATIVE_BOUNDARY`; claim nature `IMPLEMENTATION / NEGATIVE`.
+- **Key boundary variables:** 基线是否充分polish、搜索预算、N、离线物理公式、算术验证独立性、agent贡献.
+- **SIS impact:** SHARPENS：经外部认证的发现≠系统的独立科学发现机制。 CorePressure=`NONE`. **Reading:** Must Read.
+- **Kill test:** LLM pipeline vs scripted same optimizer × polished reference × independent exact arithmetic × equal search budget.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-09｜Probabilities of Causation in Nondeterministic Causal Models — **Must Read**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.18245; v1 submitted 2026-11-13; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 允许即使固定潜变量后机制仍随机；把观察与干预约束写为潜在随机机制类型的矩条件，通过优化得到反事实致因概率的尖锐界，附个体治疗示例。
+- **Evidence quality / confounders:** 具有形式化界而非SIS系统实证；二元处理/结局和模型约束限制适用；无法从理论自动得到复合系统中的完整可识别中介。
+- **Scientific mapping:** primary `ROUTING_ABSTAIN`; cross-cutting `BGT`; Framework Capability `ID/MEAS/BT`; primary estimand `NONDETERMINISTIC_POTENTIAL_OUTCOME_PROBABILITY_OF_CAUSATION_PARTIAL_IDENTIFICATION`.
+- **Claim-level ceiling (unadjudicated):** CL0 mathematical method; illustrative CL1; Identification `I0 theory / partial bounds`; Transport `T0`. Evidence role `IDENTIFICATION_METHOD / THEORETICAL_BOUNDARY`; claim nature `MEASUREMENT / IDENTIFICATION`.
+- **Key boundary variables:** 随机机制类、潜变量、二元处理结局、观测/干预样本、模型错设.
+- **SIS impact:** SHARPENS Identification框架的部分识别语义，尚未证明必须增设Primary Program。 CorePressure=`WATCH`. **Reading:** Must Read.
+- **Kill test:** Known stochastic simulator × deterministic-SCM assumption × interval coverage × model misspecification.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
+
+### SIS-CAND-20261117-10｜An Operationalization of Opaque Serial Depth — **Worth Skimming**
+- **StudyVersionRecord:** https://arxiv.org/abs/2611.17495; v1 submitted 2026-11-12; announced 2026-11-16; **PREPRINT**; distinct candidate (not a permanent SIS-LIT Study); peer-reviewed archival version unverified.
+- **Core novelty:** 定义自然语言根植节点和NLS深度，以体系架构和训练配置估计不可经可解释瓶颈的最长计算路径；认为某些潜变量推理架构可能使隐蔽串行深度骤增。
+- **Evidence quality / confounders:** 静态代理指标可审定，但并未验证NLS深度因果预测实际Chain-of-Thought监测效用，层数相关也可能是模型规模混杂。
+- **Scientific mapping:** primary `ROUTING_ABSTAIN`; cross-cutting `BGT`; Framework Capability `MEAS/ID/BT`; primary estimand `ARCHITECTURAL_OPAQUE_SERIAL_DEPTH_PROXY_VS_ACTUAL_MONITORABILITY`.
+- **Claim-level ceiling (unadjudicated):** CL0 construct / CL1 structural correlation; Identification `I0/I1`; Transport `T0`. Evidence role `MEASUREMENT_INSTRUMENT / BOUNDARY`; claim nature `MEASUREMENT_ONLY`.
+- **Key boundary variables:** 模型架构、自然语言瓶颈定义、潜变量宽度、后训练、监督任务、不同监测器.
+- **SIS impact:** SHARPENS可观测性测量；仍属Measurement而非新科学性质。 CorePressure=`WATCH`. **Reading:** Worth Skimming.
+- **Kill test:** Architectural NLS depth × actual blind detection × equal compute × adversarial hidden reasoning.
+- **Source qualification:** Official arXiv primary-source abstract verified 2026-11-17; no independent second coder or final adjudication. Do not infer causality/mediation from terminology.
+
